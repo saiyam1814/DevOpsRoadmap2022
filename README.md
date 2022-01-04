@@ -7,3 +7,8 @@ The [complete video](https://youtu.be/7l_n97Mt0ko) is on my [YouTube channel](ht
 Learning in public is very important so you can create PR's to this repo by cloning the repo, create {YourName} folder and then add day wise what you are learning to that folder.
 
 You can use the hashtag `#learnwithsaiyam` on [Twitter](https://twitter.com/saiyampathak)
+
+## Thanks to all the contributors ❤️
+<a href = "https://github.com/saiyam1814/DevOpsRoadmap2022/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=saiyam1814/DevOpsRoadmap2022"/>
+</a>
