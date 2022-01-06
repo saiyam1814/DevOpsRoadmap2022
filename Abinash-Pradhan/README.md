@@ -11,3 +11,9 @@
 #### 04-jan-2022
 
 - completed chapter 3 of the introduction to the linux course by Linux Foundation
+
+#### 05-jan-2022
+
+- completed chapter 4 of the introduction to the linux course by Linux Foundation
+- Reached upto defer in golang series by Hitesh choudhury vidno 24
+- Here is the repo(https://github.com/abinash134/golangrepo)
