@@ -1,5 +1,7 @@
 # My Progress
 
+#### 05-Jan-2021 (Day 3)
+- Completed Chapter 1 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 #### 04-Jan-2021 (Day 2)
 - Completed learning Golang following "[Golang Tutorial for Beginners | Full Go Course (TechWorld with Nana)](https://youtu.be/yyUHQIec83I)"
   - [Ticket Booking App](https://github.com/anubha-v-ardhan/My-DevOps-Journey/tree/main/01-Prerequisites/Go)
