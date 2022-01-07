@@ -23,3 +23,10 @@
 - started chapter 5 introduction to the linux course by Linux Foundation
 - completed intraction with files in golang series by Hitesh choudhury vidno 24
 - Here is the repo(https://github.com/abinash134/golangrepo)
+
+#### 07-jan-2022
+
+- continuing chapter 5 introduction to the linux course by Linux Foundation
+- completed dealing with web request handeling and server creation in golang series by Hitesh choudhury vidno 26
+- Here is the repo(https://github.com/abinash134/golangrepo)
+- Gone through some practical examples of Devops and use cases
