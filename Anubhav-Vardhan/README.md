@@ -1,5 +1,7 @@
 # My Progress
 
+#### 06-Jan-2021 (Day 4)
+- Completed Chapter 2 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 #### 05-Jan-2021 (Day 3)
 - Completed Chapter 1 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 #### 04-Jan-2021 (Day 2)
