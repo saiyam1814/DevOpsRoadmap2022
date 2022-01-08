@@ -20,3 +20,11 @@
 * Learnt Chapter 6 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
 * Learnt aboht Vi and VirtualBox from [DevOps Prerequisite Course](https://www.youtube.com/watch?v=Wvf0mBNGjXY)
 * Started revising [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) from Kunal Kushwaha's [YouTube](https://www.youtube.com/channel/UCBGOUQHNNtNGcGzVq5rIXjw) channel
+
+## 06-Jan-2022 -- Day 06
+* Started Chapter 7 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+* Complete watching [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) from Kunal Kushwaha's [YouTube](https://www.youtube.com/channel/UCBGOUQHNNtNGcGzVq5rIXjw) channel
+
+## 07-Jan-2022 -- Day 07
+* Completed Chapter 7 and Started Chapter 8 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+* Learnt about Networking and IP address from [DevOps Prerequistive Course](https://www.youtube.com/watch?v=Wvf0mBNGjXY)
