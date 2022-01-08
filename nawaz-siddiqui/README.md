@@ -1,5 +1,8 @@
 # My Progress
 
+#### 08-Jan-2021 (Day 4)
+- Learned package management system and how to search files in linux. Also learned about YAML from "[YAML Tutorial](https://youtu.be/1uFVr15xDGg)"
+
 #### 06-Jan-2021 (Day 3)
 - learned about working in a terminal. Navigating in the terminal, creating new files etc. Currently in chapter 7 of the "Introduction to Linux Course"
 #### 05-Jan-2021 (Day 2)
