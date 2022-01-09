@@ -28,3 +28,10 @@
 ## 07-Jan-2022 -- Day 07
 * Completed Chapter 7 and Started Chapter 8 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
 * Learnt about Networking and IP address from [DevOps Prerequistive Course](https://www.youtube.com/watch?v=Wvf0mBNGjXY)
+
+## 08-Jan-2022 -- Day 08
+* Learn about YAML and finished watching [DevOps Prerequisite Course](https://www.youtube.com/watch?v=Wvf0mBNGjXY)
+
+## 09-Jan-2022 -- Day 09
+* Continued Chapter 8 and Started Chapter 9 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+* Started watching [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
