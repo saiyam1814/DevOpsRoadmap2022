@@ -1,5 +1,10 @@
 # My Progress
 
+#### 08-Jan-2021 (Day 6)
+- Completed Chapter 4,5 and 6 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
+- Started with Chapter 7 i.e Understanding the Linux CLI
+#### 07-Jan-2021 (Day 5)
+- Completed Chapter 3 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 #### 06-Jan-2021 (Day 4)
 - Completed Chapter 2 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 #### 05-Jan-2021 (Day 3)
