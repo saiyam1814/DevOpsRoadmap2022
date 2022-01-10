@@ -6,3 +6,6 @@
 #### 09-Jan-2021 (day 2)
 * completed [90 days of dsa day 2](https://github.com/MichaelCade/90DaysOfDevOps/blob/main/Days/day02.md)
 * started [The 50 Most Popular Linux & Terminal Commands](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
+
+#### 10-Jan-2021 (day 3)
+* completed Chapter 1: The Linux Foundation / Introduction
