@@ -30,3 +30,16 @@
 - completed dealing with web request handeling and server creation in golang series by Hitesh choudhury vidno 26
 - Here is the repo(https://github.com/abinash134/golangrepo)
 - Gone through some practical examples of Devops and use cases
+
+#### 08-jan-2022
+
+-Skipped the due to some emergency
+
+#### 10-jan-2022
+
+- completed chapter 5 introduction to the linux course by Linux Foundation
+- completed handleing web reqests in golang series by Hitesh choudhury vidno 24
+- Here is the repo(https://github.com/abinash134/golangrepo)
+- Started network basics from nwking youtube chhanel
+
+
