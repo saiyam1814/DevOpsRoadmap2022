@@ -1,5 +1,10 @@
 # My Progress
 
+#### 10-Jan-2021 (Day 7)
+- Completed Chapter 7 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
+- Made a site to write Blogs and share my learning on this journey: https://anubha-v-ardhan.github.io/
+- Had a revision of basic Containerization and Docker concepts I learnt last year
+  - Blog: https://anubha-v-ardhan.github.io/blog/docker-introduction-for-beginners/ 
 #### 08-Jan-2021 (Day 6)
 - Completed Chapter 4,5 and 6 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 - Started with Chapter 7 i.e Understanding the Linux CLI
