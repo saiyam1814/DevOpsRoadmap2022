@@ -1,6 +1,8 @@
 # My Progress
 
 #### 10-Jan-2021 (Day 6)
+- Read about the use of different directories in linux like /tmp /media /lib /bin etc.
+#### 10-Jan-2021 (Day 6)
 - Learned package management and scheduling process in linux.
 #### 09-Jan-2021 (Day 5)
 - Explored the basics of networking with "[Free CCNA Course](https://youtu.be/rv3QK2UquxM)"
