@@ -4,5 +4,11 @@
 
 - Completed Chapter - 1 -> The Linux Foundation
 
+### Day-2
+
+- Chapter - 2 Completed 
+
+
+
 
 
