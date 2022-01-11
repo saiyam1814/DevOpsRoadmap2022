@@ -1,5 +1,7 @@
 # My Progress
 
+#### 11-Jan-2021 (Day 6)
+- Completed chapter 9 of the "[Introduction to Linux](https://www.edx.org/course/introduction-to-linux)" course. Learned about the native filesystem and use of different directories like /bin /proc /dev etc.
 #### 09-Jan-2021 (Day 5)
 - Explored the basics of networking with "[Free CCNA Course](https://youtu.be/rv3QK2UquxM)"
 #### 08-Jan-2021 (Day 4)
