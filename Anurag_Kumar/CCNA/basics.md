@@ -1,0 +1,10 @@
+- When two or more hosts are connected together then that is called network.
+- Host - Any device that gets the IP address is called host
+- Router - It is a device that connects two or more networks
+- Say if you have your headquarter in Mumbai and you want to connect to your branch office in chennai then one way is to connect to that via some sort of underground wires that only you can access that is called private WAN. Now of course not everyone can afford that especially if you are starting your new business in that case we take our service from ISP. Our ISP will create a connection between our headquarter and branch office. 
+- LAN - Local area network is the network that is behind your router. Means All your switches, buses, devices including phones, printers, laptops etc make your Local area network. 
+- Switches - Say you want to play a multiplayer game(Which requires 4 players) with your friends and that game is offline. How will you play that? This is where switches came into picture. You can connect all the 4 devices with the help of a switch. Now there are two types of switches :
+  - Manageable Switches - These are the switches that are slightly expensive and but these are more secured as compared to general switches. 
+  - Unmanageable switches - These are not that secure and if you are sharing data then chances of leakage/vulnerability is quite high. 
+- Router - Routers are needed when you want to connect outside your local area network. 
+- Modem - It helps in modulation and demodulation. It converts analog signals into digital signals and vice versa.
