@@ -35,3 +35,6 @@
 ## 09-Jan-2022 -- Day 09
 * Continued Chapter 8 and Started Chapter 9 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
 * Started watching [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
+
+** 10-Jan-2022 -- Day 10
+* Complete watching till Getting User Input in Go from [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
