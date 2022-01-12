@@ -1,5 +1,8 @@
 # My Progress
 
+#### 12-Jan-2021 (Day 8)
+- Wrote a blog on YAML!
+  - https://anubha-v-ardhan.github.io/blog/introduction-to-yaml/
 #### 10-Jan-2021 (Day 7)
 - Completed Chapter 7 from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 - Made a site to write Blogs and share my learning on this journey: https://anubha-v-ardhan.github.io/
