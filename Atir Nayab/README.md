@@ -11,4 +11,7 @@
 * completed Chapter 1: The Linux Foundation / Introduction
 
 #### 13-Jan-2021 (day 4)
-* Chapter 2: Linux Philosophy and Concepts
+* Chapter 2: Linux Philosophy and Concepts (completed)
+* Chapter 3: Linux Basics and System Startup (started)
+  * Introduction
+  * The Boot Process
