@@ -30,11 +30,24 @@
 * Learnt about Networking and IP address from [DevOps Prerequistive Course](https://www.youtube.com/watch?v=Wvf0mBNGjXY)
 
 ## 08-Jan-2022 -- Day 08
-* Learn about YAML and finished watching [DevOps Prerequisite Course](https://www.youtube.com/watch?v=Wvf0mBNGjXY)
+* Learnt about YAML and finished watching [DevOps Prerequisite Course](https://www.youtube.com/watch?v=Wvf0mBNGjXY)
 
 ## 09-Jan-2022 -- Day 09
 * Continued Chapter 8 and Started Chapter 9 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
 * Started watching [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
 
-** 10-Jan-2022 -- Day 10
-* Complete watching till Getting User Input in Go from [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
+## 10-Jan-2022 -- Day 10
+* Completed Chapter 10 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+* Completed watching till Getting User Input in Go from [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
+
+## 11-Jan-2022 -- Day 11
+* Started Chapter 11 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+* Completed watching till Loops in Go from [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
+
+## 12-Jan-2022 -- Day 12
+* Completed Chapter 11 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+* Completed watching till Switch Statement in Go from [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
+
+## 13-Jan-2022 -- Day 13
+* Completed watching till Scope Rules in Go from [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
+* Completed watching [Introduction to YAML](https://www.youtube.com/watch?v=1uFVr15xDGg)
