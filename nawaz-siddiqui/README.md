@@ -1,5 +1,7 @@
 # My Progress
 
+#### 13-Jan-2021 (Day 8)
+- Learned text editor in linux and how subneting works.
 #### 11-Jan-2021 (Day 7)
 - Read about the use of different directories in linux like /tmp /media /lib /bin etc.
 #### 10-Jan-2021 (Day 6)
