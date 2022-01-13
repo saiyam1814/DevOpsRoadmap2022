@@ -9,3 +9,6 @@
 
 #### 10-Jan-2021 (day 3)
 * completed Chapter 1: The Linux Foundation / Introduction
+
+#### 13-Jan-2021 (day 4)
+* Chapter 2: Linux Philosophy and Concepts
