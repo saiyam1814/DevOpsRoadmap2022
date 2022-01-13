@@ -20,3 +20,13 @@
 - Service : A Program that runs as a background process.
 
 - Shell - It is a Command line Interpreter that interprets the command line input and instructs the OS. 
+
+- BIOS - Basic Input-Output System
+
+### Chapter - 3 - Linux Setup
+
++ The Linux boot process is the procedure for initializing the system. It consists of everything that happens from when the computer power is first switched on until the user interface is fully operational. 
+
++ When the computer is powered on, the Basic Input/Output System (BIOS) initializes the hardware, including the screen and keyboard, and tests the main memory. This process is also called POST (Power On Self Test).
+
+

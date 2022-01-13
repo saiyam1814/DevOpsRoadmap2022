@@ -8,6 +8,9 @@
 
 - Chapter - 2 Completed 
 
+### Day-3 
+
+- Started DevOps Prerequisites Video by FreeCodeCamp
 
 
 
