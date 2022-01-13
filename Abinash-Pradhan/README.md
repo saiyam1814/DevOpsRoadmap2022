@@ -42,4 +42,12 @@
 - Here is the repo(https://github.com/abinash134/golangrepo)
 - Started network basics from nwking youtube chhanel
 
+#### 12-jan-2022
+
+- started chapter 6 introduction to the linux course by Linux Foundation
+- completed handleing get web reqests in golang series by Hitesh choudhury 
+- Here is the repo(https://github.com/abinash134/golangrepo)
+- Started network basics from nwking youtube chhanel
+- completed basic course getting strated with kubernetes from kube academy
+
 
