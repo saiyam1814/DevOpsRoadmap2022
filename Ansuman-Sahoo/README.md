@@ -1,5 +1,11 @@
 # MY PROGRESS
 
+#### 12-Jan-22:
+- Chapter 3: **Linux Basics and System Startup**:
+  - *Introduction completed*
+  - *The boot process completed*
+- Yaml tutorial(*TechWorld with Nana*) *completed*
+
 #### 08-Jan-22:
 - Chapter 1: **The Linux Foundation**:
   - *Completed*
