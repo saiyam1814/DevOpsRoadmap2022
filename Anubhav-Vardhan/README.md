@@ -1,5 +1,7 @@
 # My Progress
 
+#### 13-Jan-2022 (Day 9)
+- Started learning Golang with [Go: The Complete Developer's Guide (Golang)](https://www.udemy.com/course/go-the-complete-developers-guide/)
 #### 12-Jan-2022 (Day 8)
 - Wrote a blog on YAML!
   - https://anubha-v-ardhan.github.io/blog/introduction-to-yaml/
