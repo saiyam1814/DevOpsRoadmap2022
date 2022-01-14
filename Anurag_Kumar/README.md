@@ -8,3 +8,4 @@
 - [x]  2 > [Networking commands](Progress/002/Readme.md)
 - [x]  3 > [CCNA Basics](Progress/003/Readme.md)
 - [x]  4 > [HELM](Progress/004/Readme.md)
+- [x]  4 > [Git Stash & Git Log](Progress/005/Readme.md)
