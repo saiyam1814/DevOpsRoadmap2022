@@ -1,5 +1,14 @@
 # MY PROGRESS
 
+#### 13-Jan-22:
+- Chapter 3: **Linux Basics and System Startup**:
+  - *Completed*
+- Basic Networking(**CCNA**):
+  - *What is a network completed*
+  - *LAN & WAN completed*
+  - *Switch completed*
+  - *Router completed*
+
 #### 12-Jan-22:
 - Chapter 3: **Linux Basics and System Startup**:
   - *Introduction completed*
