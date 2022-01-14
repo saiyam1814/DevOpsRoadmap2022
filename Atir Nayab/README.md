@@ -15,3 +15,7 @@
 * Chapter 3: Linux Basics and System Startup (started)
   * Introduction
   * The Boot Process
+
+#### 14-Jan-2021 (day 5)
+* Chapter 3: Linux Basics and System Startup (continue)
+  * Boot Loader in Action
