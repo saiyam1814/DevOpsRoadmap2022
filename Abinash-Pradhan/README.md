@@ -1,6 +1,7 @@
 # My Progress
 
 #### 01-Jan-2022
+
 - Started learning Linux from Edx by linux Foundation,completed chapert-1
 - Completed Yaml by tech with nana
 
@@ -45,9 +46,17 @@
 #### 12-jan-2022
 
 - started chapter 6 introduction to the linux course by Linux Foundation
-- completed handleing get web reqests in golang series by Hitesh choudhury 
+- completed handleing get web reqests in golang series by Hitesh choudhury
 - Here is the repo(https://github.com/abinash134/golangrepo)
 - Started network basics from nwking youtube chhanel
 - completed basic course getting strated with kubernetes from kube academy
 
+#### 14-jan-2022
 
+- completed chapter 6 and started chapter 7 introduction to the linux course by Linux Foundation
+- completed posting form requests reqests in golang series by Hitesh choudhury
+- Here is the repo(https://github.com/abinash134/golangrepo)
+- Continueing network basics from nwking youtube chhanel
+- completed container 101 in getting strated with kubernetes from kube academy
+- started learning docker and created a node docker image and pulled a docker image also form docjer hub
+- Halfway through the Devops prerequist course in freecodecamp
