@@ -60,3 +60,14 @@
 - completed container 101 in getting strated with kubernetes from kube academy
 - started learning docker and created a node docker image and pulled a docker image also form docjer hub
 - Halfway through the Devops prerequist course in freecodecamp
+
+#### 14-jan-2022
+
+- continuing chapter 7 introduction to the linux course by Linux Foundation
+- completed posting form requests reqests in golang series by Hitesh choudhury
+- Here is the repo(https://github.com/abinash134/golangrepo)
+- Continueing network basics from nwking youtube chhanel
+- started learning docker and created a node docker image and pulled a docker image also form docjer hub
+- Halfway through the Devops prerequist course in freecodecamp
+- learned docker atachment and detachment
+- learned ssh accesing via vms
