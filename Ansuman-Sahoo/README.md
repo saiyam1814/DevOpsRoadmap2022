@@ -1,5 +1,14 @@
 # MY PROGRESS
 
+#### 15-Jan-22:
+- Chapter 4: **Graphical Interface**:
+  - *Introduction completed*
+  - *Graphical desktop completed*
+  - *X window system completed*
+  - *GUI startup completed*
+  - *GNOME Desktop Environment completed*
+  - *gnome-tweaks completed*
+
 #### 13-Jan-22:
 - Chapter 3: **Linux Basics and System Startup**:
   - *Completed*
