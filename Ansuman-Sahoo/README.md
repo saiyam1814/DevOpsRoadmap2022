@@ -1,5 +1,12 @@
 # MY PROGRESS
 
+#### 16-Jan-22:
+- Chapter 4: **Graphical Interface**:
+  - *Completed*
+- DevOps Prerequisites Course by **FreeCodeCamp**:
+  - **Basic linux commands***(Completed)*:
+    - *echo,ls,cd,pwd,mkdir,cd,rm,cp,touch,cat,cp,mv,whoami,id,su,ssh,sudo,curl,wget*
+
 #### 15-Jan-22:
 - Chapter 4: **Graphical Interface**:
   - *Introduction completed*
