@@ -1,6 +1,6 @@
 # Keyboard Shortcuts in Linux Terminal
 
-| Ctrl+L | Clear’s the screen |  |
+| Ctrl+L | Clear’s the screen |
 | --- | --- | --- |
 | Ctrl+D | Exits current shell |  |
 | Ctrl+Z | Put Current process into a suspended background |  |
