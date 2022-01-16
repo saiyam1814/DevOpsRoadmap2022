@@ -7,14 +7,14 @@ func main() {
 }
 
 /*
-Questions:
-1. How do we run the code in our project?
-	We use the go command line tool
+	Questions:
+	1. How do we run the code in our project?
+		We use the go command line tool
 
-2. What does package main means?
-3. What does import fmt means?
-4. What is that func thing?
-5. How is the main.go file organized?
+	2. What does package main means?
+	3. What does import fmt means?
+	4. What is that func thing?
+	5. How is the main.go file organized?
 */
 
 /* 1
@@ -64,6 +64,6 @@ main: sets the name of the function
 - package main 					=> Package declaration
 - import "fmt"				    => Import other packages that we need
 - func main() {
-  	fmt.Println("hi there")		=> Declare funtion, tells go to do things
-}
+	fmt.Println("hi there")		=> Declare funtion, tells go to do things
+  }
 */
