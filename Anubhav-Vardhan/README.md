@@ -1,5 +1,8 @@
 # My Progress
 
+#### 15-Jan-2022 (Day 10)
+- Learning about packages, import, variables and more with [Go: The Complete Developer's Guide (Golang)](https://www.udemy.com/course/go-the-complete-developers-guide/)
+- Started doing [DevOps Prerequisites Course](https://youtu.be/Wvf0mBNGjXY)
 #### 13-Jan-2022 (Day 9)
 - Started learning Golang with [Go: The Complete Developer's Guide (Golang)](https://www.udemy.com/course/go-the-complete-developers-guide/)
   - Completed session 1 and 2
