@@ -61,11 +61,35 @@ ExecStart=/usr/bin/python3 /opt/code/my_app.py # command to run
 #### More options in service file
 ```
 [Unit]
-Description=My python web application #some metadata
+Description=My python web application           #some metadata
 
 [Service]
-ExecStart=/usr/bin/python3 /opt/code/my_app.py # command to run
+ExecStart=/usr/bin/python3 /opt/code/my_app.py  # command to run
+ExecStartPre=/opt/code/configure_db.sh          # dependency to run before ExecStart
+ExecStartPost=/opt/code/email_status.sh         # dependency to run after ExecStart
+Restart=always                                  # always restart when it crashes
 
 [Install]
-WantedBy=multi-usser.target # run after the multi-user.target run level is started
+WantedBy=multi-usser.target                     # run after the multi-user.target run level is started
 ```
+
+## Vi editor
+- `vi index.html` => open a file with vi
+- `i`             => switch to insert mode
+- `esc`           => switch to command mode
+
+#### Command mode:
+- `H J K L` or `arrow keys` => move around
+- `X`             => delete character
+- `dd`            => delete entire line
+- `yy`            => copy a line
+- `p`             => paste
+- `CTRL+u` `CTRL+d` => scroll page
+- `:`             => open prompt
+- `:w` or `:w filename` => save
+- `:q`            => discard changes and quit
+- `:wq`           => save changes and quit
+- `/of`           => find the word "of" in file
+- `n`             => move cursor to next occurence of word "of"
+  
+  
