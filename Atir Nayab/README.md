@@ -31,3 +31,25 @@
   * Linux Filesystem Basics
   * Partitions and Filesystems
   * The Filesystem Hierarchy Standard
+
+#### 16-Jan-2022 (day 7)
+* Chapter 3: Linux Basics and System Startup (finished)
+  * Choosing a Linux Distribution
+  * Question to Ask When Choosing a Distribution
+  * Linux Installation
+* Chapter 4: Graphical Interface (finished)
+  * Introduction
+  * Graphical Desktop
+  * Session Mangement
+  * Basic Operations
+* Chapter 5: System Configuration from the Graphical Interface (finished)
+  * System, Display, Date and Time Settings
+  * Network Manager
+  * Installing and Updatign Software
+* Common Applications (finished)
+* Command Line Operations (started)
+  * The Command Line
+  * sudo 
+  * Switching Between the GUI and the Command Line
+  * Virtual Terminals (VT) 
+  * Turning On or Off the Graphical Desktop
