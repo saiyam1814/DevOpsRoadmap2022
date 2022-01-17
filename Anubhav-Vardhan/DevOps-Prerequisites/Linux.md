@@ -49,9 +49,17 @@ follow right order of startup**
 .service files generally go in `/etc/systemd/system`
 
 `my_app.service`
-``` bash
+```
 [Service]
 ExecStart=/usr/bin/python3 /opt/code/my_app.py # command to run
 ```
 - `systemctl daemon-reload` => let systemd know we have a new service
-- `systemctl start my_app`  => systemctl start <name of service>
+- `systemctl start my_app`  => systemctl start <name of service
+- `systemctl status my_app` => check status of our service
+- `systemctl stop my_app`   => stop service
+
+#### More options in service file
+```
+[Unit]
+
+```
