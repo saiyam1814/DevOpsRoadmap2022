@@ -1,5 +1,7 @@
 # My Progress
 
+#### 17-Jan-2022 (Day 11)
+- Completed Linux from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 #### 15-Jan-2022 (Day 10)
 - Learning about packages, import, variables and more with [Go: The Complete Developer's Guide (Golang)](https://www.udemy.com/course/go-the-complete-developers-guide/)
 - Started doing [DevOps Prerequisites Course](https://youtu.be/Wvf0mBNGjXY)
