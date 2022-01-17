@@ -8,10 +8,10 @@ As the name suggests, Sort is used to rearrange the lines of a text file in asce
 
 | Syntax | Usage |
 | --- | --- |
-| sort <filename> | Sort the lines in the specified file, according to the characters at the beginning of each line |
+| sort filename | Sort the lines in the specified file, according to the characters at the beginning of each line |
 | cat file1 file2 | sort | Combine the two files, then sort the lines and display the output on the terminal |
-| sort -r <filename> | Sort the lines in reverse order |
-| sort -k 3 <filename> | Sort the lines by the 3rd field on each line instead of the beginning |
+| sort -r filename | Sort the lines in reverse order |
+| sort -k 3 filename | Sort the lines by the 3rd field on each line instead of the beginning |
 
 ## Uniq
 
@@ -71,5 +71,4 @@ Grep is used as a text searching tool. For example:
 | grep -n green file1 | Prints the line number containing the word “green” in file1 |
 | grep -nC 2 green file1 | prints the context of 2 lines above and below containing the word “green” in file1 |
 | grep -r “green” | recursively search for the word “green”  in the current directory and nested subdirectory. |
-| grep -v [pattern] <filename> | Print all lines that do not
- match the pattern |
+| grep -v [pattern] filename | Print all lines that do not match the pattern |
