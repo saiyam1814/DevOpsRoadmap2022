@@ -38,3 +38,26 @@ DAY 6
 - learnt basic Command Line Operations
 - Started Git and GitHub Tutorial by kunal kushwaha
 
+#### 12-jan-2022
+
+DAY 7
+- completed chapter 8 of the introduction of the linux course by Linux Foundation
+- completed chapter 9 of the introduction of the linux course by Linux Foundation
+- Completed Git and GitHub Tutorial by kunal kushwaha
+
+#### 14-jan-2022
+
+DAY 8
+- completed chapter 10 of the introduction of the linux course by Linux Foundation
+
+#### 15-jan-2022
+
+DAY 9
+- completed chapter 11 of the introduction of the linux course by Linux Foundation
+- completed chapter 12 of the introduction of the linux course by Linux Foundation
+- Started learning Golang
+
+#### 16-JAN-2022
+
+DAY 10
+- Completed Golang full course by (techWorld with Nana) with some hands-on practice 
