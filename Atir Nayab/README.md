@@ -46,10 +46,28 @@
   * System, Display, Date and Time Settings
   * Network Manager
   * Installing and Updatign Software
-* Common Applications (finished)
-* Command Line Operations (started)
+* Chapter 6: Common Applications (finished)
+* Chapter 7: Command Line Operations (started)
   * The Command Line
   * sudo 
   * Switching Between the GUI and the Command Line
   * Virtual Terminals (VT) 
   * Turning On or Off the Graphical Desktop
+
+#### 17-Jan-2022 (day 8)
+* Chapter 7: Command Line Operations (continue)
+  * Basic Operations
+  * Locating Application
+  * Accessing Directories
+  * Exploring Filesystem
+  * Hard Links
+  * Soft Links
+  * Navigating the Directory History
+  * Viewing Files
+  * Touch
+  * mkdir, rmdir
+  * Moving, Renaming or Removing a File
+  * Standard File Streams
+  * I/O Redirection
+  * pipes
+  * locate
