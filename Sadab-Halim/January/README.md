@@ -54,3 +54,15 @@
 
 ## 14-Jan-2022 -- Day 14
 * Learnt Go language from [Golang Tutoral for Beginners](https://www.youtube.com/watch?v=yyUHQIec83I)
+
+## 15-Jan-2022 -- Day 15
+* Working on a project using Go language
+* Completed Chapter 12 and 13 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+
+## 16-Jan-2022 -- Day 16
+* Second day of working on Go project.
+* Started Chapter 14 of [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
+
+## 17-Jan-2022 -- Day 17
+* Third day of working on Go project.
+* Completed [Introduction to Linux](https://www.edx.org/course/introduction-to-linux) from edx
