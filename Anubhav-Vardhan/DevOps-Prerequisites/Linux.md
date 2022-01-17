@@ -61,5 +61,11 @@ ExecStart=/usr/bin/python3 /opt/code/my_app.py # command to run
 #### More options in service file
 ```
 [Unit]
+Description=My python web application #some metadata
 
+[Service]
+ExecStart=/usr/bin/python3 /opt/code/my_app.py # command to run
+
+[Install]
+WantedBy=multi-usser.target # run after the multi-user.target run level is started
 ```
