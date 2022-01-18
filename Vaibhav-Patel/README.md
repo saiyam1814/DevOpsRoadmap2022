@@ -12,6 +12,10 @@
 
 - Started DevOps Prerequisites Video by FreeCodeCamp
 
+### Day-4
+
+Got Familiar with Basic CLI Commands for Directories and Files
+
 
 
 

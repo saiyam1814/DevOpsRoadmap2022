@@ -1,5 +1,4 @@
 
-### Key Points in Ch-1
 
 ![chapter01_The_Linux_Kernel_Distribution_Families_and_Individual_Distributions](https://user-images.githubusercontent.com/72696677/148761479-f33852af-104c-42ac-8017-19eb140d8ca8.png)
 
@@ -9,8 +8,8 @@
 
 - There are three major distribution families within Linux: Red Hat, SUSE and Debian.
 
-### Chapter - 2
 #### Important terms in Linux
+
 - Kernel - It connects Computer Softwares with Hardware of the machine.
 
 - Distribution is a collection of programs combined with Linux Kernel to make uplinux based OS.
@@ -22,8 +21,6 @@
 - Shell - It is a Command line Interpreter that interprets the command line input and instructs the OS. 
 
 - BIOS - Basic Input-Output System
-
-### Chapter - 3 - Linux Setup
 
 + The Linux boot process is the procedure for initializing the system. It consists of everything that happens from when the computer power is first switched on until the user interface is fully operational. 
 
