@@ -1,0 +1,1 @@
+- Today I have learnt about how to use YAML files in kubernetes. I have also tried doing the labs in the katacoda playgrounds. I have created service, pod and deployment using kubernetes. 
