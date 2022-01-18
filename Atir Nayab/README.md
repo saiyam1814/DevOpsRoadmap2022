@@ -71,3 +71,19 @@
   * I/O Redirection
   * pipes
   * locate
+
+#### 18-Jan-2022 (day 9)
+* Chapter 7: Command Line Operations (finished)
+  * Wildcards and Matching File Names
+  * Find
+  * Package Mangers: Two Levels
+* Chapter 8: Finding Linux Documentation (finished)
+  * man
+  * Other Documentation Sources
+  * Package Documentation
+* Chapter 9: Processes
+  * What is Process?
+  * Process Types
+  * Process Scheduling and States
+  * Terminating a Process
+  * User and Group IDs
