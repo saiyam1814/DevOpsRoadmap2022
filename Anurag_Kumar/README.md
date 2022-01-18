@@ -10,3 +10,4 @@
 - [x]  4 > [HELM](Progress/004/Readme.md)
 - [x]  5 > [Git Stash & Git Log](Progress/005/Readme.md)
 - [x]  6 > [uptime & ps command](Progress/006/Readme.md)
+- [x]  7 > [YAML in kubernetes](Progress/007/Readme.md)
