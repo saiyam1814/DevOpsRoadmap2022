@@ -87,3 +87,19 @@
   * Process Scheduling and States
   * Terminating a Process
   * User and Group IDs
+
+#### 19-Jan-2022 (day 10)
+* chapter 9: Processes (finished)
+  * More About Priorities
+  * Load Averages
+  * Interpreting Load Averages
+  * Background and Foreground Processes
+  * Managing Jobs
+  * top
+* Chapter 10: File Operations
+  * Filesystem Varieties
+  * Linux Partitions
+  * Mount Points
+  * Mounting and Unmounting
+  * NFS and Network Filesystems
+  * Filessystem Architecture
