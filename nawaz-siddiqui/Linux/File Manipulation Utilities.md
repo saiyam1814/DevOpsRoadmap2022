@@ -72,3 +72,39 @@ Grep is used as a text searching tool. For example:
 | grep -nC 2 green file1 | prints the context of 2 lines above and below containing the word “green” in file1 |
 | grep -r “green” | recursively search for the word “green”  in the current directory and nested subdirectory. |
 | grep -v [pattern] filename | Print all lines that do not match the pattern |
+
+### Tr
+
+The **tr** utility is used to translate specified characters into other characters or to delete them. The general syntax is as follows:
+
+**$ tr [options] set1 [set2]**
+
+### Tee
+
+**tee** takes the output from any command, and, while sending it to standard output, it also saves it to a file.
+
+Syntax:
+
+**`ls -l /etc | tee /tmp/ls-output`**
+
+The above command displays output from /etc folder, displays it and stores it in ls-output file in tmp folder.
+
+### wc
+
+wc (**w**ord **c**ount) counts the number of lines, words, and characters in a file or list of files. 
+
+| Option | Description |
+| --- | --- |
+| -l | Displays the number of lines |
+| -c | Displays the number of bytes |
+| -w | Displays the number of words |
+
+The syntax is as follows:
+
+**wc file.txt**
+
+The above command counts the number of words, lines and bytes.
+
+**wc -l file.txt**
+
+The above command counts the number of lines.
