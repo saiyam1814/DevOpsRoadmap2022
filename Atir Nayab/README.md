@@ -96,10 +96,22 @@
   * Background and Foreground Processes
   * Managing Jobs
   * top
-* Chapter 10: File Operations
+* Chapter 10: File Operations (start)
   * Filesystem Varieties
   * Linux Partitions
   * Mount Points
   * Mounting and Unmounting
   * NFS and Network Filesystems
   * Filessystem Architecture
+
+#### 20-Jan-2022 (day 11)
+* Chapter 10: File Operations (finished)
+  * Filesystem Varieties
+  * Comparing Files and File types
+  * Backing Up and Compressing Data
+* Chapter 11: Text Editors (finished)
+  * nano
+  * gedit
+  * More Advanced Editors: vi and emacs
+* Chapter 12: User Environment
+  * Accounts, Users and Groups
