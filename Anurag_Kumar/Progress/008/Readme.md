@@ -1,0 +1,1 @@
+- Learnt about Kubernetes architecture and different components of the master node and the worker node. 
