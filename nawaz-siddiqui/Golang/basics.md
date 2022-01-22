@@ -59,20 +59,13 @@ stands for structure
 
 can hold mixed data types unlike map
 
-struct {
-
-firstName string
-
-lastName string
-
-email string
-
-numberOfTickets uint
-
-isOptedForNewsletter bool
-
+type UserData struct {
+	firstName string
+	lastName string
+	email string
+	numberOfTickets uint
+	isOptedForNewsletter bool
 }
-
 Sprintf = stores the print in a variable but didn't print unless asked.
 
 time.Sleep(10 * time.Second) = sleeps for 10 seconds
