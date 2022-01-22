@@ -3,6 +3,7 @@
 Golang was developed by Google in 2007 and opensourced in 2009. With the increasing computation power like multicore processors and cloud applications, most of the programming languages does not able to take full advantage of multi-threading and make it more efficient, that’s why go is developed.
 
 **What is Multi-Threading?**
+
 Multi-Threading is the process of executing multiple threads simultaneously. Now what does thread means?
 
 Thread means processes. For an instance you are using google drive to upload, navigate and download files all doing at the same time, these processes are happening together in parallel and the whole process is called multi-threading.
