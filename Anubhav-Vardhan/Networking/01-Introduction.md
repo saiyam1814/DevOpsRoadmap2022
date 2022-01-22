@@ -64,7 +64,13 @@ For eg:
 - **LAN (Local Area Network):** Small houses/office for example with ethernet or wifi
 - **MAN (Metropolitan Area Network):** Across a city
 - **WAN (Wide Area Network):** Across countries for example with optical fibre cables
-  - **SoNET (Synchronous Optical Networking):** Carries data
+  - **SoNET (Synchronous Optical Networking):** Carries data using optical fibre cables covering larger distances
+  - **Frame Relay:** Way to connect our local network to a wider network like the internet
 
 LANs are conected together in a MAN and MANs are connected together in a WAN and this is how
 the Internet works all over the world
+
+## Modem and Router
+- Modem is used to covert digital signals to analog signals and vice versa.
+  - For example modem can convert our digital data into an electrical signal so we can transfer it over telephone lines and convert it back to digital data.
+- Router is a device that routes the data packet based on their IP address
