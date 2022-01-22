@@ -62,29 +62,17 @@ can hold mixed data types unlike map
 
 ```jsx
 struct {
-```
 
-```jsx
 firstName string
-```
 
-```jsx
 lastName string
-```
 
-```jsx
 email string
-```
 
-```jsx
 numberOfTickets uint
-```
 
-```jsx
 isOptedForNewsletter bool
-```
 
-```jsx
 }
 ```
 
