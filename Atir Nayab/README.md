@@ -115,3 +115,36 @@
   * More Advanced Editors: vi and emacs
 * Chapter 12: User Environment
   * Accounts, Users and Groups
+
+#### 21-Jan-2022 (day12)
+* Chapter 12: User Environment
+  * Accounts, Users and Groups
+    * The root Account
+    * su and sudo
+  * Environment Variables
+
+#### 22-Jan-2022 (day 13)
+* Chapter 12: User Environment (finished)
+  * Enviroment Variables
+    * Setting Environment Variables
+    * The HOME Varible
+    * The PATH Variable
+    * SHELL variable
+  * Recalling Previous Commands
+    * Using history environment variables
+    * Finding previously used commands
+    * Executing Previous commands
+    * Keyboard shortcuts
+  * File Permissions
+    * File Ownership
+* Chapter 13: Manupipulating Text (started)
+  * cat and echo
+    * cat
+  * Working with Large Files
+    * head
+    * tail
+    * viewing compressed files
+  * sed and awk
+    * sed
+    * sed command syntax
+    * sed basic operations
