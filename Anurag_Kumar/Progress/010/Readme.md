@@ -1,0 +1,1 @@
+- Started learning about terraform from the kodekloud course. I will complete it by tommorow with labs. 
