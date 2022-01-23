@@ -148,3 +148,35 @@
     * sed
     * sed command syntax
     * sed basic operations
+
+#### 23-Jan-2022 (day 14)
+* Chapter 13: Manipulating text (finished)
+  * sed and awk
+    * sed basic operations
+    * awk
+    * awk basic operations
+  * file manipulation utilities
+    * sort
+    * uniq
+    * paste
+    * join
+    * split
+    * Regular expression
+  * grep and strings
+    * grep
+    * strings
+  * Miscellaneous text utilities
+    * tr
+    * tee
+    * wc
+    * cut
+* Chapter: 14: Network Operations
+  * Network Addresses and DNS
+    * IP Addresses
+    * IPv4 and IPv6
+    * decoding IPv4
+    * class A network
+    * class B network
+    * class C network
+    * ip address allocation
+    * name resolution
