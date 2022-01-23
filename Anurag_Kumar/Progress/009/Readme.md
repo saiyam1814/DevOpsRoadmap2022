@@ -1,0 +1,1 @@
+- Started Learning IaC. Watched some tutorials on youtube and read a little bit of terraform documentation. 
