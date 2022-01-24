@@ -7,10 +7,13 @@
 - [kunal kushwaha linux & terminal commands](https://www.youtube.com/watch?v=iwolPf6kN-k&t=4569s)
 
 
+
 ## Learned linux command from technical Guftgu
 
 - [linux lecture command 6](https://www.youtube.com/watch?v=CkN25Y1HmiY&list=PLBGx66SQNZ8aPsFDwb79JrS2KQBTIZo10&index=9)
 - [linux lecture command 7](https://www.youtube.com/watch?v=0jOo6aH2cNI&list=PLBGx66SQNZ8aPsFDwb79JrS2KQBTIZo10&index=10)
+
+
 
 ## Introduction to WSL2 from Saiyam Pathak youtube channel and get setup my windows machine for Linux command using wsl2
 
