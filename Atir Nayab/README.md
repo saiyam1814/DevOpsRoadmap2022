@@ -180,3 +180,18 @@
     * class C network
     * ip address allocation
     * name resolution
+
+#### 24-Jan-2022 (day 15)
+* Chapter 14: Network Operations (finished)
+  * Networking Configuration and Tools
+    * The Ip utility
+    * pint
+    * route
+    * traceroute
+  * Non-Graphical Browsers
+    * wget
+    * curl
+  * transfering files
+    * FTP
+    * ssh
+    * copying files securely with scp
