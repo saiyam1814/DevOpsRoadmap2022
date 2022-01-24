@@ -2,6 +2,7 @@
 
 ### Linux Basic Commands
 
+- `ls` shows all the files and directories
 - `cd` is used for changing directory
 - `echo` is used to print anything on the terminal
 - `clear` is used to clear the terminal
@@ -24,7 +25,35 @@
 - `sudo userdel demo` is used to delete the user demo
 - `sudo groupadd geeks` will create a group, a group can have multiple users.
 - `sudo groupdel geeks` will delete the group
-- `grep words filename` to search texts in a particular file 
+- `grep words filename` to search texts in a particular file
+- `tr` it translate characters
+- `df` checks the system usage
+- `tail` displays content from last 
+- `diff` compares file line by line
+- `locate` is used to find files by name
+- `find` walks a file hierarchy
+- `history` shows histories of all the commands given
+- `regex` is a pattern for a matching string that follows same pattern
+- `alias` instructs the shell to replace one string with another string while executing the commands
+- `wget` is used to download files from internet
+- `top` is used to show the Linux processes
+- `uname` prints basic system information
+- `zip` is used to compress the files and also used as file package utlity
+- `unzip` extracts all files from the specified ZIP archive to the current directory
+- `hostname` used to obtain the DNS and set the system's hostname
+- `lspcu` fetches the CPU architecture information
+- `free` gives information about used and unused memory usage and swap memory of a system
+- `vmstat` reports various bits of system information
+- `id` is used to find out user, group names and numeri ID's
+- `getent` helps a user get entries in a number of important text files
+- `nslookup` is used to find the address record for a domain
+- `netstat` is used for troubleshooting and configuration
+- `sed` performs editing operations on text coming from standar input or a file
+- `cut` used for cutting sections from each line of a file
+- `htop` allows the user to interactivity monitor the system's vital resources or server's processes in real time
+- `ps aux` is a tool to monitor processes running on our Linux systems
+
+ 
 
 ## Few More Linux Commands
 - `chown` to change the ownership of the file/directory
