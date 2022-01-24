@@ -115,3 +115,68 @@
   * More Advanced Editors: vi and emacs
 * Chapter 12: User Environment
   * Accounts, Users and Groups
+
+#### 21-Jan-2022 (day12)
+* Chapter 12: User Environment
+  * Accounts, Users and Groups
+    * The root Account
+    * su and sudo
+  * Environment Variables
+
+#### 22-Jan-2022 (day 13)
+* Chapter 12: User Environment (finished)
+  * Enviroment Variables
+    * Setting Environment Variables
+    * The HOME Varible
+    * The PATH Variable
+    * SHELL variable
+  * Recalling Previous Commands
+    * Using history environment variables
+    * Finding previously used commands
+    * Executing Previous commands
+    * Keyboard shortcuts
+  * File Permissions
+    * File Ownership
+* Chapter 13: Manupipulating Text (started)
+  * cat and echo
+    * cat
+  * Working with Large Files
+    * head
+    * tail
+    * viewing compressed files
+  * sed and awk
+    * sed
+    * sed command syntax
+    * sed basic operations
+
+#### 23-Jan-2022 (day 14)
+* Chapter 13: Manipulating text (finished)
+  * sed and awk
+    * sed basic operations
+    * awk
+    * awk basic operations
+  * file manipulation utilities
+    * sort
+    * uniq
+    * paste
+    * join
+    * split
+    * Regular expression
+  * grep and strings
+    * grep
+    * strings
+  * Miscellaneous text utilities
+    * tr
+    * tee
+    * wc
+    * cut
+* Chapter: 14: Network Operations
+  * Network Addresses and DNS
+    * IP Addresses
+    * IPv4 and IPv6
+    * decoding IPv4
+    * class A network
+    * class B network
+    * class C network
+    * ip address allocation
+    * name resolution
