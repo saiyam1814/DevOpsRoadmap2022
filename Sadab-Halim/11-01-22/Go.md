@@ -38,7 +38,7 @@ func main() {
 }
 ```
 
-### Arrays & Slices
+### Arrays in Go
 
 - Data structures to store collection of elements in a single variable
 - We want to store the entered user data in some kind of a list
@@ -55,7 +55,7 @@ fmt.Printf("Array type: %T\n", bookings)
 fmt.Printf("Array length: %v\n", len(bookings))
 ```
 
-**Slices in Go**
+### Slices in Go
 - Slice is an abstraction of an Array
 - SLices are more flexible and powerful:
   variable-length or get a sub-array of its own
