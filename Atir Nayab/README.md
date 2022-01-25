@@ -195,3 +195,27 @@
     * FTP
     * ssh
     * copying files securely with scp
+
+#### 25-Jan-2022 (day 16)
+* [DevOps Prerequisites course](https://www.youtube.com/watch?v=Wvf0mBNGjXY&t=0s)
+  * Linux Basics
+    * Linux CLI
+    * VI editor
+    * Package Management
+    * Service Management
+  * Networking
+    * Networking in virtaulBox
+    * Networking Adapter
+    * NAT
+    * NAT network
+    * Host only
+    * Internet connectivity
+  * Vagrant
+  * DNS
+  * Domain Name
+    * DNS lookup heirarchy
+  * nslookup
+  * Switch
+  * Router
+  * Gateway
+  * Use linus as router
