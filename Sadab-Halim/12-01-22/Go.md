@@ -57,4 +57,3 @@ func main() {
 }
 ```
 
-### User Input Validation
