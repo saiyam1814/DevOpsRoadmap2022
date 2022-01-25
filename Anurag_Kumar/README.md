@@ -12,3 +12,5 @@
 - [x]  6 > [uptime & ps command](Progress/006/Readme.md)
 - [x]  7 > [YAML in kubernetes](Progress/007/Readme.md)
 - [x]  8 > [Kubernetes Architecture](Progress/008/Readme.md)
+- [x]  9 > [Infrastructure as Code](Progress/009/Readme.md)
+- [x]  10 > [Terraform](Progress/010/Readme.md)

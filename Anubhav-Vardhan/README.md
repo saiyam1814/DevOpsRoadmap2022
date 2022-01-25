@@ -1,5 +1,8 @@
 # My Progress
 
+#### 22-Jan-2022 (day 12)
+- Understood basic networking terms, topologies and had an overview of how internet and networks work.
+- Started learning OSI model.
 #### 17-Jan-2022 (Day 11)
 - Completed Linux from [Introduction to Linux (edX)](https://www.edx.org/course/introduction-to-linux) course
 - Completed Linux from [DevOps Prerequisites Course](https://youtu.be/Wvf0mBNGjXY) and setup a centos lab using VirtualBox on my system
