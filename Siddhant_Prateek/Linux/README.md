@@ -126,6 +126,7 @@ chmod 742 text
 
 ### `systemctl`
 
+Control the systemd system and service manager
 ### `systemd`
 
 
