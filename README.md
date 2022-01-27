@@ -4,7 +4,16 @@ I have created the complete DevOps roadmap that anyone can follow and be job rea
 
 The [complete video](https://youtu.be/7l_n97Mt0ko) is on my [YouTube channel](https://saiyampathak.com/youtube), do not forget to share it with your friends.
 
-Learning in public is very important so you can create PR's to this repo by cloning the repo, create {YourName} folder and then add day wise what you are learning to that folder.
+Learning in public is very important so you can create PR's to this repo by:
+- cloning the repo.
+- create {YourName} folder.
+- In that folder you create folder for each day.
+- Add in detail what you have learnt so that others can be motivated as well. 
+
+Few good examples :
+
+[Anurag Kunar](https://github.com/saiyam1814/DevOpsRoadmap2022/tree/main/Anurag_Kumar)
+[Atir Nayab](https://github.com/saiyam1814/DevOpsRoadmap2022/tree/main/Atir%20Nayab)
 
 You can use the hashtag `#learnwithsaiyam` on [Twitter](https://twitter.com/saiyampathak)
 

@@ -1,0 +1,2 @@
+### Day 6 Update
+- Today I have completed linux ps and uptime command. I have also learned about linux processes and system command. It's absolutely amazing how much flexibility linux gives you in your hand. 
