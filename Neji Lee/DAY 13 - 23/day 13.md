@@ -4,6 +4,9 @@
 
  1. Completed chapter 8 of Introduction to Linux.
  2. Started Chapter 9, Processes , of Introduction to Linux.
+ 3.  3.  Revised Basic concept of networking - MEDIA ACCESS CONTROL address ( MAC address).
+>> A 12 hexadecimal character address, of 48 bits. As 1 hexadecimal character is of 4 bits.
+>> Works on Datalink Layer. 
 
 
 
