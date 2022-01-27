@@ -45,3 +45,8 @@ Refer to this link and follow the instruction for your machine:
 
 [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
+### Docker Compose
+
+Makes configuring and running of multiple docker containers easier. Its an easy way to create a docker configuration file with multiple container with .yaml extension. All you need to do is execute the file using:
+
+docker-compose -f file-name up
