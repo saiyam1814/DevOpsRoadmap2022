@@ -218,4 +218,21 @@
   * Switch
   * Router
   * Gateway
-  * Use linus as router
+  * Use linux as router
+
+#### 26-Jan-2022 (day 16)
+* [Free CCNA](https://www.youtube.com/watch?v=rv3QK2UquxM&t=0s)
+  * what is network?
+  * what is networking?
+  * Router
+  * Modem
+  * SFP
+  * Switch
+  * Types of IP Address
+  * IPv4 classes
+  * OSI reference model
+  * TCP/IP
+  * IANA
+  * Routing
+  * Calculate subner mask
+  * types of subnet mask
