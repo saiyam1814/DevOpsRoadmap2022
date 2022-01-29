@@ -4,7 +4,7 @@
 - [X] [Introduction of Linux](https://www.edx.org/course/introduction-to-linux)
 - [X] [DevOps Prerequisite Course](https://youtu.be/Wvf0mBNGjXY)
 - [ ] [CCNA Part 1](https://youtu.be/rv3QK2UquxM)
-- [ ] [Computer Networking Full Course](https://www.youtube.com/watch?v=IPvYjXCsTg8)
+- [X] [Computer Networking Full Course](https://www.youtube.com/watch?v=IPvYjXCsTg8)
 - [X] [Golang Tutorial for Beginners](https://youtu.be/yyUHQIec83I)
 - [ ] [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI)
 
