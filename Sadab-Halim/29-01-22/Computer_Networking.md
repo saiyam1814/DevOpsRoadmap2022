@@ -75,6 +75,7 @@ Takes control of:
 - Full Duplex
 
 ## Three Way Handshake
+![image](https://user-images.githubusercontent.com/74575612/151673213-5072d8b2-f42d-4d31-8b05-e948e0f4434e.png)
 
 ## TCP (Network Layer)
 - In Network Layer we work with routers
