@@ -237,7 +237,7 @@
   * Calculate subner mask
   * types of subnet mask
 
-#### 28-Jan-2022 (day 18)
+#### 28-Jan-2022 (day 17)
 * [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
   * go mod init
   * go packages
@@ -253,3 +253,7 @@
   * loops
   * range
   
+#### 29-Jan-2022 (day 18)
+* [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
+  * loops
+  * Fields
