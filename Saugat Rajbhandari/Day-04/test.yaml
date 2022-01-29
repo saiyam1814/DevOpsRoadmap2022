@@ -1,0 +1,19 @@
+microservices:  
+  - app: "user-authentication"  
+    port: 9000
+    version: 1.7
+    deployed: N
+  - app: shopping cart 
+    port: 9002
+    versions: [1.9, 2.0, 2.4]
+
+---
+
+multilineString: |
+  this is a multiline string
+  this is the next line
+
+---
+singlelineString: >
+  this is a singleline string
+  this is the next line

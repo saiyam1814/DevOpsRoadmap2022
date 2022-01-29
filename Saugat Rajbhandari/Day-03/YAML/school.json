@@ -1,0 +1,23 @@
+{
+    "School":[
+        {
+        "name": "DPS",
+        "Principal": "Someone",
+        "Students":[{
+            "Student1": {
+                "roll": 12,
+                "name": "saugat",
+                "marks": 43
+            },
+            {
+                "Student2": {
+                    "roll": 32,
+                    "name": "sandip",
+                    "marks": 23
+            }
+        }
+        ]
+    }
+    ]
+
+}

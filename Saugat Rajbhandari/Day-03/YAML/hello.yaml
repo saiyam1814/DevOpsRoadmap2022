@@ -1,0 +1,19 @@
+"apple": "I am a red fruit"
+1: "this my roll number"
+---
+# lists
+- apple
+- mango
+- banana 
+---
+# block style
+cities:
+- pokhara
+- kathmandu
+- chitwan
+---
+#storing data in single line
+cities: [pokhara, kathmandu, chitwan]
+---
+{mango:"yellow fruit", age:56}
+...

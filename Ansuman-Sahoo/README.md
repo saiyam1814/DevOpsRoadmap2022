@@ -1,5 +1,1 @@
-# MY PROGRESS
-
-## 07-Jan-22:
-### 1) Chapter 1:The Linux Foundation:
-      - Introduction completed 
+I am Ansuman Sahoo. Documenting my DevOps journey here!

@@ -1,0 +1,46 @@
+# String variables
+myself: saugat rajbhandari
+fruit: "apple"
+job: 'swe'
+
+bio: |
+hey my name is saugat rajbhandari
+and i am a very nice dude.
+
+# write a single line into multiple lines
+message: > 
+this will
+all be
+in one single line
+
+# same as 
+message: !!str this will all be in one single line
+
+number: 5473
+marks: 98.7
+booleanValue: !!bool No #n, N, false, False, FALSE
+# same for true -> yes, y, Y
+
+# specifiy the type
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b1100
+octolNum: !!int 0654
+hexa: !!int 0x45
+commaValue: !!int +540_000 #540,000
+exponential numbers: 6.023E56
+
+# floating point numbers
+marks: !!float 56.89
+infinity: !!float .inf
+not a num: .nan
+
+ # null
+ surname: !!null Null # or null Null ~
+ ~: this is a null key
+
+ # dates and time
+date: !!timestamp 2002-12-14
+nepal time: 2001-12-15T02:57:30.10 +5:45
+no time zone: 2001-12-15T02:57:30.10
