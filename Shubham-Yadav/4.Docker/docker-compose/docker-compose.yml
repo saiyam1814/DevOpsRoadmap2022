@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  web:
+    image: nginx
+    ports:
+      - 80:80
+
+  database:
+    image: redis
