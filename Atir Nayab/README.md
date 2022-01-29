@@ -236,3 +236,20 @@
   * Routing
   * Calculate subner mask
   * types of subnet mask
+
+#### 28-Jan-2022 (day 18)
+* [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
+  * go mod init
+  * go packages
+  * variables
+  * keywords
+  * content
+  * print formatted data
+  * fmt package
+  * pointer
+  * arrays
+  * slices
+  * append
+  * loops
+  * range
+  
