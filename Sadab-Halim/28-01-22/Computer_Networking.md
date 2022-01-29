@@ -54,7 +54,13 @@ Ex: 200 - request was successful <br/>
     404 - not found <br/>
     400 - bad request <br/>
     500 - internal server error <br/>
-    
+
+1XX - Informational Category <br/>
+2XX - Success Code <br/>
+3XX - Redirecting Purpose <br/>
+4XX - Client Error <br/>
+5XX - Server Error <br/>
+
 ## Cookies
 - Cookies are files, generally from the visited webpages, which are stored on a user's computer. They hold a small amount of data, specific to a particular client and website, and can be accessed either by the web server or the client computer which can be usernames, password, session token, etc.
 
