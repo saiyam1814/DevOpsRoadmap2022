@@ -1,7 +1,8 @@
-
-=======
 # My Progress
 
+#### 29-Jan-2022 (day 13)
+- Understood OSI and TCP/IP model.
+- Learning application layer in detail.
 #### 22-Jan-2022 (day 12)
 - Understood basic networking terms, topologies and had an overview of how internet and networks work.
 - Started learning OSI model.
@@ -44,4 +45,3 @@
   - [Notes](https://github.com/anubha-v-ardhan/My-DevOps-Journey/blob/main/01-Prerequisites/YAML/README.md)  
 - Started learning Golang following "[Golang Tutorial for Beginners | Full Go Course (TechWorld with Nana)](https://youtu.be/yyUHQIec83I)"
   - [Ticket Booking App](https://github.com/anubha-v-ardhan/My-DevOps-Journey/tree/main/01-Prerequisites/Go)
-
