@@ -1,0 +1,2 @@
+- Started learning golang 
+- Completed introduction part 
