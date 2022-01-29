@@ -1,0 +1,1 @@
+- Learnt about kubernetes namespaces and why do we need to create different namespaces. 
