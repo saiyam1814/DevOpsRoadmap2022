@@ -78,7 +78,7 @@ func main(){
     
     if isValidName && isValidEmail && isValidTicketNumber {
       
-    bookTicket (remainingTickets, userTickets, firstName, lastName, email)
+    bookTicket (userTickets, firstName, lastName, email)
     
     firstNames := getFirstNames()
     fmt.Printf("The first names of bookings are: %v", firstNames)
@@ -115,7 +115,7 @@ func getFirstNames() []string {
     return firstNames
 }
 
-func validateUserInput(firstName string, lastName string, email string, userTickets uint) (bool1, bool2) {
+func validateUserInput(firstName string, lastName string, email string, userTickets uint) (bool, bool, bool) {
   isValidName := len(firstName) >= 2 && len(lastName) >= 2
   isValidEmail := strings.Contains(email, "@")
   isValidTicketNumber := userTickets > 0 && userTickets <= remainingTickets
@@ -160,3 +160,22 @@ func bookTicket (userTickets uint, firstName string, lastName string, email stri
 **NOTE:**
 - Best Practice: Define variable as "local" as possible
 - Create the variable where you need it
+
+**More Use Cases of Functions:**
+- Group logic that belongs together
+- Reuse logic and so reducing duplication of code
+
+## Packages in Go
+- A package is a collection of Go files
+
+Example: Filename: helper.go
+```
+package main
+
+func validateUserInput(firstName string, lastName string, email string, userTickets uint) (bool, bool, bool) {
+  isValidName := len(firstName) >= 2 && len(lastName) >= 2
+  isValidEmail := strings.Contains(email, "@")
+  isValidTicketNumber := userTickets > 0 && userTickets <= remainingTickets
+  return isValidName, isValidEmail, isValidTicketNumber
+}
+```
