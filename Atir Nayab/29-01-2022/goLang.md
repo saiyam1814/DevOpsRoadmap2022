@@ -90,8 +90,14 @@
 ## Control Flow
 - Defer - Invoke a function but delays it execution to some future point in time.
   - it runs when current function flow is finished and before it returns
+  - useful to group open and close functions together
+    - be careful in loops
   - it doesn't move at the end but it moves that after the function and that fucntion actually returns 
-  - it follows LIFO
+  - run in LIFO order
   - when using variable dependency it takes the value of the variable when defer is called and not when it runs.
-- Panic - application enter a state where it can no loger run further
-- Recover - if application panic how we can recover that so application don't fail completely
+- Panic - occur when program cannot continue at all
+  - Dob't use when file can't be opened, unless it is critical
+  - Use for unrecoverable events - cannot obtain TCP port for web server 
+- Recover - used to recover from panics
+  - only useful in deferred functions
+  - Current function will not attempt to continue, but higher funtions is call stack will

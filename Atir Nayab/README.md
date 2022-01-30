@@ -257,3 +257,15 @@
 * [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
   * loops
   * Fields
+  * defer
+  * panic
+  * recover
+
+## 30-Jan-2022 (day 19)
+* [Learn Go Programming](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+  * pointers
+  - function
+  - goroutine
+  - interface
+  - channel
+* [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
