@@ -1,4 +1,4 @@
-# Started Learning [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI)
+# Revised Python from [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI) and from Docs
 
 ## Introduction
 
@@ -50,7 +50,7 @@ There are 33 keywords in Python <br/>
 `assert` `del` `global` `not` `with` <br/>
 `async` `elif` `if` `or` `yield` <br/>
 
-## Python Variables
+## Variables in Python
 
 Declaring and assigning value to a variable
 ```
@@ -69,3 +69,186 @@ website = "youtube.com"
 print(website)
 ```
 
+## Data Types in Python
+- **Numbers**
+  - int
+  - float
+  - complex
+  
+  Example:
+  ```
+  a = 5
+  print(a, "is of type". type(a))
+  
+  b 2.0
+  print(a, "is of type". type(a))
+  
+  c= 1+2j
+  print(a, "is it a complex number?", isinstance(1+2j), complex))
+  ```
+  
+- **List** is an ordered sequence of items. All the items in a list do not need to be of the same type. Lists are mutable. 
+  
+  It is defined by [ ].
+  
+  Example:
+  ```
+  a = [1, 2.2, 'python']
+  ```
+  
+- **Tuple** is an ordered sequence of items same as a list. The only difference is that tuples are immutable. Tuples are used to write-protect data and are usually faster than lists as they cannot change dynamically.
+
+It is defined within parentheses ()
+
+Example:
+```
+t = (5,'program', 1+3j)
+```
+- **Strings** is sequence of Unicode characters. We can use single quotes or double quotes to represent strings. Multi-line strings can be denoted using triple quotes, ''' or """.
+
+Example:
+```
+s = "This is a string"
+print(s)
+s = '''A multiline
+string'''
+print(s)
+```
+- **Set** is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }.
+  
+  We can perform set operations like union, intersection on two sets. Sets have unique values. They eliminate duplicates.
+  
+  Since, set are unordered collection, indexing has no meaning.
+  
+  Example-1:
+  ```
+  a = {5,2,3,1,4}
+  print("a = ", a)
+  print(type(a))
+  ```
+  
+  Example-2:
+  ```
+  a = {1,2,2,3,3,3} 
+  print(a)
+  ```
+  
+- **Dictionary** is an unordered collection of key-value pairs.
+
+  It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data.
+  
+  It is defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.
+
+  Example:
+  ```
+  d = {1:'value','key':2}
+  print(type(d))
+
+  print("d[1] = ", d[1])
+
+  print("d['key'] = ", d['key'])
+
+  # Generates error
+  print("d[2] = ", d[2])
+
+  ```
+**Conversion between Data Types**
+We can convert between different data types by using different type conversion functions like int(), float(), str(), etc.
+
+## Type Conversion:
+The process of converting the value of one data type to another data type is called type conversion. 
+
+There are two types of conversion:
+1. **Implicit Conversion:** In Implicit type conversion, Python automatically converts one data type to another data type. 
+
+Example:
+```
+num_int = 123
+num_flo = 1.23
+
+num_new = num_int + num_flo
+
+print("datatype of num_int:",type(num_int))
+print("datatype of num_flo:",type(num_flo))
+
+print("Value of num_new:",num_new)
+print("datatype of num_new:",type(num_new))
+```
+
+2. **Explicit Conversion:** In Explicit Type Conversion, users convert the data type of an object to required data type. We use the predefined functions like int(), float(), str(), etc to perform explicit type conversion.
+
+This type of conversion is also called typecasting because the user casts (changes) the data type of the objects.
+
+Syntax:
+```
+<datatype>(expression)
+```
+
+Example:
+```
+num_int = 123
+num_str = "456"
+
+print("Data type of num_int:",type(num_int))
+print("Data type of num_str before Type Casting:",type(num_str))
+
+num_str = int(num_str)
+print("Data type of num_str after Type Casting:",type(num_str))
+
+num_sum = num_int + num_str
+
+print("Sum of num_int and num_str:",num_sum)
+print("Data type of the sum:",type(num_sum))
+```
+
+**NOTE:**
+- Implicit Type Conversion is automatically performed by the Python interpreter.
+- In Type Casting, loss of data may occur as we enforce the object to a specific data type.
+
+## Python Input/Output
+For Output:
+- print()
+- Output Formatting: str.format()
+  Example-1:
+  ```
+  print('I love {0} and {1}'.format('bread','butter'))
+  print('I love {1} and {0}'.format('bread','butter'))
+  ```
+  
+  Example-2:
+  ```
+  print('Hello {name}, {greeting}'.format(greeting = 'Goodmorning', name = 'John'))
+  ```
+  
+  Example-3:
+  ```
+  x = 12.3456789
+  print('The value of x is %3.2f' %x)
+  ```
+ 
+For Input: input([prompt])
+Example:
+```
+num = input('Enter a number: ')
+Enter a number: 10
+```
+
+## Import in Python
+Import is used to access different packages available in Python. <br/>
+It is also used when our program grows bigger, it is a good idea to break it into different modules and import them using `import` keyword.
+
+Example:
+```
+import math
+import numpy as np
+import matplotlib as mp
+```
+
+## Operators in Python
+- **Arithmetic Operators:** +, -, *, /, %, //, **
+- **Comparison Operators:** >, <, ==, !=, >=, <=
+- **Logical Operators:** and, or, not
+- **Bitwise Operators:** &, |, ~, ^, >>, <<
+- **Assignment Operators:** =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=
+- **Identity Operators:** is, is not
+- **Membership Operators:** in, not in
