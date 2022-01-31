@@ -252,3 +252,108 @@ import matplotlib as mp
 - **Assignment Operators:** =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=
 - **Identity Operators:** is, is not
 - **Membership Operators:** in, not in
+
+## Flow Controls
+
+**if Statement Syntax**
+```
+if test expression:
+  statement(s)
+```
+
+**if else Statement Syntax**
+```
+if test expression:
+  Body of if
+else:
+  Body of else
+```
+
+**if elif else Statement Syntax:**
+```
+if test expression
+  Body of if
+elif test expression:
+  Body of elif
+else:
+  Body of else
+```
+
+**for Loop Syntax:**
+```
+for val in sequence:
+  loop body
+```
+
+**for Loop with else**
+```
+for val in sequence:
+  statements(s)
+else:
+  statement(s)
+```
+
+**while Loop Syntax:**
+```
+while test_expression:
+  Body of while
+```
+
+
+**while Loop with else Syntax:**
+```
+while test_expression:
+  Body of while
+else:
+  statement(s)
+```
+
+**break Statement Syntax**
+```
+for var in sequence:
+  # codes inside for loop
+   if condition:
+      break
+# codes outside for loop
+
+while test_expression:
+  # codes inside for loop
+  if condition:
+      break
+# codes outside while loop
+```
+
+**continue Statement Syntax**
+```
+for var in sequence:
+  # codes inside for loop
+   if condition:
+      continue
+   # codes inside for loop
+# codes outside for loop
+
+while test_expression:
+  # codes inside for loop
+  if condition:
+      continue
+  # codes inside while loop
+# codes outside while loop
+```
+
+**pass Statement**
+In Python, the pass statement is a null statement.
+The difference between a comment a pass statement in Python is that while the interpreter ignores a comment entirely, pass is not ignored.
+
+Syntax:
+```
+pass
+```
+
+Example:
+```
+'''pass is just a placeholder for
+functionality to be added later.'''
+sequence = {'p', 'a', 's', 's'}
+for val in sequence:
+    pass
+```
