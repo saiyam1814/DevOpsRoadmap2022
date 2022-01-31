@@ -57,7 +57,19 @@ Formatted Input and output (i/o)
 
 ## Loops
 - A loop statement allows us to execute code multiple time, in a loop
-- you only have for loop
+- you only have for loop\
+Infinite loop
+```go
+for{
+
+}
+```
+finite for loop
+```go
+for index, booking := range bookings{
+
+}
+```
 
 ## Range
 - Range iterates over elements of different data structures (so not only array and slices)

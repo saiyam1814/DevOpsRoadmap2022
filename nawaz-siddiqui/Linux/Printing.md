@@ -63,3 +63,87 @@ Assuming CUPS has been installed you'll need to start and manage the CUPS daemon
 **$ sudo systemctl [enable|disable] cups**
 
 **$ sudo systemctl [start|stop|restart] cups**
+
+**Adding Printers from the CUPS Web Interface**
+
+A fact that few people know is that CUPS also comes with its own web server, which makes a configuration interface available via a set of CGI scripts.
+
+The CUPS web interface is available on your browser at: [http://localhost:631](http://localhost:631/).
+
+**Printing from the Command-Line Interface**
+
+**lp** and **lpr** accept ****command line options that help you perform all operations that the GUI can accomplish. **lp** is typically used with a file name as an argument.
+
+| Command | Usage |
+| --- | --- |
+| lp <filename> | To print the file to default printer |
+| lp -d printer <filename> | To print to a specific printer (useful if multiple printers are available) |
+| program | lpecho string | lp | To print the output of a program |
+| lp -n number <filename> | To print multiple copies |
+| lpoptions -d printer | To set the default printer |
+| lpq -a | To show the queue status |
+| lpadmin | To configure printer queues |
+| lpstat -p -d | To get a list of available printers, along with their status |
+| lpstat -a | To check the status of all connected printers, including job numbers |
+| cancel job-id OR lprm job-id | To cancel a print job |
+| lpmove job-id newprinter | To move a print job to new printer |
+
+**Managing Print Jobs**
+
+In Linux, command-line print job management commands allow you to monitor the job state as well as managing the listing of all printers and checking their status, and canceling or moving print jobs to another printer.
+
+## Manipulating Postscript and PDF Files
+
+PostScript is a standard page description language. It effectively manages scaling of fonts and vector graphics to provide quality printouts.
+
+Postscript has been for the most part superseded by the PDF format (Portable Document Format) which produces far smaller files in a compressed format for which support has been integrated into many applications. However, one still has to deal with postscript documents, often as an intermediate format on the way to producing final documents.
+
+**Working with enscript**
+
+**enscript** is a tool that is used to convert a text file to PostScript and other formats. It also supports Rich Text Format (RTF) and HyperText Markup Language (HTML). For example, you can convert a text file to two columns (**-2**) formatted PostScript using the command:
+
+**$ enscript -2 -r -p psfile.ps textfile.txt**
+
+This command will also rotate (**-r**) the output to print so the width of the paper is greater than the height (aka landscape mode) thereby reducing the number of pages required for printing.
+
+| Command | Usage |
+| --- | --- |
+| enscript -p psfile.ps textfile.txt | Convert a text file to PostScript (saved to psfile.ps) |
+| enscript -n -p psfile.ps textfile.txt | Convert a text file to n columns where n=1-9 (saved in psfile.ps) |
+| enscript textfile.txt | Print a text file directly to the default printer |
+
+**Converting between PostScript and PDF**
+
+| Command | Usage |
+| --- | --- |
+| pdf2ps file.pdf | Converts file.pdf to file.ps |
+| ps2pdf file.ps | Converts file.ps to file.pdf |
+| pstopdf input.ps output.pdf | Converts input.ps to output.pdf |
+| pdftops input.pdf output.ps | Converts input.pdf to output.ps |
+| convert input.ps output.pdf | Converts input.ps to output.pdf |
+| convert input.pdf output.ps | Converts input.pdf to output.ps |
+
+**Using qpdf**
+
+| Command | Usage |
+| --- | --- |
+| qpdf --empty --pages 1.pdf 2.pdf -- 12.pdf | Merge the two documents 1.pdf and 2.pdf. The output will be saved to 12.pdf. |
+| qpdf --empty --pages 1.pdf 1-2 -- new.pdf | Write only pages 1 and 2 of 1.pdf. The output will be saved to new.pdf. |
+| qpdf --rotate=+90:1 1.pdf 1r.pdf | Rotate page 1 of 1.pdf 90 degrees clockwise and save to 1r.pdf. |
+| qpdf --encrypt mypw mypw 128 -- public.pdf private.pdf | Encrypt with 128 bits public.pdf using as the passwd mypw with output as private.pdf. |
+| qpdf --decrypt --password=mypw private.pdf file-decrypted.pdf | Decrypt private.pdf with output as file-decrypted.pdf. |
+| qpdf --rotate=+90:1-z 1.pdf 1r-all.pdf | Rotate all pages of 1.pdf 90 degrees clockwise and save to 1r-all.pdf |
+
+**Using Ghostscript**
+
+Ghostscript is widely available as an interpreter for the Postscript and PDF languages. The executable program associated with it is abbreviated to gs.
+
+This utility can do most of the operations pdftk can, as well as many others; see man gs for details. Use is somewhat complicated by the rather long nature of the options. For example:
+
+- Combine three PDF files into one:
+    
+    **$ gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite  -sOutputFile=all.pdf file1.pdf file2.pdf file3.pdf**
+    
+- Split pages 10 to 20 out of a PDF file:
+    
+    **$ gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dDOPDFMARKS=false -dFirstPage=10 -dLastPage=20\-sOutputFile=split.pdf file.pdf**

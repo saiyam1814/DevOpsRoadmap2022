@@ -1,0 +1,2 @@
+- learnt about crontabs in linux and it's implementation in github workflows.
+- For scheduled based trigger we use crontabs. Basically when we want to run the workflow at a particular time. 
