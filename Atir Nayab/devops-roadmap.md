@@ -6,13 +6,13 @@
 - [x] [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
 
 ## YAML
-- [ ] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
+- [x] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
 - [ ] [Introduction to YAML (Kunal Kushwaha)](https://youtu.be/IA90BTozdow)
 
 ## Git
-- [ ] [Git and GitHub crash course (freecodecamp)](https://youtu.be/RGOj5yH7evk)
-- [ ] [Complete Git and GitHub Tutorial (Kunal Kushwaha)](https://youtu.be/apGV9Kg7ics)
-- [ ] [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
+- [x] [Git and GitHub crash course (freecodecamp)](https://youtu.be/RGOj5yH7evk)
+- [x] [Complete Git and GitHub Tutorial (Kunal Kushwaha)](https://youtu.be/apGV9Kg7ics)
+- [x] [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
 
 ## cloud
 - [ ] [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)

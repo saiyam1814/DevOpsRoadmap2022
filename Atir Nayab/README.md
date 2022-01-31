@@ -269,3 +269,12 @@
   - interface
   - channel
 * [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
+
+## 31-Jan-2022 (day 20)
+- [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
+  - commit
+  - branching strategies
+  - integrating changes
+  - long run and short lived branches
+  - merge conflicts
+  - merge vs rebase
