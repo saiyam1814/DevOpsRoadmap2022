@@ -1,0 +1,1 @@
+- Learnt about slices and variadic functions in golang 
