@@ -98,22 +98,22 @@ print(website)
   
 - **Tuple** is an ordered sequence of items same as a list. The only difference is that tuples are immutable. Tuples are used to write-protect data and are usually faster than lists as they cannot change dynamically.
 
-It is defined within parentheses ()
+  It is defined within parentheses ()
 
-Example:
-```
-t = (5,'program', 1+3j)
-```
+  Example:
+  ```
+  t = (5,'program', 1+3j)
+  ```
 - **Strings** is sequence of Unicode characters. We can use single quotes or double quotes to represent strings. Multi-line strings can be denoted using triple quotes, ''' or """.
 
-Example:
-```
-s = "This is a string"
-print(s)
-s = '''A multiline
-string'''
-print(s)
-```
+  Example:
+  ```
+  s = "This is a string"
+  print(s)
+  s = '''A multiline
+  string'''
+  print(s)
+  ```
 - **Set** is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }.
   
   We can perform set operations like union, intersection on two sets. Sets have unique values. They eliminate duplicates.
@@ -161,45 +161,45 @@ The process of converting the value of one data type to another data type is cal
 There are two types of conversion:
 1. **Implicit Conversion:** In Implicit type conversion, Python automatically converts one data type to another data type. 
 
-Example:
-```
-num_int = 123
-num_flo = 1.23
+  Example:
+  ```
+  num_int = 123
+  num_flo = 1.23
 
-num_new = num_int + num_flo
+  num_new = num_int + num_flo
 
-print("datatype of num_int:",type(num_int))
-print("datatype of num_flo:",type(num_flo))
+  print("datatype of num_int:",type(num_int))
+  print("datatype of num_flo:",type(num_flo))
 
-print("Value of num_new:",num_new)
-print("datatype of num_new:",type(num_new))
-```
+  print("Value of num_new:",num_new)
+  print("datatype of num_new:",type(num_new))
+  ```
 
 2. **Explicit Conversion:** In Explicit Type Conversion, users convert the data type of an object to required data type. We use the predefined functions like int(), float(), str(), etc to perform explicit type conversion.
 
-This type of conversion is also called typecasting because the user casts (changes) the data type of the objects.
+  This type of conversion is also called typecasting because the user casts (changes) the data type of the objects.
 
-Syntax:
-```
-<datatype>(expression)
-```
+  Syntax:
+  ```
+  <datatype>(expression)
+  ```
 
-Example:
-```
-num_int = 123
-num_str = "456"
+  Example:
+  ```
+  num_int = 123
+  num_str = "456"
 
-print("Data type of num_int:",type(num_int))
-print("Data type of num_str before Type Casting:",type(num_str))
+  print("Data type of num_int:",type(num_int))
+  print("Data type of num_str before Type Casting:",type(num_str))
 
-num_str = int(num_str)
-print("Data type of num_str after Type Casting:",type(num_str))
+  num_str = int(num_str)
+  print("Data type of num_str after Type Casting:",type(num_str))
 
-num_sum = num_int + num_str
+  num_sum = num_int + num_str
 
-print("Sum of num_int and num_str:",num_sum)
-print("Data type of the sum:",type(num_sum))
-```
+  print("Sum of num_int and num_str:",num_sum)
+  print("Data type of the sum:",type(num_sum))
+  ```
 
 **NOTE:**
 - Implicit Type Conversion is automatically performed by the Python interpreter.
