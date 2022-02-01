@@ -1,2 +1,1 @@
-
-####I am Sri Mani Vinay. 
+I am Sri Mani Vinay
