@@ -278,3 +278,19 @@
   - long run and short lived branches
   - merge conflicts
   - merge vs rebase
+
+## 01-Feb-2022 (day 21)
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - what is aws certified cloud pratitioner
+  - what is cloud computing
+  - evolution of cloud hosting
+  - what is amazon
+  - what is aws
+  - what is csp
+  - landscape of csp
+  - gartner magic quadrant
+  - common cloud services
+  - techmology overview
+  - evolution on computing
+  - types of cloud computing
+  - cloud computing deployment models
