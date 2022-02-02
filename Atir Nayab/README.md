@@ -236,3 +236,61 @@
   * Routing
   * Calculate subner mask
   * types of subnet mask
+
+#### 28-Jan-2022 (day 17)
+* [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
+  * go mod init
+  * go packages
+  * variables
+  * keywords
+  * content
+  * print formatted data
+  * fmt package
+  * pointer
+  * arrays
+  * slices
+  * append
+  * loops
+  * range
+  
+#### 29-Jan-2022 (day 18)
+* [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
+  * loops
+  * Fields
+  * defer
+  * panic
+  * recover
+
+## 30-Jan-2022 (day 19)
+* [Learn Go Programming](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+  * pointers
+  - function
+  - goroutine
+  - interface
+  - channel
+* [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
+
+## 31-Jan-2022 (day 20)
+- [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
+  - commit
+  - branching strategies
+  - integrating changes
+  - long run and short lived branches
+  - merge conflicts
+  - merge vs rebase
+
+## 01-Feb-2022 (day 21)
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - what is aws certified cloud pratitioner
+  - what is cloud computing
+  - evolution of cloud hosting
+  - what is amazon
+  - what is aws
+  - what is csp
+  - landscape of csp
+  - gartner magic quadrant
+  - common cloud services
+  - techmology overview
+  - evolution on computing
+  - types of cloud computing
+  - cloud computing deployment models

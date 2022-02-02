@@ -1,0 +1,4 @@
+basic linux commands 
+
+cat >  new.txt
+

@@ -25,6 +25,40 @@ It divides the whole process into **7 layers**:
   - Flow control: Controls the amount of data being transferred.
     It also helps with error control using checksum 
 - Network layer
+  - Communication happens with other computers
+  - Router works at this layer
+  - Logical addressing happens here
+  - Network layer assigns the sender's and reciever's IP address to every segment and it forms an IP packet (so that every data packet can reach the correct destination)
+  - It also performs routing (moving data packet from source to destination)
+  - Load balancing also happens at this layer
 - Data link layer
+  - Allows us to directly communicate with the computer and hosts.
+  - Recieves the data packet from network layer which contains ip address of both sender and reciever (and subnet mask)
+  - MAC addresses are physical addresses. MAC adresses of sender and reviever are assigned to data link to form a frame
+  - MAC adress is 12 digit alphanumeric number of network interface of our computer
+  - Frame is basically data unit of the data link layer
 - Physical layer
+  - Wires, light or electrical signal
+  - Physical layer recieves the signal, convert it to bits and pass it to data link layer as a frame.
 
+## How this works
+
+```
+  "ME"              "My FRIEND"
+    |                   |
+Application         Application
+    |                   |
+Presentation        Presentation
+    |                   |
+Session             Session
+    |                   |
+Transport           Transport
+    |                   |
+Network             Network
+    |                   |
+Data link           Data link
+    |                   |
+Physical ---------> Physical
+```
+
+each "me" layer assumes it is talking to same layer of "my friend"
