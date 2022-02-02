@@ -1,0 +1,1 @@
+- learnt about creating docker images from scratch and done some practice around it.
