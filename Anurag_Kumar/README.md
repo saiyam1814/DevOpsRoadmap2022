@@ -20,3 +20,4 @@
 - [x]  14 > [Linux Crontabs](Progress/014/Readme.md)
 - [x]  15 > [Golang continued](Progress/015/Readme.md)
 - [x]  16 > [Creating docker images](Progress/016/Readme.md)
+- [x]  17 > [Kubernetes Pods](Progress/017/Readme.md)
