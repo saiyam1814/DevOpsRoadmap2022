@@ -1,5 +1,14 @@
 # My Progress
 
+#### 2-Feb-2022 (Day 21)
+- Learned about processes in linux. ([Notes](./Linux/process.md))
+
+#### 31-Jan-2022 (Day 19)
+- Did some hands on linux command line operations. ([Notes](./Linux/command-line-operations.md))
+
+#### 20-Jan-2022 (Day 8)
+- Brushed up some linux command line operation concepts. ([Notes](./Linux/command-line-operations.md))
+
 #### 18-Jan-2022 (Day 6)
 - Brushed up my knowledge about linux package management systems. ([Notes](./Linux/package-management.md))
 
