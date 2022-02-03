@@ -1,0 +1,63 @@
+## 03-Feb-22:
+
+
+- **Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples** *(Kunal Kushwaha)*:
+
+  - *Protocols:*
+    - Set of rules defined by the internet society.
+  - *Port Numbers:*
+    - A port number is a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server.
+    - 0 to 1023 *(Reserved ports)*
+      - Ex: HTTP has its port number as 80.
+    - 1024 to 49152 *(Application ports)*
+      - Ex: SQL has its port number as 1433.
+  - *Submarine Cables Map (Optical Fibre Cables):*
+    - https://www.submarinecablemap.com/ 
+    - This is how the whole world is connected via internet(very cool).
+  - *LAN(Local Area Network), MAN(Metropolitan Are Network) & WAN(Wide Area Network):*
+    - Small computer networks that are confined to a localised area are known as LANs.
+    - The network that connects users across metropolitan areas or cities.
+    - The networks spread across countries or on a very large geographical area are known as WANs.
+  - *Router:*
+    - A router is a network device that forwards data from one network to another.
+  - *Topologies(BUS, RING, STAR, TREE, MESH):*
+    - **BUS:**
+      - The bus topology is designed in such a way that all the stations are connected through a single cable known as a backbone cable.
+    - **RING:**
+      - Ring topology is like a bus topology, but with connected ends.
+      - The data flows in a single loop continuously known as an endless loop.
+    - **STAR:**
+      - Star topology is an arrangement of the network in which every node is connected to the central hub, switch or a central computer.
+    - **TREE:**
+      - Tree topology combines the characteristics of bus topology and star topology.
+      - A tree topology is a type of structure in which all the computers are connected with each other in hierarchical fashion.
+    - **MESH:**
+      - Mesh technology is an arrangement of the network in which computers are interconnected with each other through various redundant connections.
+  - *OSI MODEL(7 Layers):*
+    - Application -> Presentation -> Session -> Transport -> Network -> Data link -> Physical
+    - OSI Model stands for Open System Interconnection Model.
+    - **Application Layer:**
+      - It's implemented in the software.
+      - Users interact in this layer.
+      - Example: Whatsapp,Browser etc
+    - **Presentation Layer:**
+      - Converts the data received from application layer to Machine Representable binary format.
+      - Provides abstraction.
+      - SSL protocol is used.
+    - **Session Layer:**
+      - The Session layer is used to establish, maintain and synchronizes the interaction between communicating devices.
+    - **Transport Layer:**
+      - The main responsibility of the transport layer is to transfer the data completely.
+      - It receives the data from the upper layer and converts them into smaller units known as segments.
+    - **Network Layer:**
+      - This is where the router lives.
+      - It determines the best path to move data from source to the destination based on the network conditions, the priority of service, and other factors.
+    - **Data link Layer:**
+      - It defines the format of the data on the network. It provides a reliable and efficient communication between two or more devices.
+    - **Physical Layer:**
+      - The main functionality of the physical layer is to transmit the individual bits from one node to another node.
+      - It establishes, maintains and deactivates the physical connection.
+  - *TCP/IP MODEL:*
+    - Application -> Transport -> Network -> Data link -> Physical
+  - *Client Server Architecture*
+  - *Peer to Peer Architecture*
