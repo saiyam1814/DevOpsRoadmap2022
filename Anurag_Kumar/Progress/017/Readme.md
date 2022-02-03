@@ -1,0 +1,1 @@
+- Learnt about kubernetes pods and create some pods in the labs both in the imperative manner and by writing kubernetes manifests. 

@@ -1,25 +1,25 @@
 
 ## Prerequisites
-- [x] [Introduction of Linux](https://www.edx.org/course/introduction-to-linux)
-- [x] [DevOps Prerequisite (freecodecamp)](https://youtu.be/Wvf0mBNGjXY)
-- [x] [CCNA part 1](https://youtu.be/rv3QK2UquxM)
-- [x] [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
+- [ ] [Introduction of Linux](https://www.edx.org/course/introduction-to-linux)
+- [ ] [DevOps Prerequisite (freecodecamp)](https://youtu.be/Wvf0mBNGjXY)
+- [ ] [CCNA part 1](https://youtu.be/rv3QK2UquxM)
+- [ ] [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
 
 ## YAML
-- [x] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
+- [ ] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
 - [ ] [Introduction to YAML (Kunal Kushwaha)](https://youtu.be/IA90BTozdow)
 
 ## Git
-- [x] [Git and GitHub crash course (freecodecamp)](https://youtu.be/RGOj5yH7evk)
-- [x] [Complete Git and GitHub Tutorial (Kunal Kushwaha)](https://youtu.be/apGV9Kg7ics)
-- [x] [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
+- [ ] [Git and GitHub crash course (freecodecamp)](https://youtu.be/RGOj5yH7evk)
+- [ ] [Complete Git and GitHub Tutorial (Kunal Kushwaha)](https://youtu.be/apGV9Kg7ics)
+- [ ] [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
 
 ## cloud
 - [ ] [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
 
 ## docker
 - [ ] [Docker playlist by Saloni](https://www.youtube.com/playlist?list=PL5uLNcv9SibBZj30yqG01a7A4_MXSyGK3)
-- [ ] [Docker (freecodecamp)](https://youtu.be/9zUHg7xjIqQ)
+- [ ] [Docker ((freecodecamp)](https://youtu.be/9zUHg7xjIqQ)
 - [ ] [Docker (Techworldwithnana)](https://youtu.be/3c-iBn73dDE)
 - [ ] [Docker deep dive by Nigel](https://youtu.be/GwXLNAcHk-k)
 - [ ] [Dockerfile best practices](https://youtu.be/JofsaZ3H1qM)
