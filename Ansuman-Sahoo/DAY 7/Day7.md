@@ -44,19 +44,19 @@
       - Converts the data received from application layer to Machine Representable binary format.
       - Provides abstraction.
       - SSL protocol is used.
-      - **Session Layer:**
-        - The Session layer is used to establish, maintain and synchronizes the interaction between communicating devices.
-      - **Transport Layer:**
-        - The main responsibility of the transport layer is to transfer the data completely.
-        - It receives the data from the upper layer and converts them into smaller units known as segments.
-      - **Network Layer:**
-        - This is where the router lives.
-        - It determines the best path to move data from source to the destination based on the network conditions, the priority of service, and other factors.
-      - **Data link Layer:**
-        - It defines the format of the data on the network. It provides a reliable and efficient communication between two or more devices.
-      - **Physical Layer:**
-        - The main functionality of the physical layer is to transmit the individual bits from one node to another node.
-        - It establishes, maintains and deactivates the physical connection.
+    - **Session Layer:**
+      - The Session layer is used to establish, maintain and synchronizes the interaction between communicating devices.
+    - **Transport Layer:**
+      - The main responsibility of the transport layer is to transfer the data completely.
+      - It receives the data from the upper layer and converts them into smaller units known as segments.
+    - **Network Layer:**
+      - This is where the router lives.
+      - It determines the best path to move data from source to the destination based on the network conditions, the priority of service, and other factors.
+    - **Data link Layer:**
+      - It defines the format of the data on the network. It provides a reliable and efficient communication between two or more devices.
+    - **Physical Layer:**
+      - The main functionality of the physical layer is to transmit the individual bits from one node to another node.
+      - It establishes, maintains and deactivates the physical connection.
   - *TCP/IP MODEL:*
     - Application -> Transport -> Network -> Data link -> Physical
   - *Client Server Architecture*
