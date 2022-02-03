@@ -1,0 +1,8 @@
+# DAY 19 - 20
+
+# 02/02/2022 - 03/02/2022
+
+1. Covered topics like functions and packages in Go. Learned how functions work in Go and what are packages and modules in Go. How to create a module and package in Go. The use of init func and blankidentifier (_) in Go.
+2. Learned how to create a container, and more commands of docker. Learned how to create a dockerfile, different components of dockerfile. How to build a docker image from a docker file and then running a container from that image.
+3. Got to know about different tools used in DevOps.
+4. Explored various  open source projects realted to Go, automation and kubernetes.
