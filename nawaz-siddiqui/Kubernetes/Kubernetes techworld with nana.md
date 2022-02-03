@@ -163,3 +163,19 @@ Replicaset manages all replica of a pod
 A pod is an abstraction of a container
 
 Everything below the deployment is managed by Kubernetes
+
+### K8s configuration files
+
+Each configuration files has three parts:
+
+Metadata means what you want to create.
+
+Specification means specific attributes to the kind.
+
+Status is automatically generated and added by Kubernetes via the help of etcd.
+
+### Connecting deployment to pods
+
+Pods get label through the template blueprint.
+
+The label is matched by selector.
