@@ -54,3 +54,52 @@ AWS Direct Connect is a private/dedicated connection between your datacenter, of
 
 **A co-location** is a data center where equipment, space, and bandwidth are available for rental to retail customers.
 
+**Direct Connect Locations** are trusted partnered datacenters that you can establish a dedicated high speed, low-latency connectin from you on-premise to AWS.
+
+You would use the AWS Direct Connect service to order and establisj a connection.
+
+### Local Zones
+**Local Zones** are datacenters located very close to a densely populated area to provide single-digit millisecond low latency performance (e.g. 7ms) for that area.
+
+- Los Angeles, California was the first Local Zone to be deployed.
+  - It is a logical extension of the US-West Region
+  - The identifier looks like the following: **us-west-w-lax-1a**
+- Only specific AWS Services have been made available
+  - EC2 Instance Types (T3, C5, R5, R5d,  I3en, G4)
+  - EBS (io1 and gp2)
+  - Amazon FSx
+  - Application Load Balancer
+  - Amazon VPC
+
+The purpose of Local Zone is the support highlt-demaind application sensitive to latencies:
+- Media & Entertainment
+- Electronic Design Automation
+- Ad-Tech
+- Machine Learning
+
+### Wavelength Zones
+AWS Wavelength Zones allows for edge-computing on 5G Networks. <br/>
+Applications will have ulta-low latency being as close as possible to the users.
+
+AWS has partnered with various Telecom companies to utlilize their 5G networks.
+
+You create a Subnet tied to a Wavelength Zone and then you can launch VMs to the edge of the targeted 5G networks.
+
+### Data Residency
+**What is Data Residency?** <br/>
+The physcial or geogeaphic location of where an organization or cloud resources reside.
+
+**What is Compliance Boundaries?** <br/>
+A regulatory compliance (legal requirement) byy a government or organisation that describes where data and cloud resources are allowed to reside.
+
+**What is Data Sovereignty?** <br/>
+Data Sovereignty is the jurisdictioncal cotrol or legal authorit that can be asserted over data because it's physical location is within jurisdictional boundaries.
+
+For workloads that need to meet compliance boundaries strictly definind the data residency of data and cloud resources in AWS you can use:
+
+**AWS Outposts** is physcial rack of servers that you can put in your data center. Your data will reside whenevrr the Outpost physcially resides.
+
+**AWS Config** is a policy as Code service. You can create rules to continuous check AWS resources configuration. If they deviate from your expectations you are alerted or WS Config can in some cases auto-rmediate.
+
+**IAM Policies** cam be written explicitly deny access to specific AWS regions. A **Service Control Policy (SCP)** are permissions applied organisations wide.
+
