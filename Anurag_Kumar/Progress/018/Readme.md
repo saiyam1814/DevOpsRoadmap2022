@@ -1,0 +1,1 @@
+- Learnt about kubernetes services from kodekloud video and read documentation page of kubernetes services. 

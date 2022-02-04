@@ -21,3 +21,4 @@
 - [x]  15 > [Golang continued](Progress/015/Readme.md)
 - [x]  16 > [Creating docker images](Progress/016/Readme.md)
 - [x]  17 > [Kubernetes Pods](Progress/017/Readme.md)
+- [x]  18 > [Kubernetes services](Progress/018/Readme.md)
