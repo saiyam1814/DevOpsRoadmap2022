@@ -49,4 +49,6 @@ AWS Cloud's Sustainability goals are composed of three parts:
   
 3. **Water Stewardship** <br/>
   Direct evaporate technology to cool our data center. <br/>
-  
+  Use of non-portable water for cooling purposes (recycled water) <br/>
+  On-site water treatment allows us to remoce scale-forming minerals and reuse water for more cycle. <br/>
+Water efficient metrics determings and monitor optimal water use for each AWS region.
