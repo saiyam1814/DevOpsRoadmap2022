@@ -332,3 +332,17 @@
 - failure zone
 - aws global network
 - point of presence
+
+## 03-02-2022 (day 23)
+
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - aws direct connect
+  - local zones
+  - wavelength zones
+  - data residency
+  - aws for government
+  - GovCloud
+  - aws in china
+  - aws ground station
+  - cloud architect terminologies
+  - disaster recovery options
