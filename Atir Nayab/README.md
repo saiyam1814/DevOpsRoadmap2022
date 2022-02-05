@@ -346,3 +346,12 @@
   - aws ground station
   - cloud architect terminologies
   - disaster recovery options
+
+## 04-02-2022 (day 24)
+
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - api
+  - aws account id
+  - powershell
+  - arns
+  - aws sdk
