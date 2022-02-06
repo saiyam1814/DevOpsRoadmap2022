@@ -355,3 +355,15 @@
   - powershell
   - arns
   - aws sdk
+
+## 05-02-2022 (day 25)
+
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - IaC
+  - aws toolkit
+  - access keys
+  - aws documentation
+  - aws shared responsibility
+  - computing services
+  - virtual machines
+  - high performance computing
