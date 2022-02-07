@@ -346,3 +346,46 @@
   - aws ground station
   - cloud architect terminologies
   - disaster recovery options
+
+## 04-02-2022 (day 24)
+
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - api
+  - aws account id
+  - powershell
+  - arns
+  - aws sdk
+
+## 05-02-2022 (day 25)
+
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - IaC
+  - aws toolkit
+  - access keys
+  - aws documentation
+  - aws shared responsibility
+  - computing services
+  - virtual machines
+  - high performance computing
+
+## 06-02-2022 (day 26)
+
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - edge and hybrid computing
+  - types os storage devices
+  - s3 storage classes
+  - aws snow family
+  - storage services
+  - what is database
+  - what is data warehouse
+  - cloud native networking service
+  - enterprise/hybrid networking
+  - virtual private cloud (VPC) and subnets
+  - security groups vs NACLs
+  - EC2
+  - ec2 isntance families
+  - ec2 instance types
+  - ec2 dedicated host
+  - ec2 tenancy
+  - ec2 pricing models
+  - aws savings plan

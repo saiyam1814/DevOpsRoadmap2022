@@ -32,7 +32,7 @@ It is also a load balancer.
 
 ### Ingress
 
-Kubernetes Ingress is **an API object that provides routing rules to manage external users' access to the services in a Kubernetes cluster**, typically via HTTPS/HTTP. With Ingress, you can easily set up rules for routing traffic without creating a bunch of Load Balancers or exposing each service on the node.
+Kubernetes Ingress is **an API object that provides routing rules to manage external users' access to the services in a Kubernetes cluster**, typically via HTTPS/HTTP. With Ingress, you can easily set up rules for routing traffic without creating a bunch of Load Balancers or exposing each service on the node.
 
 ### ConfigMap:
 
@@ -86,15 +86,15 @@ A node consists of Kubelet, Kubeproxy, and Container Runtime to function properl
 
 **Container Runtime**
 
-A container runtime, also known as container engine, is **a software component that can run containers on a host operating system**.
+A container runtime, also known as container engine, is **a software component that can run containers on a host operating system**.
 
 **Kubelet**
 
-The kubelet is the primary "node agent" that runs on each node. It can **register the node with the apiserver using** one of: the hostname; a flag to override the hostname; or specific logic for a cloud provider. Kubelet interacts with both - the container and node. It helps start the pod with a container inside.
+The kubelet is the primary "node agent" that runs on each node. It can **register the node with the apiserver using** one of: the hostname; a flag to override the hostname; or specific logic for a cloud provider. Kubelet interacts with both - the container and node. It helps start the pod with a container inside.
 
 **Kubeproxy**
 
-kube-proxy is **a network proxy that runs on each node in your cluster**, implementing part of the Kubernetes Service concept. kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster.
+kube-proxy is **a network proxy that runs on each node in your cluster**, implementing part of the Kubernetes Service concept. kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster.
 
 **Worker Node**
 
@@ -176,6 +176,105 @@ Status is automatically generated and added by Kubernetes via the help of etcd.
 
 ### Connecting deployment to pods
 
-Pods get label through the template blueprint.
+Pods get labeled through the template blueprint.
 
-The label is matched by selector.
+The label is matched by the selector.
+
+### Kubernetes namespace
+
+Organize resources in namespace
+
+Virtual cluster inside a cluster
+
+Namespace is used to built up a group of similar resources to make it easier for troubleshooting/managing, avoid conflicts between different teams and share/limit resources
+
+Additional namespace is not recommended to use in case of small projects, in this case default namespace should be used
+
+Four namespaces are there by default
+
+**Kube-system** 
+
+Do not create or modify in kube-system
+
+System processes are deployed here like master processes and kubectl processes
+
+**Kube-public**
+
+Contains publicly accessible data
+
+A configmap, which contains cluster information
+
+**Kube-node-lease**
+
+Heartbeats of nodes
+
+Each node has associated lease object in namespace
+
+Determines the availability of a node
+
+**Default**
+
+Resources you create are located here
+
+**Use cases of namespace**
+
+Structure your components
+
+Avoid conflict between teams
+
+Share services between different environment
+
+Access and resource limits on namespace levels
+
+### K8s ingress
+
+Kubernetes Ingress is **an API object that provides routing rules to manage external users' access to the services in a Kubernetes cluster**, typically via HTTPS/HTTP. With Ingress, you can easily set up rules for routing traffic without creating a bunch of Load Balancers or exposing each service on the node.
+
+### Ingress Controller
+
+Evaluates all the rules
+
+Manages redirections
+
+Entrypoint to cluster
+
+### Helm
+
+It is a package manager for Kubernetes
+
+Used to package yaml files and distribute them in public and private repositories
+
+Helm chart is the collection of different packages, which simplifies the installation process of certain standard software. In helm chart all the dependencies are packed together and installed on a single go as a template.
+
+**Helm Chart Structure**
+
+Directory Structure:
+
+```jsx
+mychart/
+Chart.yaml
+values.yaml
+charts/
+templates/
+...
+```
+
+top level mychart folder is the name of chart.
+
+Chart.yaml is the meta info about the chart.
+
+values.yaml is the values for the template files which are default and you can override when needed.
+
+charts folder contain chart dependencies.
+
+template folder contains the actual template files
+
+### Persistent volume claim (PVC)
+
+A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes.A Persistent Volume Claim (PVC) is **a request for storage by a user**.
+
+### Storage Class
+
+Provisions persistent volumes dynamically when PVC claims it.
+
+Can be assigned via yaml files via “provisioner” attribute.

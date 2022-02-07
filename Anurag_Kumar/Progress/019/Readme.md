@@ -1,0 +1,1 @@
+- Kubernetes continued learnt about more kubernetes objects.
