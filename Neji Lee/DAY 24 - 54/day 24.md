@@ -6,7 +6,7 @@
 1. Studied K8s architecture in more brief. 
 >> What are clusters?
 >> POD, Nodes, also got to know more about differnent components of K8s architecture 
-  >> Control plane, Kube schedular, Kubernetes API-service, control manager, etcd, kube-proxy, kubelet and docker engine
+  >> Control plane, Kube schedular, Kubernetes API-service, controller-manager, etcd, kube-proxy, kubelet and docker engine
 >> Role of differnent components in this architecture.
 
 2. Studied about docker volume and how to share it, topics covered
@@ -17,5 +17,5 @@
 >> Benefits of docker volume
 >> Different cmds to rm, inspect and ls docker volume 
 
-3.  Practised some concepts in Gloang
-4.  
+3.  Practised some concepts in Golang
+ 
