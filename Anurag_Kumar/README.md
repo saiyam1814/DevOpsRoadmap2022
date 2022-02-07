@@ -23,3 +23,4 @@
 - [x]  17 > [Kubernetes Pods](Progress/017/Readme.md)
 - [x]  18 > [Kubernetes services](Progress/018/Readme.md)
 - [x]  19 > [Kubernetes continued](Progress/019/Readme.md)
+- [x]  20 > [Kubernetes continued](Progress/020/Readme.md)
