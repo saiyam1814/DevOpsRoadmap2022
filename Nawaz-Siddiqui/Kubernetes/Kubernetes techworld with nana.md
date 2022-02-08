@@ -278,3 +278,49 @@ A PersistentVolume (PV) is a piece of storage in the cluster that has been provi
 Provisions persistent volumes dynamically when PVC claims it.
 
 Can be assigned via yaml files via “provisioner” attribute.
+
+### Application’s State
+
+Stateful set applications keep track of the previous records and request. Examples are databases, and application which stores data. The vice versa is StatelessSet.
+
+Stateful applications are deployed in Kubernetes using StatefulSet, while Stateless applications are deployed using deployment.
+
+**Pod endpoint**
+
+An endpoint is a resource that gets IP addresses of one or more pods dynamically assigned to it.
+
+### Kubernetes Services
+
+**Advantages**
+
+Stable IP address
+
+Loadbalancing
+
+Loose coupling within and outside a cluster
+
+**Cluster IP service**
+
+Default service
+
+Can do load balancing kind of stuff
+
+An abstraction layer that represents IP address
+
+The incoming request from ingress is handed over to cluster IP service which redirects it to a specific pod
+
+While redirecting request, Pods are identified via selectors
+
+Selector consists of Key-value pair
+
+**Headless service**
+
+Pod replicas that are not identical and have their own state, for their communication Headless service are used. Example: master and slave nodes communication.
+
+**NodePort service**
+
+Extension of Cluster IP service
+
+**LoadBalancer service**
+
+Extension of Nodeport service
