@@ -25,3 +25,4 @@
 - [x]  19 > [Kubernetes continued](Progress/019/Readme.md)
 - [x]  20 > [Golang continued](Progress/020/Readme.md)
 - [x]  21 > [Dokcer with KodeKloud](Progress/021/Readme.md)
+- [x]  22 > [Vim and it's customizations](Progress/022/Readme.md)
