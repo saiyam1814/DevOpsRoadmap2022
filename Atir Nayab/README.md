@@ -389,3 +389,24 @@
   - ec2 tenancy
   - ec2 pricing models
   - aws savings plan
+
+## 07-02-2022 (day 27)
+
+- [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
+  - zero trust model
+  - zero trust on aws
+  - zero trust on aws with third parties
+  - directory srvice
+  - identity providers
+- [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/?cp=sec&sec=prep)
+  - aws service offerings
+  - what is client server model
+  - deployment models for cloud computing
+  - benefits of cloud computing
+  - amaozn elastic compute
+  - how amazon ec2 works
+  - amazon ec2 instance types
+  - amazon ec2 pricing
+  - scalability
+  - amazon ec2 auto scaling
+  - example amazon ec2 auto scaling
