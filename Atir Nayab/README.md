@@ -410,3 +410,15 @@
   - scalability
   - amazon ec2 auto scaling
   - example amazon ec2 auto scaling
+
+## 08-02-2022 (day 28)
+
+- [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/?cp=sec&sec=prep)
+  - Directing traffic with elastic load balancing
+  - Messaging and Queueing
+  - additional compute services
+  - aws global infrastructure
+  - edge locations
+  - how to provision aws resources
+  - connectivity to aws
+  - global networking
