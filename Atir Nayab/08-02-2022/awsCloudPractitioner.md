@@ -275,7 +275,7 @@ both acls and security group enable you to configure custom rules for the traffi
 
 you can think of dns as being the phone book of the internet. dns resolution is the process of thranslating a domain name to an ip address.
 
-![dns](https://assets.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1644354000/Yjb_a9p405n9vOf5WDwEzQ/tincan/31d9c0cca79c54bdceaf3e938fd424e97c98c7e8/assets/Pd32jad3VWk7EjGe_AFBIDcTkYnYj1OOb.png)
+![dns](../asset/dns.png)
 
 1. when you enter the domain name into your browser, this request is sent to a customer dns resolver
 1. the customer dns resolver asks the company dns server for the ip address that corresponds to any company website.
@@ -289,7 +289,7 @@ amazon route 53 connects user requests to infrastructure running in aws. it can 
 
 another feature of route 53 is the ability to manage the dns records for domain names. you can register new domain names direclty in route 53. you can also transfer dns records for existing doamin names managed by other domain registrars.
 
-![route 53 and cloudfront](https://assets.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1644354000/Yjb_a9p405n9vOf5WDwEzQ/tincan/31d9c0cca79c54bdceaf3e938fd424e97c98c7e8/assets/mR1nvYoC4OSUVg9a_WE71CA369xcdceJ2.png)
+![route 53 and cloudfront](../asset/route53.png)
 
 1. a customer requests data from the application by going to any company's website
 1. amazon route 53 uses dns resolution to identify anycompany.com corresponding ip address 192.0.... this information is sent back to the customer
