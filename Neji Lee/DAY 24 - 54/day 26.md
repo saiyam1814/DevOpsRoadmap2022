@@ -11,4 +11,4 @@
 
 4. Revised IPv6 in networking, is made up of 128 bits, divided into 8 segments and each segment is of 16bits, is in Hexadecimal.
 
-5. Studied about k8s objects, k8s object managment,  fundamentals of pods.
+5. Studied about k8s objects, k8s object management,  fundamentals of pods.
