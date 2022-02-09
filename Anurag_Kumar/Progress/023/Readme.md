@@ -1,0 +1,1 @@
+- learnt about receiver functions in golang and how it's different from OOPs in other programming languages.
