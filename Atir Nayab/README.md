@@ -422,3 +422,16 @@
   - how to provision aws resources
   - connectivity to aws
   - global networking
+
+## 09-02-2022 (day 29)
+
+- [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/?cp=sec&sec=prep)
+  - instance stores and amazon elastic block store (amazon ebs)
+  - amazon simple storage service (amazon s3)
+  - amazon elastic file system (amazon efs)
+  - amazon relational database service (amazon rds)
+  - amazon dynamoDb
+  - amazon redshift
+  - aws database migration service
+  - additional database services
+  - shared responsibility model
