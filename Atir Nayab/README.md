@@ -435,3 +435,14 @@
   - aws database migration service
   - additional database services
   - shared responsibility model
+
+## 10-02-2022 (day 30)
+
+- [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/?cp=sec&sec=prep)
+  - user permissions and access
+  - compliance
+  - denial of service attacks
+  - additional security services
+  - amazon cloudwatch
+  - aws cloudtrail
+  - aws trusted advisor
