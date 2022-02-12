@@ -61,7 +61,7 @@ Files saved in you home directory are available in future sessions for the same 
 **Shell Environments** <br/>
 Seamlessly switch between
 - Bash
-- PowerShekk
+- Powershell
 - Zsh
 
 ## Infrastructure as Code (IaC)
