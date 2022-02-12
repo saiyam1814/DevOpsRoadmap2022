@@ -67,7 +67,7 @@ Seamlessly switch between
 ## Infrastructure as Code (IaC)
 You write a configuration script to automate creating, updating or destroying cloud infrastructure.
 - IaC is a blueprint of your infrastructure.
-- IaC allows you to easily sharem version or inventory your cloud infrastructure.
+- IaC allows you to easily share version or inventory your cloud infrastructure.
 
 AWS has two offerings for writing infrastrucutre as a code.
 
