@@ -84,7 +84,8 @@ CDK is an Imperative IaC tool.
 
 **Imperative**
 - You say what you want, and the rest is filled in. **_Implicit_**
-- Less verbosem you could end up with misconfiguration
+- Less verbose you could end up with misconfiguration
+- ```
 - Does more than Declarative
 - Uses programming languages eg. Python Rubym JavaScript
 
