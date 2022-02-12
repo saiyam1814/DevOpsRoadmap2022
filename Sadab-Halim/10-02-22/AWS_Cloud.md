@@ -93,7 +93,7 @@ AWS CloudFormation allows you to write Infrastructure as Code (IaC) as either a 
 
 CloudFormation is simple but it can lead to large files or is limited in some regard to creating dynamic or repeatable infrastructure compared to CDK.
 
-CloudFormation can be easier for DevOps Engineers who do not have a backgroung in web programming languages.
+CloudFormation can be easier for DevOps Engineers who do not have a background in web programming languages.
 
 Since CDK generates out CloudFormation its sill important to be able to read and understand CloudFormation in order to debug Iac stacks.
 
