@@ -27,3 +27,4 @@
 - [x]  21 > [Dokcer with KodeKloud](Progress/021/Readme.md)
 - [x]  22 > [Vim and it's customizations](Progress/022/Readme.md)
 - [x]  23 > [Receiver functions in Golang](Progress/023/Readme.md)
+- [x]  24 > [Argo-project](Progress/024/Readme.md)

@@ -1,0 +1,2 @@
+- Learnt about gitops and argo project
+- Done some labs around it. 
