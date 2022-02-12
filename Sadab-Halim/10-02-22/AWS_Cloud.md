@@ -87,7 +87,7 @@ CDK is an Imperative IaC tool.
 - Less verbose you could end up with misconfiguration
 - ```
 - Does more than Declarative
-- Uses programming languages eg. Python Rubym JavaScript
+- Uses programming languages eg. Python, Ruby & JavaScript.
 
 ## CloudFormation
 AWS CloudFormation allows you to write Infrastructure as Code (IaC) as either a JSON or YAML file.
