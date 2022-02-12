@@ -19,7 +19,7 @@
 ## cloud
 
 - [x] [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
-- [] [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/?cp=sec&sec=prep)
+- [x] [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/?cp=sec&sec=prep)
 
 ## docker
 
