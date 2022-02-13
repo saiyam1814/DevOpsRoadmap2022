@@ -466,3 +466,17 @@
   - benefits of the aws cloud
 
 ![test quiz](asset/cloudPractitionerTestQuiz.png)
+
+## 13-02-2022 (day 32)
+
+- [Docker playlist by Saloni](https://www.youtube.com/playlist?list=PL5uLNcv9SibBZj30yqG01a7A4_MXSyGK3)
+  - docker introduction
+  - docker handson
+- [Written and developed by Prakhar Srivastav](https://docker-curriculum.com/)
+  - what is docker?
+  - what are containers
+  - why use containers
+  - run in interactive mode
+  - detached mode
+  - docker images
+  - dockerfile
