@@ -446,3 +446,23 @@
   - amazon cloudwatch
   - aws cloudtrail
   - aws trusted advisor
+
+## 12-02-2022 (day 31)
+
+- [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/?cp=sec&sec=prep)
+  - aws free tier
+  - aws pricing concepts
+  - billing dash board
+  - consolidated billing
+  - aws budgets
+  - aws cost explorer
+  - aws support plans
+  - aws marketplace
+  - aws cloud adoption framework (aws caf)
+  - migration strategies
+  - aws snow family
+  - innovation with aws
+  - the aws well architected framework
+  - benefits of the aws cloud
+
+![test quiz](asset/cloudPractitionerTestQuiz.png)
