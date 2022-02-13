@@ -4,13 +4,13 @@
 # Progress
 ## Prerequisites
 - [ ] [Introduction of Linux](https://www.edx.org/course/introduction-to-linux)
-- [ ] [DevOps Prerequisite (freecodecamp)](https://youtu.be/Wvf0mBNGjXY)
+- [x] [DevOps Prerequisite (freecodecamp)](https://youtu.be/Wvf0mBNGjXY)
 - [x] [Computer Network (kunal kushwaha)](https://www.youtube.com/watch?v=IPvYjXCsTg8) 
 - [x] [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
 
 ## YAML
-- [ ] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
-- [ ] [Introduction to YAML (Kunal Kushwaha)](https://youtu.be/IA90BTozdow)
+- [x] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
+- [x] [Introduction to YAML (Kunal Kushwaha)](https://youtu.be/IA90BTozdow)
 
 ## Git
 - [ ] [Git and GitHub crash course (freecodecamp)](https://youtu.be/RGOj5yH7evk)
