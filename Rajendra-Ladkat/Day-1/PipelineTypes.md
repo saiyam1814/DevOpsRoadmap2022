@@ -22,8 +22,9 @@ label –  this is just a label for the Jenkins environment
 
 docker –  this is to run the pipeline in Docker environment.
 
-The Declarative pipeline code will looks like this:
-
+## **The Declarative pipeline code will looks like this**:
+````
+```
 pipeline {
   agent { label 'node-1' }
   stages {
@@ -42,7 +43,9 @@ pipeline {
     }
   }
 }
-Scripted Pipeline:
+```
+````
+## **Scripted Pipeline**:
 
 The scripted pipeline is a traditional way of writing the Jenkins pipeline as code. Ideally, Scripted pipeline is written in Jenkins file on web UI of Jenkins.
 
@@ -52,13 +55,13 @@ This helps developers to develop advance and complex pipeline as code.
 
 Structure and syntax of the scripted pipeline:
 
-Node Block:
+**Node Block**:
 
 Node is the part of the Jenkins architecture where Node or agent node will run the part of the workload of the jobs and master node will handle the configuration of the job. So this will be defined in the first place as
 
 node {
 }
-Stage Block:
+**Stage Block**:
 
 Stage block can be a single stage or multiple as the task goes. And it may have common stages like
 
@@ -77,7 +80,8 @@ So the stages can be written as mentioned below:
 stage {
 }
 So, Together, the scripted pipeline can be written as mentioned below.
-
+````
+```
 node ('node-1') {
   stage('Source') {
     git 'https://github.com/digitalvarys/jenkins-tutorials.git''
@@ -87,6 +91,8 @@ node ('node-1') {
     sh "'${gradle_home}/bin/gradle' clean compileJava test"
   }
 }
+```
+````
 Declarative Pipeline encourages a declarative programming model, whereas Scripted Pipelines follow a more imperative programming model. 
 
 Declarative type imposes limitations to the user with a more strict and pre-defined structure, which would be ideal  for simpler continuous delivery pipelines. 
