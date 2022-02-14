@@ -1,0 +1,23 @@
+pipeline {
+  agent any
+  stages {
+    stage('Build') {
+      steps {
+        sh 'echo "I am from the Build stage"'
+      }
+    }
+
+    stage('Buzz Buzz') {
+      steps {
+        echo 'I am from the Buzz Buzz stage'
+      }
+    }
+
+    stage('Buzz Test') {
+      steps {
+        echo 'I am from the Buzz Test'
+      }
+    }
+
+  }
+}
