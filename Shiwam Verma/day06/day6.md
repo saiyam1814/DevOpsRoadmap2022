@@ -24,5 +24,5 @@
    - Benefits of YAML
    - Storing data in YAML
 
-- YAML is the language used in majority in kubenetes, Docker.
-- It's not difficult to write or unnderstand. It's like the next gen of json format.  
+- YAML is the language which is used in majority in Kubernetes & Docker Compose.
+- It's not difficult to write or understand. It's like the next gen of JSON format. 
