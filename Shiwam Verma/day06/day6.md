@@ -1,6 +1,6 @@
 # Completed devops pre-requisites course 
 
-####Learnt the following stuff
+#### Learnt the following stuff
    - Multiple VMs
       - How to connect multiple VMs
    - Vagrant
