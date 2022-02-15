@@ -480,3 +480,10 @@
   - detached mode
   - docker images
   - dockerfile
+
+## 14-02-2022 (day 33)
+
+- [Written and developed by Prakhar Srivastav](https://docker-curriculum.com/)
+  - docker on aws
+  - multi container environments
+  - docker network
