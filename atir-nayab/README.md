@@ -503,3 +503,8 @@
   - volumes
   - deleting volumes
   - passing env variables
+
+## 17-02-2022 (day 34)
+
+- [Docker (freecodecamp)](https://youtu.be/9zUHg7xjIqQ)
+  - docker compose
