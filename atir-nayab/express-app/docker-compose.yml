@@ -1,0 +1,16 @@
+version: "3"
+services:
+  node-app:
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - mongo:/data/db
+volumes:
+  mongo:
