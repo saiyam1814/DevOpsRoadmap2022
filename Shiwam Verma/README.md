@@ -13,23 +13,13 @@
 - [x] [Introduction to YAML (Kunal Kushwaha)](https://youtu.be/IA90BTozdow)
 
 ## Git
-- [ ] [Git and GitHub crash course (freecodecamp)](https://youtu.be/RGOj5yH7evk)
 - [x] [Complete Git and GitHub Tutorial (Kunal Kushwaha)](https://youtu.be/apGV9Kg7ics)
-- [ ] [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
 
 ## cloud
 - [ ] [AWS cloud practitioner (freecodecamp)](https://youtu.be/SOTamWNgDKc)
 
 ## docker
-- [ ] [Docker playlist by Saloni](https://www.youtube.com/playlist?list=PL5uLNcv9SibBZj30yqG01a7A4_MXSyGK3)
-- [ ] [Docker ((freecodecamp)](https://youtu.be/9zUHg7xjIqQ)
-- [ ] [Docker (Techworldwithnana)](https://youtu.be/3c-iBn73dDE)
-- [ ] [Docker deep dive by Nigel](https://youtu.be/GwXLNAcHk-k)
-- [ ] [Dockerfile best practices](https://youtu.be/JofsaZ3H1qM)
-- [ ] [Docker security essentials](https://youtu.be/KINjI1tlo2w)
-- [ ] [Auditing Docker security](https://youtu.be/mQkVB6KMHCg)
-- [ ] [Docker in a visual way](https://aurelievache.gumroad.com/l/understanding-docker-visual-way)
-- [ ] [Ivan container articles](https://iximiuz.com/en/categories/?category=Containers)
+- [x] [Docker Tutorial for Beginners by Kunal Kushwaha](https://www.youtube.com/watch?v=17Bl31rlnRM)
 
 ## Kubernetes
 - [ ] [Civo Academy](civo.com/academy)
