@@ -101,26 +101,30 @@ Containers are generally used in micro-service architecture.
 - **Elastic Container Registry (ECR)** is repository for container images in order to launch a container you need an image. An image just means a saved copy.
 - **ECS Fargate** it is a serverless orchestration container service. It is the same as ECS expect you pay-on demand per running container. <br/>
   AWS manages the underlying server, so you don't have to scale or upgrade the EC2 server.
-- Elastic kubernetes service - is a fully managed kubernetes service. Kubernetes is an open-source orchestration software that was created by google and is generally the standard for managing microservices.
-- AWS Lambda - it is a serverless function service. you can run code without provisioning or managing or managing servers.
+- **Elastic Kubernetes Service** is a fully managed kubernetes service. Kubernetes is an open-source orchestration software that was created by google and is generally the standard for managing microservices. <br/>
+
+ _When you need to run Kubernetes as a service_
+ 
+**Serverless:** When the underlying servers are managed by AWS. You don't worry or configure servers.
+- **AWS Lambda** it is a serverless function service. you can run code without provisioning or managing or managing servers.
 
 ## High Performance Computing Services
-The Nitro system a combination of dedicated hardware and lightweight hypervisor enabling faster innovation and enhanced security. All new ec2 instance types use the nitro system
+
+### The Nitro System
+**The Nitro System** a combination of dedicated hardware and lightweight hypervisor enabling faster innovation and enhanced security. All new ec2 instance types use the nitro system
 
 - Nitro cards - specialize cards for VPC, EBS and instance storage and controller card
-- Nitro security chips - integrated into motherboard. Protects hardware resources
-- Nitro hypervisor - lightweight hypervisor memory and cpu allocation bare metal like performance.
+- Nitro Security Chips - integrated into motherboard. Protects hardware resources
+- Nitro Hypervisor - lightweight hypervisor memory and cpu allocation bare metal like performance.
 
 ### Barel-Metal Instance
 You can launch ec2 instance that have no hypervisor so you can run workloads directly on the hardware for maximum performance and control. The M5 and R% ec2 instances run are bare metal.
 
-### Bottlerocket
-It is a linux based open source operation system that is purpose-built by AWS for running containers on VIrtaul Machines or bare metal hosts.
+- **Bottlerocket** It is a linux based open source operation system that is purpose-built by AWS for running containers on VIrtaul Machines or bare metal hosts.
 
 ### High Performance Computing (HPC)
 A cluster of hundreds of thousands of servers with fast connections between each of them with the purpose of boosting computing capacity.
 
-### AWS ParallelCluster
-It is an aws supported open source cluster management tool that makes it easy for you to deploy and manage high performance computing (HPC) clusters on AWS.
+- **AWS ParallelCluster** It is an aws supported open source cluster management tool that makes it easy for you to deploy and manage high performance computing (HPC) clusters on AWS.
 
 
