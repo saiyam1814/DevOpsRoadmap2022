@@ -31,3 +31,4 @@ An Access Key is commonly referred to as AWS Credentials
 
 A user must be granted access to use Access Keys
   
+Access keys are to be stored in ~/.aws/credentials and follow a TOML file format
