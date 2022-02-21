@@ -508,3 +508,17 @@
 
 - [Docker (freecodecamp)](https://youtu.be/9zUHg7xjIqQ)
   - docker compose
+
+## 19-02-2022 (day 35)
+
+- [Dockerfile best practices](https://youtu.be/JofsaZ3H1qM)
+  - incremental build time
+  - maintainability
+  - different image flavors
+  - secrets
+
+## 21-02-2022 (day 36)
+
+- [Auditing Docker security](https://youtu.be/mQkVB6KMHCg)
+  - docker vs hypervisor
+  - docker architecture
