@@ -24,11 +24,11 @@
 ## docker
 
 - [x] [Docker playlist by Saloni](https://www.youtube.com/playlist?list=PL5uLNcv9SibBZj30yqG01a7A4_MXSyGK3)
-- [ ] [Docker (freecodecamp)](https://youtu.be/9zUHg7xjIqQ)
+- [x] [Docker (freecodecamp)](https://youtu.be/9zUHg7xjIqQ)
 - [ ] [Docker (Techworldwithnana)](https://youtu.be/3c-iBn73dDE)
 - [ ] [Docker deep dive by Nigel](https://youtu.be/GwXLNAcHk-k)
-- [ ] [Dockerfile best practices](https://youtu.be/JofsaZ3H1qM)
-- [ ] [Docker security essentials](https://youtu.be/KINjI1tlo2w)
+- [x] [Dockerfile best practices](https://youtu.be/JofsaZ3H1qM)
+- [x] [Docker security essentials](https://youtu.be/KINjI1tlo2w)
 - [ ] [Auditing Docker security](https://youtu.be/mQkVB6KMHCg)
 - [ ] [Docker in a visual way](https://aurelievache.gumroad.com/l/understanding-docker-visual-way)
 - [ ] [Ivan container articles](https://iximiuz.com/en/categories/?category=Containers)
