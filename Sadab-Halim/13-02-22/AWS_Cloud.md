@@ -146,28 +146,127 @@ AWS snow family are storage and compute devices used to physically move data in 
 **Volume Gateway** caches your local drives to S3 so you have a countinous backuo of local files in the cloud <br/>
 **Tape Gateway** stores files onto virtual tapes for backing up your files on very cost effective long term storage.
 
-## What is Database?
+**AWS Snow Family** are storage devices used to physically migrate large amounts of data to the cloud.
+- **Snowball** and **Snowball Edge** are briefcase size data storage devices. **50-80 Terabytes**
+- **Snowmobile** is a cargo container filled with racks of storage and compute that is transported via semi-trailer tractor truck to transfer up to **100PB** of data per trailer.
+- **Snowcone** is a very small version of Snowball that can transfer **8TB** of data.
 
+**AWS Backup** a fully managed backup service that makes it easy to centralize and automate the backup of data across multiple AWS services eg. EC2, EBS, RDS, DynamoDB, EFS, Storage Gateway. You can create backup plans
+
+**CloudEndure Disaster Recovery** continuously replicates your machines into a low-cost staging area in your target AWS account and prefereed Region enabling fast and reliable recovery in case of IT data center failures.
+
+**Amazon FSx** is a feature rich and highly-performant file system. That can be used for Windows (SMB) or Linux (Lustre).
+
+- **Amazon FSx for Windows File Server** uses the SMB protocol and allows you to mount FSx to Windows servers
+
+- **Amazon FSx for Lustre** uses Linux's Lustre file system and allows you to mount FSx to Linux servers.
+
+
+## What is Database?
 A database is a data-store that stores semi-structured and structured data.
 
 A database is more complex data stores because it requires using formal design and modeling techniques.
 
 Database can be generally categorized as either:
-
 - Relational databases
-  - structured data that strongly represents tabular data (tables, rows and columns)
-    - row oriented or columar-oriented
+  - Structured data that strongly represents tabular data (tables, rows and columns)
+    - Row oriented or columar-oriented
 - Non-relational databases
-  - semi-structured that may or may not distantly resemble tabular data
+  - Semi-structured that may or may not distantly resemble tabular data
 
-## what is data warehouse
+Databases have a rich set of functionality:
+- specified language tp query (retrieve data)
+- specialized modelling strategies to optimize retrieval for different use cases
+- more fine tune control over the transformation or the data into useful data structures or reports
 
+![image](https://user-images.githubusercontent.com/74575612/155084186-04a4662b-b894-4431-a618-e48aa030d814.png)
+
+## What is Data Warehouse?
 A relational datastore designed for analytic workloads, which is generally column-oriented data store
 
 Data warehouses generally perform aggregation
-
 - aggregation is grouping data
 - data warehouse are optimized around columns since they need to quickly aggregate column data
+
+Data warehoueses are generally designed be HOT
+- Hot means they can return queries very fast even though they have vast amounts of data
+
+Data warehouses are infrequently accessed meaning they aren't intented for real-time reporting but maybe once or twice a day or once a week to generate business and user reports.
+
+A data warehouse needs to consume data from a relational databases on a regular basis.
+
+![image](https://user-images.githubusercontent.com/74575612/155084773-f9ef5a95-c6e6-42de-8ddb-7b447260f1b8.png)
+
+## What is a Key/Value store?
+A **key-value database** is a type of non-relational database (NoSQL) that uses a simple key-value method to store data.
+
+Key values stores are dumb and fast. <br/>
+They generally lack features like:
+- Relationships
+- Indexes
+- Aggregation
+
+![image](https://user-images.githubusercontent.com/74575612/155085224-123c7505-9e57-4737-ac07-8d2ac1b1334a.png)
+
+A simple key/value store will interpret this data resembling a dictionary 
+![image](https://user-images.githubusercontent.com/74575612/155085325-7526d385-c665-4691-8ed0-30a5b550f94d.png)
+
+A key/value store can resemble tabular data, it dos not have to have the consistent columns per row.
+
+Due to their simple design they can scale beyond a relational database. <br/>
+A key/value stores a unique key alongside a value
+
+![image](https://user-images.githubusercontent.com/74575612/155085634-b593a200-82e8-446d-8cd3-a80deff88951.png)
+
+## What is a Document Store?
+A document store is a NoSQL database that stores documents as its primary data structure. <br/>
+A document could be a XML but more commonly is JSON or JSON-Like <br/>
+Document stores are sub-class of Key/Value stores
+
+The components of a document store compared to Relational Database <br/>
+![image](https://user-images.githubusercontent.com/74575612/155086220-780d09ad-3a46-45a1-b34d-a398ab59ecb3.png)
+
+## NoSQL Database Service
+**DynamoDB** is a serverless NoSQL key/value and document database. It is designed to scale to billions of records with guranteed consistent data return in at least a second. You don't have to worry about managing shards!
+
+- **DynamoDB** is AWS's _flagship database service_ meaning whenever we think of a databse service that just scales, is cost effective and very fast we should think DynamoDB
+
+_When we want a massively scalable database_
+
+**DocumentDB** is a NoSQL document database that is "MongoDB compatible" <br/>
+MongoDB is very popular NoSQL among developers. There were open-source licensing issues around using open-source MongoDB, so AWS got around it by just building their own MongoDB database.
+
+**Amazon Keyspace** is a fully managed Apache Cassandra database. Cassandra is an open-source NoSQL key/value database similar to DynamoDB in that is columnar store database but has some additional functionality. <br/> 
+
+_When you want to use Apache Cassandra_
+
+## Relational Database Service
+
+**Relational Database Service (RDS)** is a relational database service that supports multiple SQL engines. Relational is synonymous with SQL and Online Transactional Processing (OLTP). <br/>
+
+Relational database are the most commonly used type of database among tech companies and start-up.
+
+**RDS Supports the following SQL Engines:**
+- **MySQL** - The most popular open-source SQL database that was purchased and now owned by Oracle
+- **MariaDB** - When Oracle bought MySQL, MariaDB made a fork of MySQL was made under a different open-source license.
+- **Postgres (PSQL)** - Most popular open-source SQL database amond developers. Has rich-features over MySQL but at added complexity.
+- **Oracle** - Oracle's proprietary SQL database. Well used by Enterprice companies. You have to buy a license to use it.
+- Microsoft SQL Server - Microsoft's proprietary SQL database. You have to buy a license to use it.
+- Aurora - Fully managed database
+
+**Aurora** is a fully managed database of either MySQL (5x faster) and PSQL (3x faster) database. <br/>
+_When you want a highly available, durable, scalable and secure relational database for Postgres or MySQL_
+
+**Aurora Serverless** is the serverless on-demand version of Aurora. <br/>
+_When you want "most" of the benefits of Aurora but can trade to have cold-starts or you don't have lots of traffic demand_
+
+**RDS on VMWare** allows you to deploy RDS supported engines to an an-premise data-center. The datacenter must be using VMWare for server virtualization. <br/>
+_When you want databases managed by RDS on your own datacenter_
+
+**Redshift** is a petabyte-size data warehouse.
+
+
+
 
 ## Cloud-Native Networking Service
 
