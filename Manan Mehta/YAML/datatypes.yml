@@ -1,0 +1,49 @@
+# String Variables
+
+name: Manan Mehta
+fruit: "Apple"
+job: 'Software Engineer'
+
+bio: |
+Hey my name is Manan Mehta.
+I am a very nice dude.
+
+# write a single line in multiple lines
+message: >
+this will
+all be in one 
+single line
+
+# same as
+message: !!str this will all be in one single line
+
+number: 5464
+marks: 98.34
+booleanValue: !!bool Yes # Yes is true, Np is false; Y, y, YES, n, N, NO, True, False
+
+#to write type !!datatyoe
+
+#int
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b11001 # 0b to start a binary num 
+octalNum : !!int 06574 # starts with zero
+hexa: !!int 0x45  #starts with 0x
+commaVal: !!int +550_000 # 555000
+
+#float
+marks: !!float 56.34
+infinity: !!float .inf # .inf = infinity
+not a num: .nan
+
+#null
+surname: !!null Null # null, NULL, ~
+~: this is a null key
+
+#dates and time
+date: !!timestamp 2022-02-01 #yyyy-mm-dd
+indianTime: 2001-12-15T02:59:43 + 5:30 
+
+# exponential numbers
+expNums: 6.023E56

@@ -1,0 +1,15 @@
+{
+    "School": [
+      {
+        "name": "SSRVM",
+        "principal": "Jyoti Tulsyani",
+        "Students": [
+          {
+            "rno": 149,
+            "name": "Manan Mehta",
+            "sgpa": 9.73
+          }
+        ]
+      }
+    ]
+}

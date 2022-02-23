@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<School name = "SSRVM" principal = "Jyoti Tulsyani">
+    <Students>
+        <Student>
+            <rno>149</rno>
+            <name>"Manan Mehta"</name>
+            <sgpa>9.73</sgpa>
+        </Student>
+    </Students>
+</School>
