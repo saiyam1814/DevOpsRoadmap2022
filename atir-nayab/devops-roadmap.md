@@ -29,13 +29,13 @@
 - [ ] [Docker deep dive by Nigel](https://youtu.be/GwXLNAcHk-k)
 - [x] [Dockerfile best practices](https://youtu.be/JofsaZ3H1qM)
 - [x] [Docker security essentials](https://youtu.be/KINjI1tlo2w)
-- [ ] [Auditing Docker security](https://youtu.be/mQkVB6KMHCg)
+- [x] [Auditing Docker security](https://youtu.be/mQkVB6KMHCg)
 - [ ] [Docker in a visual way](https://aurelievache.gumroad.com/l/understanding-docker-visual-way)
-- [ ] [Ivan container articles](https://iximiuz.com/en/categories/?category=Containers)
+- [x] [Ivan container articles](https://iximiuz.com/en/categories/?category=Containers)
 
 ## Kubernetes
 
-- [ ] [Civo Academy](civo.com/academy)
+- [ ] [Civo Academy](https://www.civo.com/academy)
 - [ ] [Kubernetes course (techworldwithnana)](https://youtu.be/X48VuDVv0do)
 - [ ] [Kube academy](https://kube.academy/)
 - [ ] [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)

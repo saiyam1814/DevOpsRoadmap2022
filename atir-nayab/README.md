@@ -522,3 +522,12 @@
 - [Auditing Docker security](https://youtu.be/mQkVB6KMHCg)
   - docker vs hypervisor
   - docker architecture
+
+## 22-02-2022 (day 37)
+
+- [Auditing Docker security](https://youtu.be/mQkVB6KMHCg)
+  - registries
+  - docker manifest
+- [Ivan container articles](https://iximiuz.com/en/categories/?category=Containers)
+  - attact vs exec
+  - difference between attach and logs
