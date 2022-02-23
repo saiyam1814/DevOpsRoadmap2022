@@ -531,3 +531,11 @@
 - [Ivan container articles](https://iximiuz.com/en/categories/?category=Containers)
   - attact vs exec
   - difference between attach and logs
+
+## 23-02-2022 (day 38)
+
+- [Civo Academy](https://www.civo.com/academy)
+  - linux commands
+  - monolithic vs microservices
+- [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+  - chapter 1: from monolith to microservices
