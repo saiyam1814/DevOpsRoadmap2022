@@ -263,59 +263,86 @@ _When you want "most" of the benefits of Aurora but can trade to have cold-start
 **RDS on VMWare** allows you to deploy RDS supported engines to an an-premise data-center. The datacenter must be using VMWare for server virtualization. <br/>
 _When you want databases managed by RDS on your own datacenter_
 
-**Redshift** is a petabyte-size data warehouse.
+**Redshift** is a petabyte-size data warehouse. Data warehouses are for Onlince Analytical Processing (OLAP) <br/>
+Data warehouses can be expensive because they are keeping data "hot". Meaning that we can run a very complex query and a large amount of data and get that data back very fast.
 
+**ElastiCache** is a managed database of the in-memory and caching open-source databases Redis or Memcached. <br/>
+_When you need to improve the performance of application by adding a chaching layer in-front of web-server or database._
 
+**Neptune** is a managed graph database. Data is represented as interconnected nodes. <br/>
+_When you need to understand the conncection between data eg. Mapping Fraud Rings or Social Media relationships._
+
+**Amazon Timestreams** is a fully managed time series databse. <br/>
+When you need to measure how things change over time.
+
+**Amazon Quantum Ledge Database** is a fully managed ledger database that provides transaparent, immutable and cryptographically variable transaction logs. <br/>
+_When you need to record history of financial activities that can be trusted._
+
+**Database Migration Service (DMS)** is database migration service. You can migrate from:
+- on-premise database to AWS
+- from two database in different or same AWS accounts using different SQL engines.
+- from SQL to NoSQL database
 
 
 ## Cloud-Native Networking Service
 
-- vpc - It is a logically isolated section of the AWS cloud where you can launch AWS resources
-- route tables - it determines where network traffic from your subnets are directed
-- internet gateway - Enable access to the internet
-- region - The geographical location of your network
-- az - the data center of your aws resources
-- subnets - it is a logical partition of an IP network into multiple, smaller network segments
-- security groups - acts a firewall at the instance level
-- nacls - acts as a firewalls at the subnet level.
+![image](https://user-images.githubusercontent.com/74575612/155519425-687601a2-d290-4a55-8b8b-76ea95ea464c.png)
 
-## Enterprise/hybrid networking
+- **VPC** - It is a logically isolated section of the AWS cloud where you can launch AWS resources
+- **Route Tables** - it determines where network traffic from your subnets are directed
+- **Internet Gateway** - Enable access to the internet
+- **Region** - The geographical location of your network
+- **AZ** - the data center of your aws resources
+- **Subnets** - it is a logical partition of an IP network into multiple, smaller network segments
+- **Security Groups** - acts a firewall at the instance level
+- **NACLs** - acts as a firewalls at the subnet level.
 
-- DirectConnect dedicated gigabit connection from on-premise data-center to AWS (a bery fast connection)
-- AWS Virtual Private Network (VPN) a secure connection between on-premise, remote offices, mobile employees
-- PrivateLinks - (VPC Interface Endpoints) keeps traffic within the AWS network and not traverse the internet to keep traffic secure.
+## EnterpriseHhybrid networking
 
-## Virtual Private Cloud (VPC) and subnets
+![image](https://user-images.githubusercontent.com/74575612/155519553-bf2ade6c-cea7-472b-abb0-ce13862cb35a.png)
 
-- Virtual Private Cloud (VPC) is a logically isolated section of the AWS Network where you launch you AWS resources. You choose a range of IPs using CIDR Range.
-- subnets a logical partition of an IP network into multiple smaller network segments. You are breaking up your IP range for VPC into smaller networks.
+- **DirectConnect** dedicated gigabit connection from on-premise data-center to AWS (a bery fast connection)
+- **AWS Virtual Private Network (VPN)** a secure connection between on-premise, remote offices, mobile employees
+- **PrivateLinks** - (VPC Interface Endpoints) keeps traffic within the AWS network and not traverse the internet to keep traffic secure.
+
+## Virtual Private Cloud (VPC) and Subnets
+
+**Virtual Private Cloud (VPC)** is a logically isolated section of the AWS Network where you launch you AWS resources. You choose a range of IPs using CIDR Range.
+
+CIDR Range of 10.0.0.0/16 = 65,536 IP Addresses
+
+![image](https://user-images.githubusercontent.com/74575612/155519932-4a27f118-b6ab-45ba-80ae-aa12bef7d31d.png)
+
+**Subnets** a logical partition of an IP network into multiple smaller network segments. You are breaking up your IP range for VPC into smaller networks.
 - a public subnet is one that can reach the internet
 - a private subnet is one that cannot react the internet.
 
 ## Security Groups vs NACLs
 
-- Network Access Control Lists (NACLs) - acts as a virtual firewall at the subnet level. You create allow and deny rules. eg Block a specific IP address known for abuse
-- Security Groups - Acts as a virtual at the instance level implicitly denies all traffic. You create only allow rules. eg You cannot block a single IP address.
+- **Network Access Control Lists (NACLs)** - acts as a virtual firewall at the subnet level. You create allow and deny rules. eg Block a specific IP address known for abuse
+- **Security Groups** - Acts as a virtual at the instance level implicitly denies all traffic. You create only allow rules. eg You cannot block a single IP address.
 
-## EC2
+![image](https://user-images.githubusercontent.com/74575612/155520366-9d4c4bb6-c609-4405-ad5d-ddf6c3bd2f1a.png)
 
-elastic compute cloud ec2 is a highly highly configurable virtual server. EC2 is resizable compute capacity. It takes minute to launch new instances. Anyhting and everything on AWS uses EC2 instance underneath.
+## Introduction to EC2
 
-1. choose os
-1. choose instance type
-1. add storage
-1. configure instance
+**Elastic Compute Cloud EC2** is a highly highly configurable virtual server. EC2 is resizable compute capacity. It takes minute to launch new instances. Anyhting and everything on AWS uses EC2 instance underneath.
+
+- Choose os
+- Choose instance type
+- Add storage
+- Configure instance
 
 ## EC2 Instance Families
 
-what are instance families?\
+**What are Instance Families?** <br/>
 Instance families are different combinations of CPU, memory, storage and networking capacity.
 
-instance families allow you to choose the appropriate combinations of capacity to meet your application's unique requirements.
+Instance families allow you to choose the appropriate combinations of capacity to meet your application's unique requirements.
 
 Different instance families are different because of the varying hardware used to give them their unique properties.
 
-- general purpose
+- General purpose
   - T2 A1 T3 T4g M4 M5a M5n M6zn M6g M6i Mac
   - balance of compute, memory and networking resources
   - use-cases web servers and code repositories
@@ -368,35 +395,35 @@ Dedicated Hosts are single-tenant EC2 instance designed to let you Bring-Your-Ow
 
 ## EC2 tenancy
 
-ec2 has three levels of tenancy
+EC2 has three levels of tenancy
 
-- dedicated host
+- Dedicated Host
   - your server lives here and you have control of the physical attributes
-- dedicated instance
+- Dedicated Instance
   - your server always lives here
-- default
+- Default
   - you instance live here until reboot
 
 ## EC2 pricing models
 
 there are 5 different ways to pay for EC2 (virtual machines)
 
-- on demand (least commitment)
+- On Demand (Least Commitment)
   - low cost and flexible
   - only pay per hour or the \*second
   - short term, spiky, unpredictable workloads
   - cannot be interrupted
   - For the first time apps
-- spot upto 90% (biggest savings)
+- Spot upto 90% (Biggest Savings)
   - request spare computing capacity
   - flexible start and end times
   - can handle interruptions (server randomly stopping and starting)
   - for non-critical background jobs
-- reserved upto 75% off (best long term)
+- Reserved upto 75% off (Best Long-Term)
   - steady state or predictable usage
   - commit to ec2 over a 1 or 3 year term
   - can resell unused reserved instances
-- dedicated (Most expensive)
+- Dedicated (Most Expensive)
   - dedicated servers
   - can be on demand or reserved or spot
   - when you need a guarentee of isolate hardware (enterprise requirements)
