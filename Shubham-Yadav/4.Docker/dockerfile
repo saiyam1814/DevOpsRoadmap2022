@@ -1,0 +1,10 @@
+
+# Use an official Node runtime as the parent image
+FROM python:slim
+# Set the working directory in the container to /app
+WORKDIR /app
+# Copy the current directory contents into the container at /app
+ADD . /app
+
+# Run app.js using node when the container launches
+CMD ["python", "app.py"]

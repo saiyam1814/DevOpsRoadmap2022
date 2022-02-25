@@ -1,0 +1,19 @@
+"apple" : "I am a red fruit"
+149 : "this is my roll number"
+---
+# lists
+- apple
+- mango
+- banana
+
+# YAML IS CASE SENSITIVE 
+---
+cities:
+ - New Delhi
+ - Mumbai
+ - Surat
+---
+cities: [New Delhi, Mumbai]
+---
+{Mango: "Yellow Fruit", Age: 5}
+...

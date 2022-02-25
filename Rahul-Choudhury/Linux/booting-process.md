@@ -1,7 +1,7 @@
 # The Booting Process
 
 ## Bird eye view
-![boot-process](../_assets/linux-boot-process.jpg)
+![boot-process](../_assets/boot-process/linux-boot-process.png)
 
 ## The Steps
 
@@ -53,8 +53,8 @@ The boot loader loads the kernel into memory and passes control to it.
 - mount program instructs the OS about the filesystem ready for use and associates it with a particular point in the overall hierarchy of the filesystem (the mount point).
 - after successful mounting, initramfs is cleared from memory and the init program is executed on the root filesystem (/sbin/init) by the kernel.
 
-init:
-- handles the mounting and pivoting over to the final real root filesystem.
-- it becomes the initial process with a PID of 0 and manages non-kernel processes.
-- besides starting the system, init is responsible for keeping the system running and for shutting it down cleanly.
-- systemd is an example of init system.
+    **init**:
+    - handles the mounting and pivoting over to the final real root filesystem.
+    - it becomes the initial process with a [PID](./process.md) of 1 and manages non-kernel processes.
+    - besides starting the system, init is responsible for keeping the system running and for shutting it down cleanly.
+    - systemd is an example of init system.

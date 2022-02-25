@@ -1,0 +1,24 @@
+microservice:
+  - app: user-authenication
+    port: 3000
+    version: 1.7
+    deployed: false
+
+micro:
+  - app: user-authenication
+    port: 3000
+    version: [1.7, 1.8]
+
+
+data:
+  - app: user-authenication
+    port: 3000
+    version: 1.7
+    deployed: yes
+  - app: cart
+    port: 3000
+    versions:
+      - 1.7
+      - 1.8
+      - 1.9
+    

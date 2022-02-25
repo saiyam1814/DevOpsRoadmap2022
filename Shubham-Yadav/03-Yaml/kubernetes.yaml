@@ -1,0 +1,29 @@
+apiversion: v1
+kind: pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.7.9
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - name: nginx-config
+      mountPath: /etc/nginx
+  volumes:
+  - name: nginx-config
+    configMap:
+      name: nginx-config
+      items:
+      - key: nginx.conf
+        path: nginx.conf
+      - key: nginx.conf
+        path: nginx.conf
+  - name: sidecar-config
+    configMap:
+      name: sidecar-config
+      image: curl:1.7.9
+      command: ["/bin/sh", "-c", "echo 'hello'"]

@@ -1,0 +1,107 @@
+student: !!seq
+ - marks
+ - name
+ - rollNO
+
+---
+
+# sparse seq - some of the keys of the seq will be empty
+
+sparse seq:
+ - how
+ - hey
+ -
+ - null
+ - sup
+
+---
+
+# nested sequence
+
+-
+ - mango
+ - apple
+ - banana
+-
+ - marks
+ - roll no
+
+---
+
+# key: value pairs are called maps
+# !!map
+
+# nested mappings: map within map
+name: Manan Mehta
+role:
+ age: 78
+ job: student
+
+# same as
+name: Manan Mehta
+role: { age: 78, job: student}
+
+---
+
+# pairs: key may have duplicate values
+# !!pairs
+
+pair example: !!pairs
+ - Sem1: 8.88
+ - Sem2: 9.22
+ - Sem3: 9.6
+ - Sem4: 9.5
+ - Sem5: 9.73
+
+# same as
+pair example: !!pairs [Sem1: 8.88, Sem2: 9.22]
+# this will be array of hash tables
+
+---
+
+# !!set will allow you to have unique values, duplicate mapping not allowed
+#names: !!set
+# ? Manan
+# ? Arpit
+# ? Saurabh
+
+# Dictionary !!omap
+People: !!omap
+ - Kunal:
+     name: Manan Mehta
+     roll no: 194
+ - Arpit:
+     name: Arpit Patel
+     roll no : 13
+
+# reusing some properties using anchors
+linkings: &likes
+  fav fruit: mango
+  fav veg: Cabbage
+
+Manan:
+  name: Manan Mehta
+  <<: *likes
+
+Arpit:
+  name: Arpit
+  <<: *likes
+  fav veg: Potato
+
+# same as
+linking": 
+    fav fruit: mango
+    fav veg: Cabbage
+
+Manan: 
+    name: Manan
+    fav fruit: mango
+    fav veg: Cabbage
+
+Arpit:
+    name: Arpit
+    fav fruit: mango
+    fav veg: Potato
+
+---
+
