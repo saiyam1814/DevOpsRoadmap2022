@@ -539,3 +539,10 @@
   - monolithic vs microservices
 - [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
   - chapter 1: from monolith to microservices
+
+## 26-02-2022 (day 39)
+
+- [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+  - Chapter 2. Container Orchestration
+  - Chapter 3. Kubernetes
+  - Chapter 4. Kubernetes Architecture
