@@ -12,7 +12,7 @@ It allows multiple containers to run on the same hardware and provides high prod
 
 | Web Server | Database | Messaging | Orchestration |
 | ---------- | -------- | --------- | ------------- |
-| NodeJS Express | mongoDB | Redis | Ansible |
+| NodeJS Express | mongoDB | Redis | Kubernetes |
 
 
 ## What can Docker do?
