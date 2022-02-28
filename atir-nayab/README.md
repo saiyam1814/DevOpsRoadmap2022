@@ -543,6 +543,13 @@
 ## 26-02-2022 (day 39)
 
 - [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+
   - Chapter 2. Container Orchestration
   - Chapter 3. Kubernetes
   - Chapter 4. Kubernetes Architecture
+
+## 27-02-2022 (day 40)
+
+- [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+- chapter 5: installing kubernetes
+- chapter 6: minikube - a local kubernetes
