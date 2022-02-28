@@ -553,3 +553,8 @@
 - [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
 - chapter 5: installing kubernetes
 - chapter 6: minikube - a local kubernetes
+
+## 28-02-2022 (day 41)
+
+- [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+  - chapter 7 - accessing minikube
