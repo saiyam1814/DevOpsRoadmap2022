@@ -558,3 +558,8 @@
 
 - [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
   - chapter 7 - accessing minikube
+
+## 01-03-2022 (day 42)
+
+- [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+  -chapter 8. kubernetes building blocks
