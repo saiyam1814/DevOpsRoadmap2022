@@ -562,4 +562,10 @@
 ## 01-03-2022 (day 42)
 
 - [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
-  -chapter 8. kubernetes building blocks
+  - chapter 8. kubernetes building blocks
+
+## 02-03-2022 (day 43)
+
+- [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+  - chapter 9. Authentication, Authorization, Admission Control
+  - chapter 10 - services
