@@ -38,7 +38,7 @@
 - [ ] [Civo Academy](https://www.civo.com/academy)
 - [ ] [Kubernetes course (techworldwithnana)](https://youtu.be/X48VuDVv0do)
 - [ ] [Kube academy](https://kube.academy/)
-- [ ] [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+- [x] [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
 - [ ] [KCNA](https://youtu.be/iGkFHB1kFZ0)
 - [ ] [Hands on CKA/CKAD/CKS](https://youtu.be/jZOs8Oips7Q)
 - [ ] [Certs Magic show](https://www.youtube.com/playlist?list=PLj6h78yzYM2MOZst3T8t2qpsdwBpyxWwy)
