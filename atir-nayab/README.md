@@ -569,3 +569,9 @@
 - [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
   - chapter 9. Authentication, Authorization, Admission Control
   - chapter 10 - services
+
+## 03-03-2022 (day 44)
+
+- [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
+  - chapter 11. deploying standalone applicaiton
+  - chapter 12 - kubernetes volumes management
