@@ -34,3 +34,39 @@
   - [X] Block Style
   - [X] Advanced Data Types
   - [X] Real World Example
+
+- [X] AWS Cloud Practitioner
+  - [X] Introduction
+  - [X] Cloud Concepts
+  - [X] Digital Transformation
+  - [X] Benefits of Cloud
+  - [X] Global Infrastructure
+  - [X] Cloud Architecture
+  - [X] Management and Development Tools
+  - [X] Shared Responsibility Model
+  - [X] Compute
+  - [X] Storage
+  - [X] Databses
+  - [X] Networking
+  - [X] EC2
+  - [X] Identity
+  - [X] Application Integration
+  - [X] Containers
+  - [X] Governanve
+  - [X] Provisioning
+  - [X] Serverless
+  - [X] ML AI BigData
+  - [X] AWS Well Architected Framework
+  - [X] TCO and Migration
+  - [X] Security
+
+- [X] Docker
+  - [X] Introduction
+  - [X] Docker Commands
+  - [X] Docker Run
+  - [X] Docker Images
+  - [X] Docker Compose
+  - [X] Docker Engine, Storage
+  - [X] Docker Networking
+  - [X] Docker Registry
+  - [X] Container Orchestration
