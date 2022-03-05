@@ -15,7 +15,6 @@
   - [X] Shell Scripting
 
 - [X] Git & Github
-  - [X] 
 
 - [X] Go
   - [X] Introduction
