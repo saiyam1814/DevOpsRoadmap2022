@@ -575,3 +575,11 @@
 - [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
   - chapter 11. deploying standalone applicaiton
   - chapter 12 - kubernetes volumes management
+
+## 05-03-2022 (day 45)
+
+- [Kube academy](https://kube.academy/)
+  - Getting Started with Kubernetes
+  - Containers 101
+  - Kubernetes 101
+  - Virtual Machines vs Containers
