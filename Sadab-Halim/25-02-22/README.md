@@ -41,6 +41,6 @@ ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
 
 - Everything written in the UPPERCASE on the left most side is an instruction.
 - Docker builds the image in layered architecture. 
-- If we wish to see the layer then you can `run docker history <image-name>`
+- If we wish to see the layer then you can `docker history <image-name>`
 - Rebuilding of images do not start from the absolute beginning. 
 - If we update something in our application then only the layer that is added needs to be rebuild.
