@@ -1,0 +1,5 @@
+- Busy due to ongoing exams 
+- Learnt about somewhat intermediate linux commands 
+- grep
+- piping and redirection
+- xargs 
