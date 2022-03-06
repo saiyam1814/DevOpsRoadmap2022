@@ -583,3 +583,11 @@
   - Containers 101
   - Kubernetes 101
   - Virtual Machines vs Containers
+
+## 06-03-2022 (day 46)
+
+- [Kube academy](https://kube.academy/)
+  - Frequently Asked Questions
+  - Building Applications for Kubernetes
+  - Hands-On with Kubernetes and Containers
+  -

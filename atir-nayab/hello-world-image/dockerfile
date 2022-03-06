@@ -1,0 +1,5 @@
+FROM ubuntu
+
+COPY hello-world.sh .
+
+ENTRYPOINT "./hello-world.sh"

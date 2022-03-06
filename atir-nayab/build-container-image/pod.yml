@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: building-apps-pod
+  labels:
+    app: kubeacademy
+spec:
+  containers:
+  - name: building-apps-container
+    image: nayabatir1/test-go:0.1

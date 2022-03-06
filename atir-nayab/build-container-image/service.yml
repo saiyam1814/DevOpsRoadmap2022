@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: building-apps-svc
+  labels:
+    app: kubeacademy
+spec: 
+  selector:
+    app: kubeacademy
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8000
