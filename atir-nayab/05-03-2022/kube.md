@@ -7,7 +7,7 @@ IRL:
 shipping containers:
 
 - standard packaging
-  - islation and efficiency
+  - isolation and efficiency
 - portable
 - separation of concerns
 
