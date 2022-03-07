@@ -6,7 +6,7 @@
 
 - manual
 - infrastructure automation
-- othres: rancher, swarm and nomad
+- others: rancher, swarm and nomad
 - serverless
 - SaaS (software as a service) and no code
 
