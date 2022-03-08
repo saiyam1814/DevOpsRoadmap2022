@@ -85,7 +85,7 @@
 
 ### services
 
-- lod balancing for pods
+- load balancing for pods
 - use labels to determine target pods
 
 ### deployments
