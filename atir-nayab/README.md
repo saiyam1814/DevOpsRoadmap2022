@@ -590,4 +590,8 @@
   - Frequently Asked Questions
   - Building Applications for Kubernetes
   - Hands-On with Kubernetes and Containers
-  -
+
+## 07-03-2022 (day 47)
+
+- [Kube academy](https://kube.academy/)
+  - Cloud Native Principles
