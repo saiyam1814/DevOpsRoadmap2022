@@ -595,3 +595,9 @@
 
 - [Kube academy](https://kube.academy/)
   - Cloud Native Principles
+
+## 08-03-2022 (day 48)
+
+- [Kube academy](https://kube.academy/)
+  - Introduction to the business case for kubernetes
+  - Kubernetes In Depth
