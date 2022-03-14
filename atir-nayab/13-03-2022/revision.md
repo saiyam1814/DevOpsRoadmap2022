@@ -72,7 +72,7 @@ some types of these controllers are:
 - node controller: responsible for noticing and responding when nodes go down.
 - job controller: watches for job objects that represent one-off tasks, then creates pods to run those tasks to competion.
 - endpoints controller: populates the endpoints object
-- service accoutn & token controllers: create default accounts and api access tokens for new namespaces.
+- service account & token controllers: create default accounts and api access tokens for new namespaces.
 
 ### cloud-controller-manager
 
