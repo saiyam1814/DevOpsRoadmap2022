@@ -601,3 +601,9 @@
 - [Kube academy](https://kube.academy/)
   - Introduction to the business case for kubernetes
   - Kubernetes In Depth
+
+## 13-03-2022 (day 49)
+
+- [Kube academy](https://kube.academy/)
+  - CKAD Practice
+  - revision
