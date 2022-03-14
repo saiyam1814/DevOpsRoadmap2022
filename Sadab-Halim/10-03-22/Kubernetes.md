@@ -12,7 +12,7 @@ The Kubernetes Architecture is divided into two components
   - API
 
 - Components of Control Plane 
-1.  *API Servew* 
+1.  *API Server* 
     - The API server intercepts RESTful calls from users, operators and external agents then validates and process them
     - The API Server is the only master plane component to talk to the etcd data store, both to read from and to save Kubernetes cluster state information - acting as a middle interface for any other control plane agent inquiring about the cluster's state.
 
