@@ -612,3 +612,8 @@
 
 - [Kube academy](https://kube.academy/)
   - revision
+
+## 15-03-2022 (day 51)
+
+- [Kube academy](https://kube.academy/)
+  - revision
