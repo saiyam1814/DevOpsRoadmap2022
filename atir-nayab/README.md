@@ -607,3 +607,8 @@
 - [Kube academy](https://kube.academy/)
   - CKAD Practice
   - revision
+
+## 14-03-2022 (day 50)
+
+- [Kube academy](https://kube.academy/)
+  - revision
