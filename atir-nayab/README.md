@@ -617,3 +617,8 @@
 
 - [Kube academy](https://kube.academy/)
   - revision
+
+## 16-03-2022 (day 52)
+
+- [Introductory slides](https://collabnix.github.io/kubelabs/Kubernetes_Intro_slides-1/Kubernetes_Intro_slides-1.html)
+- [Deep Dive into Kubernetes Architecture](https://collabnix.github.io/kubelabs/Kubernetes_Architecture.html)
