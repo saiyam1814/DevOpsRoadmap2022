@@ -622,3 +622,7 @@
 
 - [Introductory slides](https://collabnix.github.io/kubelabs/Kubernetes_Intro_slides-1/Kubernetes_Intro_slides-1.html)
 - [Deep Dive into Kubernetes Architecture](https://collabnix.github.io/kubelabs/Kubernetes_Architecture.html)
+
+## 17-03-2022 (day 53)
+
+- [pods 101](https://collabnix.github.io/kubelabs/Pods101_slides/Pods101.html)
