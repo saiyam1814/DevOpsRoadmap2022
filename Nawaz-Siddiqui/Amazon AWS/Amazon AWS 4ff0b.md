@@ -289,7 +289,7 @@ Customers are responsible for security in the cloud. i.e. data configuration.
 
 AWS is responsible for the security of the cloud. i.e. Hardware, operations of managed services, and global infrastructure.
 
-![](Nawaz-Siddiqui/images/aws/aws1.png)
+![aws1](Nawaz-Siddiqui/images/aws/aws1.png)
 
 img2
 
