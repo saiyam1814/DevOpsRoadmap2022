@@ -291,11 +291,12 @@ AWS is responsible for the security of the cloud. i.e. Hardware, operations of m
 
 ![aws1](../images/aws/aws1.png)
 
-img2
+![aws2](../images/aws/aws2.png)
 
-img3
+![aws3](../images/aws/aws3.png)
 
-img4
+![aws4](../images/aws/aws4.png)
+
 
 ### Amazon EC2
 
