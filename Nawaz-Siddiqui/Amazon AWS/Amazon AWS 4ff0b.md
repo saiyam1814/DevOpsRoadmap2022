@@ -223,6 +223,8 @@ Scaled up copy of your infrastructure in another region
 
 Powershell is a task automation and configuration management framework. A command-line shell and a scripting language. Generally used by people operating Azure or Microsoft workloads.
 
+**Amazon CloudFront** is a content delivery network (CDN) service built for high performance, security, and developer convenience.
+
 ### **Amazon resource names (ARN)**
 
 Uniquely identifies AWS resources. ARNs are required to specify a resource unambiguously across all of AWS.
@@ -286,3 +288,72 @@ Customers are responsible for security in the cloud. i.e. data configuration.
 **AWS**
 
 AWS is responsible for the security of the cloud. i.e. Hardware, operations of managed services, and global infrastructure.
+
+![aws1](../images/aws/aws1.png)
+
+![aws2](../images/aws/aws2.png)
+
+![aws3](../images/aws/aws3.png)
+
+![aws4](../images/aws/aws4.png)
+
+
+### Amazon EC2
+
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) Cloud. Using Amazon EC2 eliminates your need to invest in hardware up front, so you can develop and deploy applications faster. It allows you to launch Virtual Machines.
+
+Amazon EC2 enables you to scale up or down to handle changes in requirements or spikes in popularity, reducing your need to forecast traffic. EC2 is also considered as the backbone of AWS coz the majority of the AWS services are using it as their underlying server. eg: S3, RDS, DynamoDB, Lambda etc.
+
+**Features**
+
+- Virtual computing environments, known as *instances*
+- Preconfigured templates for your instances, known as *Amazon Machine Images (AMIs)*, that package the bits you need for your server (including the operating system and additional software)
+- Various configurations of CPU, memory, storage, and networking capacity for your instances, known as *instance types*
+
+### Compute services
+
+**Amazon Lightsail** is the managed virtual server service, it is a friendly version of EC2 virtual machine. It is useful when you need to launch windows/linux server but don't have much AWS knowledge. Eg: launch a wordpress.
+
+**Elastic container service(ECS)** is a container orchestration service that supports Docker containers, launches a cluster of server on EC2 instances with Docker installed.
+
+**Elastic container registry(ECR)** is repository for container images. In order to launch a container you need an image.
+
+**ECS fargate** is serverless orchestration container service. It is same as ECS except you pay-on-demand per running container (With ECS you have to keep a EC2 server running even if you have no containers running).
+
+**Elastic kubernetes service(EKS)** is a fully managed Kubernetes service, it is used when you want to run Kubernetes as a service.
+
+**Serverless** is when the underlying server is managed by AWS, you only care for your code.
+
+**AWS Lambda** is a serverless function service. You upload your code, choose memory and how long your function is allowed to run. You will be charged on the runtime of serverless function rounded to the nearest 100ms.
+
+## High-Performance Computing Services
+
+The **AWS Nitro System** is the underlying platform for our next generation of EC2 instances that enables AWS to innovate faster, further reduce cost for our customers, and deliver added benefits like increased security and new instance types. All new EC2 instance types use the Nitro System.
+
+Nitro Cards: Specialized card for VPC, EBS, and instance storage and controller card.
+
+Nitro Security Chips: Integrated into motherboard. Protects hardware resources.
+
+Nitro Hypervisor: Lightweight hypervisor memory and CPU allocation bare-metal like performance.
+
+**Bare-metal instances** You can launch EC2 instance that have no hypervisor so you can run workloads directly on the hardware for maximum performance and control. The M5 and R5 EC2 instances run on bare metal.
+
+**Bottlerocket** is a linux based open-source operation system that is purpose built by AWS for running containers on virtual machines or bare metal hosts.
+
+**AWS ParallelCluster** is an AWS supported open source cluster management tool to deploy and manage HPC clusters on AWS.
+
+**Amazon EFS(Elastic file system)** is a cloud-based file storage service for applications and workloads that run in the Amazon Web Services public cloud.
+
+### Edge computing
+
+Edge computing is a distributed computing paradigm that brings computation and data storage closer to the sources of data. This is expected to improve response times and save bandwidth.
+
+**AWS outposts** is a physical rack of servers that you can put on your data centers. AWS outposts allow you to use AWS API and services such as EC2 right in your datacenter.
+
+**AWS Wavelength** allows you to build and launch your application in a telecom datacenter. This way your app will have ultra-low latency since they will be pushed over to the 5G network and be closest as possible to the end-user.
+
+**VMWare Cloud** on AWS allows you to manage on prem virtual machines using VMWare as EC2 instances. The data center must be using VMWare for virtualization.
+
+**AWS Local Zones** are edge data centers located outside of an AWS region so you can use AWS closer to end destination. Eg: When you need faster computing, storage and database in populated areas that are outside of an AWS region.
+
+### Cost and Capacity Management
