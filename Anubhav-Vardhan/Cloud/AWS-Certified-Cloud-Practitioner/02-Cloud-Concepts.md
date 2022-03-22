@@ -141,3 +141,96 @@ maturity and participants
 
 ![image](https://user-images.githubusercontent.com/71918957/159248771-f3a89e89-5a09-4cf3-972c-5535e80654ab.png)
 
+# Common Cloud Services
+
+A cloud service provider can have 100s of cloud services that are
+grouped into various types of services.
+The four most common types of cloud services (the 4 core) for infrastucture
+as a Service (IaaS) would be:
+
+### Compute
+like a virtual computer that can run applications, programs, and code
+
+### Networking
+like a virtual network defining internet connections or network isolations
+between services or outbound to the internet
+
+### Storage
+like having a virtual hard drive that can store files
+
+### Databases
+like a virtual database for storing reporting data or a database for general
+purpose web application
+
+**AWS has over 200+ cloud services**
+The term "cloud computing" can be used to refer all categories, even though it has
+"compute" in the name.
+
+# AWS Technology Overview
+
+Cloud Service Providers (CSPs) that are Infrastucture as a Service (IaaS)
+will always have 4 core cloud offerings:
+- Compute: **EC2** virtual machines
+- Storage: **EBS** virtual hard drives
+- Database: **RDS** SQL databases
+- Networking (and content Delivery): **VPC** private cloud network
+
+Other categories:
+- Analytics
+- Application Integration
+- AR and VR
+- AWS Cost Management
+- Blockchain
+- Business Application
+- Containers
+- Costumer Engagement
+- Developer Tools
+- End User Computing
+- Game Tech
+- Internet of Things
+- Machine Learning
+- Management and Governance
+- Media Services
+- Migration and Tranfer
+- Mobile
+- Quantum Technologies
+- Robotics
+- Satelites
+- Security, Identity and Compliance
+
+# AWS Services Preview
+
+We can explore all the services offered by AWS by going to https://aws.amazon.com/ and clicking `products`
+
+![image](https://user-images.githubusercontent.com/71918957/159497614-e7ff0b00-cbd1-4490-8e9c-b432e195b246.png)
+
+# Evolution of Computing
+
+### Dedicated
+
+- A physical server wholly utilized by a single costumer
+- You have to guess your capacity
+- You'll overpay for an underutilized server
+- You can't vertically scale, you need manual migration
+- Replacing a server is very difficult
+- You are limited by your host OS
+- Multiple apps can result in conflicts in resource sharing
+- You have a guarantee* if security, privacy and full utility of underlying resources
+
+### VMs
+
+- You can run multiple Virtual Machines on one machine
+- Hypervisor is a software layer that lets you run VMs
+- A physical server shared by multiple costumers
+- You are to pay for a fraction of server
+- You'll overpay for an underutilized virtual machine
+- You are limited by your guest OS
+- multiple apps on single VM can result in conflict in resource sharing
+- Easy to export and import images for migration
+- easy to vertical or horizontally scale
+
+### Containers
+
+- virtual machines running multiple containers
+- Docker Daemon is a software that lets you run multiple containers
+- 
