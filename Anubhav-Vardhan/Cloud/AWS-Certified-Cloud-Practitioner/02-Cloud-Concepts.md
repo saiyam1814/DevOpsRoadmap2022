@@ -47,7 +47,7 @@ manage and process data, rather than a local server or a personal computer.
 
 # What is Amazon?
 
-An americal multinational computer technology corporation headquatered
+An American multinational computer technology corporation headquatered
 in Seattle, Washington
 
 Amazon was founded in 1994 by Jeff Bezos and the company started as an
@@ -58,7 +58,7 @@ Amazon has expanded beyond just an online store into:
 - digital streaming
 - grocery store
 - AI
-- low orbit satelites
+- low orbit satellites
 
 # What is AWS?
 
