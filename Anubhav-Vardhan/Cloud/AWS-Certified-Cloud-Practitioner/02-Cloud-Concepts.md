@@ -233,4 +233,57 @@ We can explore all the services offered by AWS by going to https://aws.amazon.co
 
 - virtual machines running multiple containers
 - Docker Daemon is a software that lets you run multiple containers
-- 
+- You can maximize the utilization of available capacity which can be more cost-effective
+- Containers share the same underlying OS. So, containers are more efficient than multiple VMs
+- Multiple apps can run side by side without being limited to same OS 
+  requirements and will not cause conflicts during resource sharing
+  
+### Functions
+
+- managed VMs running managed containers
+- known as serverless compute
+- you upload a code, choose the amount of memory and duration
+- only responsible for code and data, nothing else
+- very cost effective, only pay for the time code is running, VMs only run when there is code to be executed
+- cold start is a side effect of this setup
+
+# Types of Cloud Computing
+
+### SaaS (Software as a Service)
+
+- A product that is run and managed by the service provider.
+- Don't worry about how the service is maintained
+- It just works and remains available
+- Generally designed with costumers in mind
+
+Example: Salesforce, Gmail, Office365
+
+### PaaS (Platform as a Service)
+
+- Focus on deployment and management of your apps
+- Don't worry about provisioning, configuring or understanding the hardware or OS
+- Intended for Developers
+
+Example: Elastic beanstalk, heroku, Google appengine
+
+### IaaS (Infrastucture as a Service)
+
+- The basic building blocks for cloud IT
+- Provides access to networking features, computers and data storage space
+- Don't worry about IT staff. data centers and hardware
+- Intended for Administrators
+
+Example: MS Azure, AWS, Oracle Cloud
+
+# Cloud Computing Deployment Models
+
+### Public Cloud
+
+- Everything (the workload or project) is built on the CSP. 
+- Also known as: Cloud-Native* or Cloud First
+
+### Private Cloud
+
+- Everything built on company's datacenters
+- Also known as On-premise
+- The cloud could be OpenStack
