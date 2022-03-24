@@ -30,3 +30,4 @@
 - [x]  24 > [Argo-project](Progress/024/Readme.md)
 - [x]  25 > [Golang Continue](Progress/025/Readme.md)
 - [x]  26 > [Redirection and Piping](Progress/026/Readme.md)
+- [x]  27 > [Networking Devices](Progress/027/Readme.md)
