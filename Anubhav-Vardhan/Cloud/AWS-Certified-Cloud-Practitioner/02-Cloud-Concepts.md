@@ -287,3 +287,21 @@ Example: MS Azure, AWS, Oracle Cloud
 - Everything built on company's datacenters
 - Also known as On-premise
 - The cloud could be OpenStack
+
+### Hybrid
+
+- Using both on-premise and a cloud service provider
+
+### Cross-Cloud
+
+- Using multiple cloud providers aka multi-cloud
+
+Anthos is GCP's offering for a control plane across multiple CSPs and on-premise environments
+
+
+# Deployment Model Use Cases
+
+| CLOUD | HYBRID | ON-PREMISE |
+| --- | --- | --- |
+| Fully utilizing cloud computing | Using both cloud and on-premise | Deploying resources on-premises, using virtualization and resource management tools,sometimes called "private cloud" |
+| Companies that are starting out today or are small enough to make a leap from VPS to CSP | Organizations that started with their own data centers but can't fully move to cloud due to effort of migration or security compliance | Organizations that cannot run on cloud due to strict security compliance |
