@@ -304,4 +304,6 @@ Anthos is GCP's offering for a control plane across multiple CSPs and on-premise
 | CLOUD | HYBRID | ON-PREMISE |
 | --- | --- | --- |
 | Fully utilizing cloud computing | Using both cloud and on-premise | Deploying resources on-premises, using virtualization and resource management tools,sometimes called "private cloud" |
-| Companies that are starting out today or are small enough to make a leap from VPS to CSP | Organizations that started with their own data centers but can't fully move to cloud due to effort of migration or security compliance | Organizations that cannot run on cloud due to strict security compliance |
+| Companies that are starting out today or are small enough to make a leap from VPS to CSP | Organizations that started with their own data centers but can't fully move to cloud due to effort of migration or security compliance | Organizations that cannot run on cloud due to strict security compliance or the sheer size of their organization |
+| Startups, SaaS offerings, New projects and companies | Banks, Fintech, Investment management, Large professional server providers, Legacy on-premise | Public sector eg. government, Super sensitive data eg, hospitals, Large enterprise with heavy regulation eg. Insurance companies |
+| | | There really isn't a good reason to be fully on-premise |
