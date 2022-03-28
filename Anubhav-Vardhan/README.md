@@ -1,5 +1,8 @@
 # My Progress
 
+#### 26-Mar-2022 (Day 16)
+- Completed Cloud concepts section and done with introduction of AWS
+
 #### 22-Mar-2022 (Day 15)
 - Started learning AWS with [Free code camp's AWS Certified Cloud Practitioner Certification Course](https://youtu.be/SOTamWNgDKc)
 
