@@ -626,3 +626,7 @@
 ## 17-03-2022 (day 53)
 
 - [pods 101](https://collabnix.github.io/kubelabs/Pods101_slides/Pods101.html)
+
+## 28-03-2022 (day 54)
+
+- [Deploying Your First Nginx Pod](https://collabnix.github.io/kubelabs/pods101/deploy-your-first-nginx-pod.html)
