@@ -1,4 +1,4 @@
-# DAY 79
+# DAY 76
 # 31-03-2022
 1. Practised scripting in bash. 
 2. solved few Go based problems on exercism. 
