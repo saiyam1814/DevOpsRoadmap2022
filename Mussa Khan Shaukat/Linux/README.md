@@ -1,37 +1,51 @@
-
 # LinuxFoundationX LFS101x - Introduction to Linux
+⭐️ Course Contents ⭐️
+- ⌨️ The Linux Foundation ✅
+- ⌨️ Linux Philosophy and Concepts ✅
+- ⌨️ Linux Basics and System Startup ✅
+- ⌨️ Graphical Interface ✅
+- ⌨️ System Configuration from the Graphical Interface ✅
+- ⌨️ Common Applications ✅
+- ⌨️ Command Line Operations ✅
+- ⌨️ Finding Linux Documentation ✅
+- ⌨️ Processes ✅
+- ⌨️ File Operations ✅
+- ⌨️ Text Editors ✅
+- ⌨️ User Environment ✅
+- ⌨️ Manipulating Text ✅
+- ⌨️ Network Operations ❌
+- ⌨️ The Bash Shell and Basic Scripting ❌
+- ⌨️ More on Bash Shell Scripting ❌
+- ⌨️ Printing ❌
+- ⌨️ Local Security Principles ❌
 
-This is related to all the stuffs I have learned so far from the LinuxFoundationX Courses
-which will be pretty much my progress in the course so far.
+# DevOps Prerequisites Course - FreeCodeCamp 
+⭐️ Course Contents ⭐️
+- ⌨️ Course Introduction ✅
+- ⌨️ Course Curriculum ✅
+- ⌨️ Basic Linux Commands ✅
+- ⌨️ Labs Introduction ✅
+- ⌨️ More Linux Commands ✅
+- ⌨️ Linux Package Managers ✅
+- ⌨️ Linux Services Configuration ✅
+- ⌨️ VI Editor ✅
+- ⌨️ VirtualBox Introduction ✅
+- ⌨️ VirtualBox Installation - Windows ✅ 
+- ⌨️ VirtualBox Installation - MacOS ✅
+- ⌨️ Virtual Box Connectivity ✅
+- ⌨️ (Virtual Box Connecting to VM - Windows ✅
+- ⌨️ Virtual Box Connecting to VM - MacOS ✅
+- ⌨️ Virtual Box Networking ✅
+- ⌨️ Virtual Box Multiple VMs ✅
+- ⌨️ Vagrant Introduction ✅
+- ⌨️ Vagrant Demo ✅
+- ⌨️ Networking - DNS ✅
+- ⌨️ Networking - Switching and Routing ✅
+- ⌨️ IP Addresses and Ports ✅
+- ⌨️ YAML Introduction ✅
+- ⌨️ Conclusion ✅
 
-
-
-## Chapters
-
-- Chapter 1: The Linux Foundation ✅
-- Chapter 2: Linux Philosophy and Concepts ✅
-- Chapter 3: Linux Basics and System Startup ✅
-- Chapter 4: Graphical Interface ✅
-- Chapter 5: System Configuration from the Graphical Interface ✅
-- Chapter 6: Common Applications ✅
-- Chapter 7: Command Line Operations ❌
-- Chapter 8: Finding Linux Documentation ❌
-- Chapter 9: Processes ❌
-- Chapter 10: File Operations ❌
-- Chapter 11: Text Editors ❌
-- Chapter 12: User Environment ❌
-- Chapter 13: Manipulating Text ❌
-- Chapter 14: Network Operations ❌
-- Chapter 15: The Bash Shell and Basic Scripting ❌
-- Chapter 16: More on Bash Shell Scripting ❌
-- Chapter 17: Printing ❌
-- Chapter 18: Local Security Principles ❌
-## Cheat Sheet / Skrimming & Scanning
-
-[Google Doc Sheet for Whole Learning Process](https://docs.google.com/document/d/1Nn-LFGQkdzgAaw0fKaqMJN0bDtefOp5Ws3U-2_IrgRo/edit?usp=sharing)
-
-Last Updated: 3/27/2022
-
+Last Updated: 4/01/2022
 
 ## Authors
 
