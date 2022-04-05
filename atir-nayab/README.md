@@ -631,8 +631,11 @@
 
 - [Deploying Your First Nginx Pod](https://collabnix.github.io/kubelabs/pods101/deploy-your-first-nginx-pod.html)
 
-
 ## 31-03-2022 (day 55)
 
 - [Deploying Your First Nginx Pod](https://collabnix.github.io/kubelabs/pods101/deploy-your-first-nginx-pod.html)
   - shared volume container
+
+## 03-04-2022 (day 56)
+
+- [ReplicaSet101](https://collabnix.github.io/kubelabs/SlidesReplicaSet101/ReplicaSet101.html)
