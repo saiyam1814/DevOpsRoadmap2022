@@ -69,7 +69,7 @@ the bottom line: you should never create a pod with a label that matches the sel
 
 > kubectl delete -f \<definition_file.yml>
 
-the above commands will delete the replicaSet and all teh pods that it manages. but sometimes you may want to just delete the replicaset resource, keeping the pods unowned (orphaned). maybe you want to manually delete the pods and don't want the replicaSet to restart them. this can be done using the following command:
+the above commands will delete the replicaSet and all the pods that it manages. but sometimes you may want to just delete the replicaset resource, keeping the pods unowned (orphaned). maybe you want to manually delete the pods and don't want the replicaSet to restart them. this can be done using the following command:
 
 > kubectl delete rs \<replicaSet_name> --cascade=false
 
