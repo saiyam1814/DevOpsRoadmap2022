@@ -643,3 +643,7 @@
 ## 05-04-2022 (day 57)
 
 - [Kubernetes ReplicaSet](https://collabnix.github.io/kubelabs/replicaset101/#how-does-replicaset-manage-pods)
+
+# 06-04-2022 (day 58)
+
+- [deployment101](https://collabnix.github.io/kubelabs/Deployment101_slides/Deployment101.html)
