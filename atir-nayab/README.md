@@ -656,3 +656,7 @@
   - anti node affinity
   - nodes taints and tolerations
 - [services101](https://collabnix.github.io/kubelabs/Slides_Services101/Services101.html)
+
+# 08-04-2022 (day 60)
+
+-[deploy a kubernetes service](https://collabnix.github.io/kubelabs/Services101/#deploying--a-kubernetes-service)
