@@ -660,3 +660,9 @@
 # 08-04-2022 (day 60)
 
 -[deploy a kubernetes service](https://collabnix.github.io/kubelabs/Services101/#deploying--a-kubernetes-service)
+
+# 10-04-2022 (day 61)
+
+- [stateful set](https://collabnix.github.io/kubelabs/StatefulSets101/#what-is-statefulset-and-how-is-it-different-from-deployment)
+- [daemonSet](https://collabnix.github.io/kubelabs/DaemonSet101/)
+- [ingress](https://collabnix.github.io/kubelabs/Ingress101)
