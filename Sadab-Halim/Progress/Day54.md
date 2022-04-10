@@ -61,3 +61,5 @@ An example application that follows this pattern can be found at the following G
 - Better traceability
 - Eliminating configuration drift
 
+Resources:
+- [What is GitOps?](https://www.youtube.com/watch?v=f5EpcWp0THw)

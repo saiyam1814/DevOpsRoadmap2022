@@ -64,3 +64,6 @@ Actual State == Desired State
 - Send alert instead
 
 ![argocd4](../Images/argocd4.png)
+
+Resources:
+- [ArgoCD Tutorial](https://www.youtube.com/watch?v=MeU5_k9ssrs)

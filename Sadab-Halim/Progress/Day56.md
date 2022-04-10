@@ -57,4 +57,5 @@ Benfits:
 ![argocd8](../Images/argocd8.png)
 
 
-
+Resources:
+- [ArgoCD Tutorial](https://www.youtube.com/watch?v=MeU5_k9ssrs)
