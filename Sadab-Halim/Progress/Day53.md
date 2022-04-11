@@ -36,3 +36,6 @@
 
 ### Why is the setup easier/
 - Integration with other technologies is important
+
+Resources:
+- [Github Actions](https://www.youtube.com/watch?v=R8_veQiYBjI)
