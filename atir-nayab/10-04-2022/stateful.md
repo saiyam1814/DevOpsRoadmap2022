@@ -2,7 +2,7 @@
 
 a statefulset is a kubernetes controller that is used to manage and maintain one or more pods. however so do other controller like replicaSets and the more robust, deployments.
 
-a stateless application is one that does not care which network it is using, and it does not need permanent storage. examples of statelessa apps may include web servers (apache, nginx or tomcat).
+a stateless application is one that does not care which network it is using, and it does not need permanent storage. examples of stateless apps may include web servers (apache, nginx or tomcat).
 
 on other hand, we have stateful apps. let's say you have a solr database cluster that is managed by several zookeeper instances. for such an application to function correctly, each solr instance must be aware of the zookeeper instances that are controlling it. similarly, the zookeeper instances themselves establish connections between each other to elect a master node .due to such a design, solr clusters are an example of stateful applications. other examples of stateful applications include mysql clusters, redis, kafka, mongodb and others.
 
@@ -18,6 +18,6 @@ storage classes are kubernetes objects that let the users specify which type of 
 
 # persistent volumes and persistent volume claims
 
-persistent volumes act as an abtraction layer ot save the user from going into the details of how storage is managed and provisioned by each cloud provider. by definition statefulsets are the most frequent users of persistent volumes since they need permanent storage of their pods.
+persistent volumes act as an abstraction layer to save the user from going into the details of how storage is managed and provisioned by each cloud provider. by definition statefulsets are the most frequent users of persistent volumes since they need permanent storage of their pods.
 
 a persistent volume claim is a request to use a persistent volume. if we are to use the pods and nodes analogy, then consider persistent volumes as the nodes and persistent volume claims as the pods that use the node resources.
