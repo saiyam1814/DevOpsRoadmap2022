@@ -666,3 +666,12 @@
 - [stateful set](https://collabnix.github.io/kubelabs/StatefulSets101/#what-is-statefulset-and-how-is-it-different-from-deployment)
 - [daemonSet](https://collabnix.github.io/kubelabs/DaemonSet101/)
 - [ingress](https://collabnix.github.io/kubelabs/Ingress101)
+
+# 11-04-2022 (day 62)
+
+- [architecture](https://www.civo.com/account/academy)
+- k3s
+
+# 12-04-2022 (day 63)
+- init-container
+- probes

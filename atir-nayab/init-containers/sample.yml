@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: init-demo
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      ports:
+        - containerPort: 80
+      volumeMounts:
+        - name: shared
+          mountPath: /usr/share/nginx/html
+  # these containers are run during pod initialization
+  intiContainers:
+    - name: install
+      image: busybox
+      command:
+        - wget
+        - "-O"
+        - "/shared/index.html"
+        - https://www.civo.com/
+      volumeMounts:
+        - name: shared
+          mountPath: /shared
