@@ -673,5 +673,19 @@
 - k3s
 
 # 12-04-2022 (day 63)
+
 - init-container
 - probes
+
+# 13-04-2022 (day 64)
+
+- deployment
+- stateful set
+
+# 16-06-2022 (day 65)
+
+- cofigmaps
+- daemonset
+- rbac
+- services
+- volumes
