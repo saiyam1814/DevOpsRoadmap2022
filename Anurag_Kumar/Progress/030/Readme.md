@@ -1,0 +1,2 @@
+- Done a little bit of linux networking using the course by kodekloud 
+- Studied a little bit of apparmor. 
