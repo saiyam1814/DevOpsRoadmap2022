@@ -18,6 +18,28 @@ IPv6 - uses 128 bits and allows $3.8*10^8$ unique addresses
 
 `netstat -u` all the UDP connections
 
+## Network Manager
+
+- Check the network manager using NetworkManager 
+- `systemctl status NetworkManager.service` (use capital N and M)
+- nmcli connection show 
+- We can check what process are running in background and waiting for requests using `ss` or `netstat` and these two utilities we can use. `ss` is modern and `netstat` is older and might get removed in the future versions of linux. 
+- `sudo ss -ltunp` 
+  - -l -> listening 
+  - -t -> tcp connections 
+  - -u -> udp connections
+  - -n -> numeric values 
+  - -p -> processes 
+- remember it as `tunnel P` -tunlp 
+- `systemctl disable <service>` will disable the service from auto starting at the boot time.   
+- You can again enable it using the enable option. 
+- You can stop using stop option and start it again using start command. 
+- with tunlp we can also check the process ID associated with the service. 
+- We can further explore about the service using the PID. `ps <pid>`
+- *We can also check what files are opened by the process using the `sudo lsof -p <pid>` command.* 
+- what is ttyd?
+- I love the hostnamectl command useful in many aspects. 
+
 ## curl
 
 `curl URL` will send a get request to the mentioned URL
