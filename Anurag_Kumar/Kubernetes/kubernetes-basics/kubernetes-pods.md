@@ -50,3 +50,12 @@ spec:
 
 - We can use the commands for all the resources that we will create in the kubernetes cluster. It can be depolyment, services, replicasets, pods etc. 
 
+#### Some more imperative commands
+- Some of the flags that will make your job easy are following. 
+- -l app=demoapp will set the labels for you pod. If you want to pass more than one label then pass it like `-l app=busyapp,env=testing`
+- --image=nginx will define the container image for your container running inside the pod. 
+- --port=80 will set the `spec.containers.ports.containerPort=80`. 
+- --restart=Never will set your restart policy to never. Keep in mind that it supports Always and Never. 
+- --privileged=true will set your security context and after that it becomes easier to edit whatever your want in terms of security in the pod. 
+- --force to quickly exit the pod. 
+- --env="DNS_DOMAIN=cluster" --env="POD_NAMESPACE=default" will set the environment variables for your pod.

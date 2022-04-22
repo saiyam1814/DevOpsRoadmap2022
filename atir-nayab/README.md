@@ -631,8 +631,61 @@
 
 - [Deploying Your First Nginx Pod](https://collabnix.github.io/kubelabs/pods101/deploy-your-first-nginx-pod.html)
 
-
 ## 31-03-2022 (day 55)
 
 - [Deploying Your First Nginx Pod](https://collabnix.github.io/kubelabs/pods101/deploy-your-first-nginx-pod.html)
   - shared volume container
+
+## 03-04-2022 (day 56)
+
+- [ReplicaSet101](https://collabnix.github.io/kubelabs/SlidesReplicaSet101/ReplicaSet101.html)
+
+## 05-04-2022 (day 57)
+
+- [Kubernetes ReplicaSet](https://collabnix.github.io/kubelabs/replicaset101/#how-does-replicaset-manage-pods)
+
+# 06-04-2022 (day 58)
+
+- [deployment101](https://collabnix.github.io/kubelabs/Deployment101_slides/Deployment101.html)
+
+# 08-04-2022 (day 59)
+
+- [deployment101](https://collabnix.github.io/kubelabs/Deployment101_slides/Deployment101.html)
+- [schdeduler101](https://collabnix.github.io/kubelabs/Scheduler101/)
+  - node affinity
+  - anti node affinity
+  - nodes taints and tolerations
+- [services101](https://collabnix.github.io/kubelabs/Slides_Services101/Services101.html)
+
+# 08-04-2022 (day 60)
+
+-[deploy a kubernetes service](https://collabnix.github.io/kubelabs/Services101/#deploying--a-kubernetes-service)
+
+# 10-04-2022 (day 61)
+
+- [stateful set](https://collabnix.github.io/kubelabs/StatefulSets101/#what-is-statefulset-and-how-is-it-different-from-deployment)
+- [daemonSet](https://collabnix.github.io/kubelabs/DaemonSet101/)
+- [ingress](https://collabnix.github.io/kubelabs/Ingress101)
+
+# 11-04-2022 (day 62)
+
+- [architecture](https://www.civo.com/account/academy)
+- k3s
+
+# 12-04-2022 (day 63)
+
+- init-container
+- probes
+
+# 13-04-2022 (day 64)
+
+- deployment
+- stateful set
+
+# 16-06-2022 (day 65)
+
+- cofigmaps
+- daemonset
+- rbac
+- services
+- volumes
