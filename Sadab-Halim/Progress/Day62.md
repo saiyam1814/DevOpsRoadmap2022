@@ -69,6 +69,7 @@ Terraform is cloud-agnostic and allows a single configuration to be used to mana
 
 ## Terraform Core and Terraform Plugins
 Terraform is logically split into two main parts:
+
 1. **Terraform Core**: uses remote procedure calls (RPC) to communicate with Terraform Plugins
 2. **Terraform Plugins**: expose an implementation for a specific service, or provisioner
 
