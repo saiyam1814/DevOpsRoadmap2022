@@ -5,3 +5,5 @@ Following :https://github.com/MichaelCade/90DaysOfDevOps
 I will update daily status in this file
 
 Day 1 Covered topics : Introduction to DevOps 
+
+Day 2 Covered topics : Responsibilities of DevOps engineer
