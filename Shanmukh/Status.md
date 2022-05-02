@@ -9,3 +9,5 @@ Day 1 Covered topics : Introduction to DevOps
 Day 2 Covered topics : Responsibilities of DevOps engineer
 
 Day 3 Covered topics : DevOps LifeCycle
+
+Day 4 Covered topics: Devops vs Agile
