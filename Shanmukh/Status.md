@@ -15,3 +15,7 @@ Day 4 Covered topics: Devops vs Agile
 Day 5 Covered topics: Devops Life cycle stages: Plan --> Code --> Build --> Test --> Release -->Deploy --> Operate --> Monitor
 
 Day 6 Covered topics: DevOps real stories
+
+Day 7 Covered topics: Intro to Linux
+
+Day 8 Covered topics: Revision ( Day1 to Day 7)
