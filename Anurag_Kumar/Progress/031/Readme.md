@@ -1,0 +1,1 @@
+- Revised the concept of kubernetes jobs 
