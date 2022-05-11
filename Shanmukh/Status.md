@@ -25,3 +25,5 @@ Day 9 & 10 Covered topics: Linux - commands tried - cut,awk,xargs,chown,chmod
 Day 11 Covered topics: Linux storage ( lsblk,df,creating partition) & text editors ( nano & vim)
 
 Day 12 Covered topics: Linux SSH & LAMP stack basics
+
+Day 13 Covered topics: Created LAMP stack on centos vm & amazon linux And also tried wordpress on LAMP
