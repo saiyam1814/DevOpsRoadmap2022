@@ -29,3 +29,5 @@ Day 12 Covered topics: Linux SSH & LAMP stack basics
 Day 13 Covered topics: Created LAMP stack on centos vm & amazon linux And also tried wordpress on LAMP
 
 Day 14 Covered topics: Gone through BASH scripting basics
+
+Day 15 Covered topics: Revisited bash with few basic examples 
