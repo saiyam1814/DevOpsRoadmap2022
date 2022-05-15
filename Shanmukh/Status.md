@@ -31,3 +31,8 @@ Day 13 Covered topics: Created LAMP stack on centos vm & amazon linux And also t
 Day 14 Covered topics: Gone through BASH scripting basics
 
 Day 15 Covered topics: Revisited bash with few basic examples 
+
+Day 16 Covered topics: rewritten LAMP shell script
+
+Day 17 Covered topics: seen linux OS basics video Apoorv Goyal
+
