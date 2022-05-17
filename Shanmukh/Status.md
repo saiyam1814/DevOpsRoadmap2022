@@ -38,3 +38,6 @@ Day 17 Covered topics: seen linux OS basics video Apoorv Goyal
 
 Day 18 Covered topics: Started LFCS course in Kodekloud & covered GUI , CLI based local & remote logins , man , apropos,ls,mv,cp,mkdir,rm 
 
+Day 19 Covered topics: hardlinks(ln) & softlinks (ln -s)- lab 
+
+
