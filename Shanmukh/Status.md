@@ -40,4 +40,5 @@ Day 18 Covered topics: Started LFCS course in Kodekloud & covered GUI , CLI base
 
 Day 19 Covered topics: hardlinks(ln) & softlinks (ln -s)- lab 
 
+Day 20 Covered topics: Set User ID (SUID)4, Set Group Id (SGID)2 & Sticky bit 1
 
