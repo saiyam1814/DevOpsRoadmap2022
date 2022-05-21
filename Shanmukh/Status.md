@@ -42,3 +42,7 @@ Day 19 Covered topics: hardlinks(ln) & softlinks (ln -s)- lab
 
 Day 20 Covered topics: Set User ID (SUID)4, Set Group Id (SGID)2 & Sticky bit 1
 
+Day 21 Covered topics: Find command to search for files and directories using name,perm,mmin,cmin,size flags
+
+Day 22 Covered topics: uniq,sort,cut,sed - modifiying and extracting content from files 
+
