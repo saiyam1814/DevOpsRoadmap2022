@@ -46,3 +46,7 @@ Day 21 Covered topics: Find command to search for files and directories using na
 
 Day 22 Covered topics: uniq,sort,cut,sed - modifiying and extracting content from files 
 
+Day 23 Covered topics: pagers(more/less) , VI editor, grep, regex,archive,compress,backup, uncompress 
+
+Day 24 Covered topics: Taken labs till now covered ones and reboot, shutdown of linuxsystem & different operating modes(multiuser,graphical,emergency,rescue targets)
+
