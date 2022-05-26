@@ -50,3 +50,5 @@ Day 23 Covered topics: pagers(more/less) , VI editor, grep, regex,archive,compre
 
 Day 24 Covered topics: Taken labs till now covered ones and reboot, shutdown of linuxsystem & different operating modes(multiuser,graphical,emergency,rescue targets)
 
+Day 25 Covered topics: Bootloaders(GRUB), basic bash script(shebang),Service configuration & modified LAMP bash script
+
