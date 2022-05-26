@@ -52,3 +52,5 @@ Day 24 Covered topics: Taken labs till now covered ones and reboot, shutdown of 
 
 Day 25 Covered topics: Bootloaders(GRUB), basic bash script(shebang),Service configuration & modified LAMP bash script
 
+Day 26 Covered topics: System  Logging - /var/log/ (journalctl)
+
