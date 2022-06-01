@@ -1,0 +1,10 @@
+multilineString: | # by using the | "pipe" yaml will interpret everything as a multiline string
+  this is a multiline multilineString
+  and this is the next line
+  next line
+  next
+
+singleLine: > # by using > , yaml will interpret it as a single line
+  this is a single line string,
+  that should ne all on one line.
+  some other stuffs
