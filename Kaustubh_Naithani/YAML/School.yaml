@@ -1,0 +1,21 @@
+School:
+- name: DPS
+  pricipal: Someone
+  Students:
+  - rno: 12
+    name: Kunal Kuswaha
+    marks: 67
+  - rno: 10
+    name: Kaustubh Naithani
+    marks: 90
+
+---
+# Multiple yaml files in a single yaml file
+
+School:
+  - name: BPS
+    principal: hoga koi
+    Students:
+    - rno: 13
+      name: rowdy
+      marks: 10

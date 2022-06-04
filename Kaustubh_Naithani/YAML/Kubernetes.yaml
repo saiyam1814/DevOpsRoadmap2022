@@ -1,0 +1,25 @@
+# real k8s YAML
+# Pod configuration
+
+apiVersion: v1
+kind: Pod
+metadata:             # metadata obj
+  name: ngnix
+  labels:             # lables obj inside metadata obj
+    name: ngnix
+spec:
+  containers:
+  - name: ngnix-container
+    image: ngnix
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 80
+
+  - name: sidecar-container
+    image: curlimages/curl
+    command: ["/bin/sh"]
+    args: ["-c", "echo Hello from the sidecar container; sleep 300"]
+    resources:

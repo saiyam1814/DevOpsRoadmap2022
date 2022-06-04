@@ -1,0 +1,19 @@
+# objects
+microservice:
+  - app: user-authentication    # Lists by using -
+    port: 9000                  # key value pairs
+    version: [1.6, 2.6, 1.0]    # these are also lists
+    deployed: false             # boolean can be specified by yes no, on and off as well
+  
+  - app: shopping-cart
+    port: 9002
+    versions: 
+      - 1.9
+      - 2.0
+      - 2.4
+
+
+microservices:
+  - user-authentication
+  - shopping-cart
+
