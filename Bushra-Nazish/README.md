@@ -30,3 +30,19 @@
 - Working with Files
 
 * Revised Computer Network notes [ Kunal Kushwaha ]
+
+### Day 05 : 27-03-2022
+- Searching for files
+- Installing software
+
+* Did Editing work of blog
+
+### Day 06 : 28-03-2022
+- Linux Documentation sources
+- The man pages
+- GNU info
+- The --help option and help command
+
+* Learned YAML [Kunal Kushwaha]
+
+### Day 07 : 
