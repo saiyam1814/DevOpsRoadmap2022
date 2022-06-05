@@ -54,3 +54,5 @@ Day 25 Covered topics: Bootloaders(GRUB), basic bash script(shebang),Service con
 
 Day 26 Covered topics: System  Logging - /var/log/ (journalctl)
 
+Day 27 Covered topics: Cron,Anacron & at scheduling jobs & started boot.dev interactive python basics course as well 
+
