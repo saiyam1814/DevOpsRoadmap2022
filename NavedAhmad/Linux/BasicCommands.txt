@@ -1,0 +1,54 @@
+ls - it stands for list
+this command lists all the items in a  folder.
+
+
+mkdir - it stands for make directory
+this command is used to create a new folder.
+
+
+cd - it stands for change directory
+this command is used to change the working directory.
+
+
+touch - this command is used to create a new file
+
+
+cat - it stands for concatenate
+It is used to view, create and concatenate files.
+
+
+cp - it stands for copy
+It copies a file or directory to another place.
+• cp file1.txt file2.txt
+-> copies the file file1.txt to file2.txt
+• cp -R dir1 dir2
+-> copies dir1 to dir2
+
+
+
+mv - it stands for move
+
+It moves files and directories to another directory.
+It can be used to rename a file or directory.
+• mv file1.txt random
+-> Moves the file1.txt to folder random
+• mv file1.txt file2.txt
+-> Renames the file1.txt to file2.txt
+
+
+chmod -  It lets you change the mode (permission) of a file.
+
+
+Kill - it is used to kill a command
+
+
+du - used to get the disk usage statistics
+
+
+ps - used to list the currently running processes and their process ID along with some other information
+
+
+systemctl - used to control and manage systemd and services
+
+
+top - to get all the running processes
