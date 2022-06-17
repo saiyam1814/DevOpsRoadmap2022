@@ -1,0 +1,2 @@
+Hey everyone.Today i started learning basic networking as told by Saiyam Pathak in his DevOps roadmap 2022.
+Soon i will be sharing all basic terminologies which i learn.
