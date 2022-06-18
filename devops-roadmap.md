@@ -29,7 +29,7 @@
 - [ ] [Ivan container articles](https://iximiuz.com/en/categories/?category=Containers)
 
 ## Kubernetes
-- [ ] [Civo Academy](civo.com/academy)
+- [ ] [Civo Academy](https://civo.com/academy)
 - [ ] [Kubernetes course (techworldwithnana)](https://youtu.be/X48VuDVv0do)
 - [ ] [Kube academy](https://kube.academy/)
 - [ ] [Introduction to Kubernetes (edx)](https://www.edx.org/course/introduction-to-kubernetes)
