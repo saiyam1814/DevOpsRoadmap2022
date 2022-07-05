@@ -61,3 +61,10 @@
 
 ### [✔️] Day 17 : 29 June, 2022
 - Working with file content, system information and linux file structure.
+
+### [✔️] Day 18 : 3 July, 2022
+- SSH & Web Server
+
+### [✔️] Day 19-20 : 5 July, 2022
+- Automated task with bash scripts.
+- dev workstations setup.
