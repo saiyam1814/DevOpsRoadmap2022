@@ -78,4 +78,4 @@
 - [ ] [Styra Academy](https://academy.styra.com/courses/opa-rego)
 
 ## Servicemesh
-- [ ] [Introduction to Service mesh with Linkerd](https://www.edx.org/course/introduct
+- [ ] [Introduction to Service mesh with Linkerd](https://www.edx.org/course/introduction-to-service-mesh-with-linkerd)
