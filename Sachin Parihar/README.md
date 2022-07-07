@@ -68,3 +68,10 @@
 ### [✔️] Day 19-20 : 5 July, 2022
 - Automated task with bash scripts.
 - dev workstations setup.
+
+### [✔️] Day 21 : 06 July, 2022
+- Introduction to the Computer Networking
+- what is netDevOps.
+- Switches vs Routers.
+### [✔️] Day 22 : 07 July, 2022
+- The OSI Model - The 7 Layers.
