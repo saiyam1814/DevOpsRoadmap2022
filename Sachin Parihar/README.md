@@ -13,6 +13,7 @@
 ### [✔️] Day 3 : 1 June, 2022
 - Learned about devops lifecycle - application focused.
 - A brief overview of continous development, testing, integration, deployment, monitoring of devops.
+
 ### [✔️] Day 4 : 2 June, 2022
 - Learned about Devops & Agile.
 - Difference between devops and agile.
@@ -73,5 +74,10 @@
 - Introduction to the Computer Networking
 - what is netDevOps.
 - Switches vs Routers.
+
 ### [✔️] Day 22 : 07 July, 2022
 - The OSI Model - The 7 Layers.
+
+### [✔️] Day 23 : 08 July, 2022
+- Learned about Networking Protocols.
+
