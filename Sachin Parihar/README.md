@@ -81,3 +81,14 @@
 ### [✔️] Day 23 : 08 July, 2022
 - Learned about Networking Protocols.
 
+### [✔️] Day 24 : 09 July, 2022
+- Learned about Network Automation.
+- Network Automation Tools.
+
+### [✔️] Day 25-26 : 15 July, 2022
+- Learned about Python for Network Automation.
+- Install VMware Workstation and Setting up the lab environment.
+- Creating lab using EVE-NG.
+
+ 
+
