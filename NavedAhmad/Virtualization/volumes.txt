@@ -1,0 +1,1 @@
+Hey everyone, today i learnt about Docker volumes. With this my Docker journey ends and now i will move onto Kubernetes. DevOps journey is going pretty amazing.
