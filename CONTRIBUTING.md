@@ -34,7 +34,7 @@ git checkout <branch_name>
 ```mkdir <Your_name>```
    - For adding spaces between name, type as mkdir firstName\ lastName .
       -example : mkdir Saiyam\ pathak
-- To change directory into the folder, run ```cd <Your_name>
+- To change directory into the folder, run ```cd <Your_name> ```
 - Add a readme.md file , to tell about yourself and show your progress.
 
 - To push your changes to github, Run the following commands.
