@@ -1,7 +1,7 @@
 
 ## Prerequisites
-- <input type="checkbox" disabled checked /> [Introduction of Linux](https://www.edx.org/course/introduction-to-linux)
-- [ ] [DevOps Prerequisite (freecodecamp)](https://youtu.be/Wvf0mBNGjXY)
+- [x] [Introduction of Linux](https://www.edx.org/course/introduction-to-linux)
+- [x] [DevOps Prerequisite (freecodecamp)](https://youtu.be/Wvf0mBNGjXY)
 - [ ] [CCNA part 1](https://youtu.be/rv3QK2UquxM)
 - [ ] [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
 
