@@ -90,5 +90,51 @@
 - Install VMware Workstation and Setting up the lab environment.
 - Creating lab using EVE-NG.
 
+### [✔️] Day 27 : 16 July, 2022
+- Getting Hands-On with python and network.
+
+### [✔️] Day 28 : 17 July, 2022
+- The Big Picture: DevOps & The Cloud.
+- On-Premises to Cloud
+- What is Hybrid & Multi- Cloud and why it's used?
+- Challenges to Multi- and Hybrid-Cloud.
+
+### [✔️] Day 29 : 18 July, 2022
+- Microsoft Azure Fundamentals.
+- Benefits of Cloud Computing.
+- CAPEX vs OPEX.
+
+### [✔️] Day 30-31 : 21 July, 2022
+- Azure Compute Models - Virtual Machines, Containers, Functions, Serverless Computing.
+- Global Infrastructure and Azure's Services.
+
+### [✔️] Day 32 : 23 July, 2022
+- Azure Management Tools.
+- Create a Resource Group, Create a vNet, Launching a Server, Creating a Azure Function.
+
+### [✔️] Day 33 : 24 July, 2022
+- Microsoft Azure Security Models.
+
+### [✔️] Day 34 : 25 July, 2022
+- Azure Billing and Pricing.
+
+### [✔️] Day 35-36-37 : 26 July, 2022
+- Git - version control system
+-  Installing git and learn about git commands.
+
+### [✔️] Day 38-39 : 28 July, 2022
+- Staging & Changing.
+- Git Commands of staging file, committing files, removing file etc.
+- rebase vs merge.
+
+
+
+
+
+
+
+
+
+
  
 
