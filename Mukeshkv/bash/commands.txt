@@ -1,0 +1,12 @@
+which bash // to know where bash interpreter is located
+chmod +x hello.sh // make bash executable
+
+Concatenate
+    cat [options] [file_names]  // Cat is used to read a file sequentially and print it to the standard output
+        -b, numer non-blank output lines
+        -n, number all output lines
+        -s, squeeze multiple adjacent blank lines
+        -v, display nonprinting characters, except for tabs and the end of line character
+
+        cat -n hello.sh
+        cat hello.sh  colors.txt 
