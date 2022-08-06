@@ -3,7 +3,7 @@
 - [x] [Introduction of Linux](https://www.edx.org/course/introduction-to-linux)
 - [x] [DevOps Prerequisite (freecodecamp)](https://youtu.be/Wvf0mBNGjXY)
 - [x] [CCNA part 1](https://youtu.be/rv3QK2UquxM)
-- [ ] [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
+- [x] [Golang complete course (techworldwithnana)](https://youtu.be/yyUHQIec83I)
 
 ## YAML
 
