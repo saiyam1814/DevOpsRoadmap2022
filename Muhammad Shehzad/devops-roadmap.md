@@ -14,7 +14,7 @@
 
 - [x] [Git and GitHub crash course (freecodecamp)](https://youtu.be/RGOj5yH7evk)
 - [x] [Complete Git and GitHub Tutorial (Kunal Kushwaha)](https://youtu.be/apGV9Kg7ics)
-- [ ] [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
+- [x] [Git for Professionals (freecodecamp)](https://youtu.be/Uszj_k0DGsg)
 
 ## cloud
 
