@@ -7,7 +7,7 @@
 
 ## YAML
 
-- [ ] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
+- [x] [Introduction to YAML](https://youtu.be/1uFVr15xDGg)
 - [ ] [Introduction to YAML (Kunal Kushwaha)](https://youtu.be/IA90BTozdow)
 
 ## Git
