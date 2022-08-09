@@ -1,0 +1,100 @@
+### NUMERIC
+## The key is always a string. The value is a scalar so that it can be any datatype.
+---
+foo: 12345
+bar: 0x12d4
+plop: 023332
+#An integer can be decimal, hexidecimal, or octal
+---
+foo: 1230.15
+bar: 12.3015e+05
+# YAML supports both fixed and exponential floating point numbers.
+
+---
+foo: .inf
+bar: -.Inf
+plop: .NAN
+#Finally, we can represent not-a-number (NAN) or infinity.
+
+### STRING
+## YAML strings are Unicode. In most situations, you don't have to specify them in quotes.
+---
+foo: this is a normal string
+bar: "this is not a normal string\n" #if we want escape sequences handled, we need to use double quotes.
+
+bar1: >
+  this is not a normal string it
+  spans more than
+  one line
+  see?
+
+bar2:
+  | #The block (pipe) character has a similar function, but YAML interprets the field exactly as is i.e does not format in 1 line
+  this is not a normal string it
+  spans more than
+  one line
+  see?
+
+
+
+---
+foo: ~ #We  enter nulls with a tilde or the unquoted null string literal.
+bar: null
+
+---
+foo: True #YAML indicates boolean values with the keywords True, On and Yes for true. False is indicated with False, Off, or No.
+bar: False
+light: On
+TV: Off
+
+---
+items: [ 1, 2, 3, 4, 5 ]
+names: [ "one", "two", "three", "four" ] # specify arrays or lists on a single line.
+
+
+
+---
+items: #you can put them on multiple lines.
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+names:
+  - "one"
+  - "two"
+  - "three"
+  - "four"
+
+--- 
+ foo: { thing1: huey, thing2: louie, thing3: dewey } #dictionaries inline
+--- #they can be nested and hold any value.
+foo:
+  bar:
+    - bar
+    - rab
+    - plop
+#Chomp Modifiers
+#Multiline values may end with whitespace, 
+#and depending on how you want the document to be processed you might not want to preserve it. YAML has the strip chomp and preserve chomp operators. To save the last character, add a plus to the fold or block operators.
+
+bar: >+
+  this is not a normal string it
+  spans more than
+  one line
+  see?
+
+bar2: |- # if the value ends with whitespace, like a newline, YAML will preserve it. To strip the character, use the strip operator
+  this is not a normal string it
+  spans more than
+  one line
+  see?
+
+
+
+...
+
+#placeholder
+name: {{.Values.service.name}}
+
+### A document starts with three dashes and ends with three periods. Some YAML processors require the document start operator. The end operator is usually optional. 

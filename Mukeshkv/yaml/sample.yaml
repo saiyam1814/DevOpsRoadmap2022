@@ -1,0 +1,22 @@
+--- ## These dashes indicate the start of a new YAML document. YAML supports multiple documents, and compliant parsers will recognize each set of dashes as the beginning of a new one.
+doe: "a deer, a female deer" ## Key Value Pair #String
+ray: "a drop of golden sun" #String
+pi: 3.14159 #Pi is a floating-point number
+xmas: true #Xmas is a boolean
+# We can enclose strings in single or double-quotes or no quotes at all. YAML recognizes unquoted numerals as integers or floating point. 
+french-hens: 3 #French-hens is an integer.
+calling-birds: #array
+  - huey
+  - dewey
+  - louie
+  - fred
+xmas-fifth-day:
+  calling-birds: four
+  french-hens: 3
+  golden-rings: 5
+  partridges:
+    count: 1
+    location: "a pear tree"
+  turtle-doves: two
+
+##  Indentation is how YAML denotes nesting. The number of spaces can vary from file to file, but tabs are not allowed.
