@@ -4,6 +4,8 @@ I have created the complete DevOps roadmap that anyone can follow and be job rea
 
 The [complete video](https://youtu.be/7l_n97Mt0ko) is on my [YouTube channel](https://saiyampathak.com/youtube), do not forget to share it with your friends.
 
+UPDATE - AUGUST 2022: In order to accelerate your DevOps journey we have created a new community call Kubesimplify for simplifying cloud native and launched [Kubesimplify workshops](https://kubesimplify.com/workshops) so that you can accelerate your learning journey.
+
 - If you are new to github then checkout our contributing guide [here](https://github.com/saiyam1814/DevOpsRoadmap2022/blob/main/CONTRIBUTING.md)
 
 Learning in public is very important so you can create PR's to this repo by:
