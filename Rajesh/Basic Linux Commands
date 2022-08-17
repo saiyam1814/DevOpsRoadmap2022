@@ -1,0 +1,23 @@
+Chown
+
+Various clients in the operating system have proprietorship and authorization to guarantee that the records are secure and put limitations on who can alter the contents of the documents. In Linux, there exist various clients who utilize the framework:
+
+Every client has a few properties related to them, for example, a client ID and a home registry. We could add clients into a team to make the way toward dealing with clients in a simple manner. 
+A group can have at least zero clients. A predetermined client is related with a default group. It can likewise be an individual from different teams on the system also.
+The chown command is utilized to aalter the file Owner or group. 
+
+Syntax:
+
+chown [OPTION]… [OWNER][:[GROUP]] FILE…
+
+chown [OPTION]… –reference=RFILE FILE…
+
+Example: To change owner of the file:
+
+chown owner_name file_name
+
+chown master file1.txt
+
+Here, master is another user in the system. Consider that if you are user named user1 and you require to alter ownership to root (where your current directory is user1). You can use “sudo” before the syntax.
+
+sudo chown root file1.txt
