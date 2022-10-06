@@ -21,7 +21,7 @@
 - Think of old days when we used to assemble our computer
   - First we used to buy PC cabinet
   - Then motherboard
-  - them RAM
+  - then RAM
   - then processor
 
 - Now days when we buy motherboard then we get ethernet port along with that. It means that it is already having the NIC card. 
