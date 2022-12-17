@@ -126,10 +126,58 @@
 - Staging & Changing.
 - Git Commands of staging file, committing files, removing file etc.
 - rebase vs merge.
+### [✔️] Day 40-41 : 30 July, 2022
+- learned about GitHub & took an overview of GitHub
+- practice with github using git commands.
 
+### [✔️] Day 42 : 1 August, 2022
+- Learned about What is container, docker, images
+- advantages of these container and VM vs Containers.
 
+### [✔️] Day 43 : 2 August, 2022
+- What is docker desktop, docker compose, docker hub
+- dockerfile and installing the docker desktop on windows.
 
+### [✔️] Day 44 : 7 August, 2022
+- Explored more about docker hub, pulling docker images and running containers.
 
+### [✔️] Day 45 : 9 August, 2022
+- Dockerfile, layers and how to build docker images with dockerfile.
+
+### [✔️] Day 46 : 12 August, 2022
+- Docker Compose, how to use it 
+- Docker run commands vs docker compose
+- Create the docker compose file
+
+### [✔️] Day 47-48 : 14 August, 2022
+- docker networking and security & run its commands.
+- Learn more about docker's alternatives.
+
+### [✔️] Day 49 : 17 August, 2022
+- What is kubernetes, its features and Advantages.
+- Kubernetes Architecture components like control plane components
+- Worker Node components.
+
+### [✔️] Day 50 : 19 August, 2022
+- Bare metal & virtualisatin and difference between them.
+- Learn about advantages and challlenges of kubernetes on bare metals.
+- how to install kubernetes on bare metal server.
+
+### [✔️] Day 51-52 : 24 August, 2022
+- What is Minikube & kubectl and run its commands
+- nginx pod using kubectl commands.
+- how to setup multinode kubernetes cluster on vagrant using vagrantfile.
+
+### [✔️] Day 53 : 27 August, 2022
+- What is ingress, ingress controller and configure ingress on minikube.
+- Learn about package manager and helm chart, helm chart structure, use cases and downside of helm.
+
+### [✔️] Day 54-55 : 31 August, 2022
+- Persistent Volume, Persistent Volume claim
+- StatefulSet
+- difference between stateful and stateless application
+- deployment vs statefulset
+- type of k8s services and when we need it.
 
 
 
