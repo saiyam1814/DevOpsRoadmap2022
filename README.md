@@ -27,5 +27,5 @@ You can use the hashtag `#learnwithsaiyam` on [Twitter](https://twitter.com/saiy
 
 ## Thanks to all the contributors ❤️
 <a href = "https://github.com/saiyam1814/DevOpsRoadmap2022/graphs/contributors">
-  <img src = "https://github.com/saiyam1814/DevOpsRoadmap2022/graphs/contributors"/>
+  <img src = "https://github.com/saiyam1814/DevOpsRoadmap2022/graphs/contributors/">
 </a>
