@@ -1,0 +1,29 @@
+----------------Day2--------------------------
+TODAY I HAVE STARTED WITH THE PREREQUISITE  GIVEN IN THE ROADMAP2022
+
+
+ACCORDING TO IT 
+ 
+
+1.INTRODUCTION TO LINUX BY LINUX FOUNDATION
+
+
+I have enrolled in it and started to know about linux and its linux foundation 
+and awesome work that linux foundation is doing
+
+Then I have came to know about different type od distributions available
+ 1.red hat family systems
+ 2.suse family systems
+ 3.Debian family systems
+
+
+then started to install ubuntu iinto my computer it was nice and good thing while
+installing it 
+    I came to know about WSL in windows 
+    then installed ubuntu gave my name ad password 
+ then learned about some basic concepts in linux 
+------------------------------------------------------
+As off today it was a good day and learnt something new 
+ 
+
+--------------excited for tommorow-------------------
