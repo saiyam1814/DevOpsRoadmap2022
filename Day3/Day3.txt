@@ -1,0 +1,13 @@
+-------------------------------DAY3---------------------
+ # continuing with the course "INTRODUCTION TO LINUX" by linux foudation 
+
+ # File management and its commands 
+
+ #how to find files using find and locate commands 
+
+ # Basic command operationns such as mkdir cat echo ls rmdir etc
+ 
+ # Basic network operations and basics of network IP Address etc 
+
+
+----------------------------------------------------------------
