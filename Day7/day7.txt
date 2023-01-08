@@ -1,0 +1,27 @@
+-------------------------------DAY7---------------------------
+In the day 7 i have started ti follow the prerequisite and finish the last one in that prerequisite 
+
+that is "yaml"  
+
+-I have watched the "Intro to Yaml file " with tech with nana
+
+-It was so simple and so exciting that it is too different from the xml and json file
+
+-yet an another markup lanuage or yaml ain't markup language 
+
+-the intendations plays an very important role in creating yaml file 
+
+-It is created as it should be user readable alone no strings attached 
+
+-no coding like thing no semocolon no open braces nothing
+
+-only thing that we should care about is that intendations 
+
+-on online there are many resources forclearing the intendations erros so using yaml is so useful
+
+-we also able to create list like something 
+
+-as i have finished my pre requisite and today is sunday so i will be documenting and putting everything together 
+on every sunday im gonna do this for my future reference 
+
+-----------------------------------------------------------------------
