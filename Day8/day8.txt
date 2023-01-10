@@ -1,0 +1,25 @@
+-----------------------day8-------------------------------
+
+1.after completing the prerequisites starting to getting into the main topics 
+
+2.As per the roadmap started to know about what is container
+
+3.Iin old day how the websites are deployed in the server
+
+4.Then came ro know about virtual machines 
+
+5.VMware
+
+6.uses of virtual machines 
+
+7.why they have turned from virtual machines to docker
+
+8.what is docker 
+
+9.main components of docker 
+
+10.runtime ,containerd ,containers 
+
+11.docker file ->docker images->containers 
+
+---------------------------------------------------------
