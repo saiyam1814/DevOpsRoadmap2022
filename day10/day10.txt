@@ -1,0 +1,23 @@
+----------------------------------------------
+
+After few days for completing the documentation work of my devops journey
+Now I'm continuing where i have left .I have finished upto virtual Machines, containers ,Docker
+
+
+Now I have to start from the kubernetes 
+
+I have refereed to kunal kushwaha's video as it always be a beginner friendly video
+
+The topics he covered was 
+
+-what is need for kubernetes
+-what his role
+-what is his history
+-what is k8's
+-control plane 
+-working nodes 
+-pods 
+-kubecluster
+-mini kube etc 
+then hands on will be started from tomorrow and then advanced topics will
+be covered inside the kubernetes topics 
