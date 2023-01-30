@@ -1,0 +1,34 @@
+----------------Day4------------------------
+
+1.continuation in the linux foundation course
+
+   #network basics classa,classb,classc
+
+   #route
+
+   #file transer protocol
+
+   #some shell scripting
+
+   #worked out some ubuntu commands
+       
+          $pwd
+
+          $mkdir
+ 
+          $cd
+
+          $cat
+
+          $touch
+
+          $cat file 1,file2
+
+          $passwd
+            by working out this command i came to know that i forgot my passwd 
+
+ 
+   #freecodecamp video devops prerequistie 
+     implemented kodekloud lab
+--------------------------------------------------------
+   
