@@ -1,0 +1,27 @@
+----------------------------day 9------------------------------
+ Docker:
+
+
+    -main and important concepts 
+    
+     -difference between image and a container in docker
+
+    -how to install the dockerdesktop in the laptop as i have already installed wsl2
+
+    -how to pull an image
+ 
+    -how to run the container
+
+    -how wto see how many containers are running
+  
+    - Use cases and working of the detach mode
+
+    - some simple commands such as  ls docker stop 
+
+    -learn something about networks 
+
+    -eventhough the containers are in isolated networlk they can connect with each other
+
+--------------------------------------------------------------------------------------
+
+
