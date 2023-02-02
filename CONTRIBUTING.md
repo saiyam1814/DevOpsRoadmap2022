@@ -5,7 +5,7 @@
 In this guide I will show you step by step how you can contribute your learnings here.
 
 ### Steps Involved
-- You need a github account and you need the fork the this [repository](https://github.com/saiyam1814/DevOpsRoadmap2022). 
+- You need a github account and you need to fork this [repository](https://github.com/saiyam1814/DevOpsRoadmap2022). 
 
 - After your have forked the repo you will see `<username>/DevOpsRoadmap2022` under your account.
   
