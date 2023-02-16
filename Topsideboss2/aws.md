@@ -90,3 +90,19 @@ The IT infrastructure that AWS provides to its customers is designed and managed
 * Security, Identity and Compliance
 * Storage
 
+## AWS Management Console
+## AWS Command Line Interface
+## Software Development Kit
+## Analytics
+## Application Integration
+## Cloud Financial Management
+## Compute Services
+## Contact Center
+## Containers
+## Database
+## Developer Tools
+## Management and Governance
+## Migration and Transfer
+## Networking and Content Delivery
+## Security, Identity and Compliance
+## Storage
