@@ -47,3 +47,46 @@ The deployment of resources on-premises, using virtualization and resource manag
 The AWS cloud infrastructure is built around AWS regions and Availability Zones. An AWS Region is a physical location in the world where we have multiple Availability Zones(AZ). AZs consist of one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities. These AZs offer you the ability to operate production applications and databases that are more highly available, fault-tolerant and scalable than would be possible from a single data center. The AWS cloud operates in 80 AZs within 25 geographic Regions around the world with announced plans for more AZs and Regions.
 Each Amazon Region is designed to be completely isolated from the other Amazon Regions. This achieves the greatest possible fault tolerance and stability. Each Availability Zone is isolated, but the AZs in a Region are connected through low-latency links. AWS provides you with the flexibility to place instances and store data within multiple geographic regions as well as across multiple AZs within each AWS Region. Each AZ is designed as an independent failure zone. This means that Availability Zones are physically separated within a typical metropolitan region and are located in risk flood plains. In addition to discrete uninterruptible power supply and onsite backup generation facilities, data centers located in different AZ are designed to be supplied by independent substations to reduce the risk of an event on the power impacting more than one AZ. Availability Zones are all redundantly connected to multiple tire-1 transit providers.
 
+## Security and Compliance
+### Security
+Cloud security at AWS is the highest priority. As an AWS customer, you will benefit from a data center and network architecture built to meet the requirements of the most security-sensitive organizations. Security in the cloud is much like security in your on-premise data centers - only without the cost of maintaining facilities and hardware. In the cloud, you don't have to manage physical servers or storage devices. Instead, you use software-based security tools to monitor and protect the flow of information into and out of your cloud resources.
+
+An advantage of AWS Cloud is that it allows you to scale and innovate while maintaining a secure environment and paying only for the services you use. This means that you can have the security you need at a lower cost than in on-premises environment. 
+
+As an AWS customer, you inherit all the best practices of AWS policies, architecture and operational processes built to satisfy the requirements of our most security-sensitive customers. Get the flexibility and agility you need in security controls.
+
+The AWS Cloud enables a shared responsibility model. While AWS manages security **of** the cloud, you are responsible for security **in** the cloud. This means that you retain control of the security you choose to implement to protect your own content, platform, applications, systems and networks no differently than you would in an on-site data center.
+
+AWS provides you with guidance and expertise through online resources, personnel and partners. AWS provided you with advisories for current issues plus you have the opportunity to work with AWS when you encounter security issues.
+
+#### Benefits of AWS Security
+* **Keep your data safe**: The AWS Infrastructure puts strong safeguards in place to help protect your privacy. All data is stored in highly secure AWS data centers.
+* **Meet Compliance Requirements**: AWS manages dozens of compliance programs in its infrastructure. This means that segments of your compliance have already been completed.
+* **Save Money**: Cut costs by using AWS data centers. Maintain the highest standard of security without having to manage your own facility.
+* **Scale Quickly**: Security scales with your AWS Cloud usage. No matter the size of your business, the AWS Infrastructure is designed to keep your data safe.
+
+### Compliance
+AWS Cloud Compliance enables you to understand the robust controls in place at AWS to maintain security and data protection in the cloud. As systems are built on top of AWS Cloud Infrastructure, compliance responsibilities will be shared. By tying together governance-focused, audit-friendly service features with applicable compliance or audit standards, AWS Compliance enablers build on traditional programs. This helps customers to establish and operate in an AWS security control environment.
+
+The IT infrastructure that AWS provides to its customers is designed and managed in alignment with best security practices and a variety of IT security standards.
+
+# AWS Web Services Cloud
+
+### Topics
+* AWS Management Console
+* AWS Comand Line Interface
+* Software Development Kit
+* Analytics
+* Application Integration
+* Cloud Financial Management
+* Compute Services
+* Contact Center
+* Containers
+* Database
+* Developer Tools
+* Management and Governance
+* Migration and Transfer
+* Networking and Content Delivery
+* Security, Identity and Compliance
+* Storage
+
