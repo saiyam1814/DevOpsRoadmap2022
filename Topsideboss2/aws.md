@@ -134,13 +134,18 @@ Amazon Simple Queue Service (SQS) is a fully managed message queueing service th
 SQS offers two types of messages queues. 
 1. Standard Queues
 2. FIFO Queues
-
+![](images/SQS.png)
 
 ## Cloud Financial Management
 **Topics**
 * [AWS Cost Explorer]()
-AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand and manage your AWS costs and usage over time. 
-* 
+AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand and manage your AWS costs and usage over time.
+
+* [AWS Budgets]()
+AWS Budgets gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. Budgets can be tracked at the monthly, quarterly or yearly level. One can also customize the start and end dates. You can further refine your budgets to track costs associated with multiple dimensions such as AWS service, linked account, tag, and others. Budget alerts can be sent via email and/or Amazon SNS topic.
+![](images/Budgets.png)
+
+* []
 ## Compute Services
 ## Contact Center
 ## Containers
