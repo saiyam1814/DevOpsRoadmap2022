@@ -91,11 +91,38 @@ The IT infrastructure that AWS provides to its customers is designed and managed
 * [Storage](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/add-folder/Topsideboss2/aws.md#storage)
 
 ## AWS Management Console
+Access and manage AWS through the AWS Management Console, a simple and intuitive user interface. You can also use the AWS Mobile Application to quickly view resources on the go.
+
 ## AWS Command Line Interface
+The AWS Command Line Interface(CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
+
 ## Software Development Kit
+The Software Development Kits(SDKs) simplify using AWS services in your applications with an Application Program Interface (API) tailored to your programming language or platform.
+
 ## Analytics
+**Topics**
+* [Amazon Athena]()
+Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
+
+Athena is easy to use, simply point your data in Amazon S3, define the schema, and start querying using standard SQL. Most results are delivered within seconds. With Athena, there is no need for complex extract, transform, load (ETL) jobs to prepare your data for analysis. This makes it easy for anyone with SQL skills to quickly analyze large-scale datasets.
+
+* [Amazon CloudSearch]()
+Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage and scale a search solution for your website or application.
+
+* [Amazon Kinesis]()
+Amazon Kinesis makes it easy to collect, process and analyze real-time streaming data so you can get timely insights and react quickly to new information. Amazon Kinesis offers key capabilities to cost-effectively process streaming data at any scale, along with the flexibility to choose the tools that best suit the requirements of your application. With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications. Amazon Kinesis enables you to process and analyze data as it arrives and respond instantly instead of having to wait until all your data is collected before the processing can begin.
+
+Amazon Kinesis currently offers four services: 
+1. Amazon Kinesis Data Firehose
+2. Amazon Kinesis Data Analytics
+3. Amazon Kinesis Data Streams
+4. Amazon Kinesis Video Streams
+
+* [Amazon Redshift]()
+Amazon Redshift is the most widely used cloud data warehouse. It makes it fast, simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence tools. 
 ## Application Integration
 ## Cloud Financial Management
+
 ## Compute Services
 ## Contact Center
 ## Containers
