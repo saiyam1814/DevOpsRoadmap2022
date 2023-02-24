@@ -101,15 +101,15 @@ The Software Development Kits(SDKs) simplify using AWS services in your applicat
 
 ## Analytics
 **Topics**
-* [Amazon Athena]()
+### * [Amazon Athena]()
 Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
 
 Athena is easy to use, simply point your data in Amazon S3, define the schema, and start querying using standard SQL. Most results are delivered within seconds. With Athena, there is no need for complex extract, transform, load (ETL) jobs to prepare your data for analysis. This makes it easy for anyone with SQL skills to quickly analyze large-scale datasets.
 
-* [Amazon CloudSearch]()
+### * [Amazon CloudSearch]()
 Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage and scale a search solution for your website or application.
 
-* [Amazon Kinesis]()
+### * [Amazon Kinesis]()
 Amazon Kinesis makes it easy to collect, process and analyze real-time streaming data so you can get timely insights and react quickly to new information. Amazon Kinesis offers key capabilities to cost-effectively process streaming data at any scale, along with the flexibility to choose the tools that best suit the requirements of your application. With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications. Amazon Kinesis enables you to process and analyze data as it arrives and respond instantly instead of having to wait until all your data is collected before the processing can begin.
 
 Amazon Kinesis currently offers four services: 
@@ -118,35 +118,60 @@ Amazon Kinesis currently offers four services:
 3. Amazon Kinesis Data Streams
 4. Amazon Kinesis Video Streams
 
-* [Amazon Redshift]()
+### * [Amazon Redshift]()
 Amazon Redshift is the most widely used cloud data warehouse. It makes it fast, simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence tools. 
 ![](./images/RedShift.png)
 
 ## Application Integration
 **Topics**
-* [Amazon Simple Notification Service]()
+### * [Amazon Simple Notification Service]()
 Amazon Simple Notification Service(Amazon SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distibuted systems, and serverless applications. Using Amazon SNS topics, your publisher system can fan out messages to a large number of subscriber endpoints for parallel processing, including Amazon SQS queues, AWS Lambda functions and HTTP/S webhooks. Additionally SNS can be use to fan out notifications to end users using mobile push, sms and email.
 ![](images/SNS.png)
 
-* [Amazon Simple Queue Service]()
+### * [Amazon Simple Queue Service]()
 Amazon Simple Queue Service (SQS) is a fully managed message queueing service that enables you to decouple and scale microservices, distributed systems and serverless applications. Using SQS, you can send, store and receive messages between software components at any volume without losing messages or requiring other services to be available. 
 
-SQS offers two types of messages queues. 
+SQS offers two types of messages queues: 
 1. Standard Queues
 2. FIFO Queues
 ![](images/SQS.png)
 
 ## Cloud Financial Management
 **Topics**
-* [AWS Cost Explorer]()
+### * [AWS Cost Explorer]()
 AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand and manage your AWS costs and usage over time.
 
-* [AWS Budgets]()
+### * [AWS Budgets]()
 AWS Budgets gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. Budgets can be tracked at the monthly, quarterly or yearly level. One can also customize the start and end dates. You can further refine your budgets to track costs associated with multiple dimensions such as AWS service, linked account, tag, and others. Budget alerts can be sent via email and/or Amazon SNS topic.
 ![](images/Budgets.png)
 
-* []
 ## Compute Services
+**Topics**
+### * [Amazon EC2]()
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers.
+Instance Types:
+1. On-Demand Instances
+2. Spot Instances
+![](images/EC2-SpotInstance.png)
+3. Reserved Instances
+4. Savings Plans
+5. Dedicated Hosts
+![](images/EC2-DedicatedHosts.png)
+
+### * [Amazon EC2 Auto Scaling]()
+Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define.
+![](images/EC2-AutoScaling.png)
+
+### * [Amazon App Runner]()
+Amazon App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required. With App Runner, rather than thinking about servers or scaling, you have more time to focus on your applications.
+![](images/AppRunner.png)
+
+### * [AWS Elastic Beanstalk]()
+AWS Elastic Beanstalk is an easy to use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger and Internet Information Services(IIS). 
+
+You can simply upload your code and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing and auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time. 
+![](images/ElasticBeanstalk.png)
+
 ## Contact Center
 ## Containers
 ## Database
