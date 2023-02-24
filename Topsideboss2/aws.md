@@ -33,6 +33,7 @@ Platform as a Service (PaaS) removes the need for organization to manage the und
 Software as a Service (SaaS) provides you with a completed product that is run and managed by the service provider. In most cases, people referring to Software ad a Service are referring to end-user applications. With SaaS offering you do not have to think about how you will use that particular piece of software. A common example of SaaS application is web-based email which you can use to send and receive email without having to manage feature additions to the email product or maintain the servers and operating systems that the email program is running on.
 
 ![](images/PizzaAsAService.png)
+![](images/TypesOfCloud.png)
 
 ## Cloud Computing Deployment Models
 ### Cloud
