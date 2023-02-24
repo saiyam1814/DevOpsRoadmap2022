@@ -46,6 +46,7 @@ The deployment of resources on-premises, using virtualization and resource manag
 
 The AWS cloud infrastructure is built around AWS regions and Availability Zones. An AWS Region is a physical location in the world where we have multiple Availability Zones(AZ). AZs consist of one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities. These AZs offer you the ability to operate production applications and databases that are more highly available, fault-tolerant and scalable than would be possible from a single data center. The AWS cloud operates in 80 AZs within 25 geographic Regions around the world with announced plans for more AZs and Regions.
 Each Amazon Region is designed to be completely isolated from the other Amazon Regions. This achieves the greatest possible fault tolerance and stability. Each Availability Zone is isolated, but the AZs in a Region are connected through low-latency links. AWS provides you with the flexibility to place instances and store data within multiple geographic regions as well as across multiple AZs within each AWS Region. Each AZ is designed as an independent failure zone. This means that Availability Zones are physically separated within a typical metropolitan region and are located in risk flood plains. In addition to discrete uninterruptible power supply and onsite backup generation facilities, data centers located in different AZ are designed to be supplied by independent substations to reduce the risk of an event on the power impacting more than one AZ. Availability Zones are all redundantly connected to multiple tire-1 transit providers.
+![](images/GlobalInfrastructure.png)
 
 ## Security and Compliance
 ### Security
@@ -188,8 +189,6 @@ Amazon Connect is a self-service, omnichannel cloud contact center service that 
 ![](images/Connect.png)
 
 ## Containers
-**Topics**
-### * 
 ## Database
 ## Developer Tools
 ## Management and Governance
