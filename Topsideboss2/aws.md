@@ -172,6 +172,15 @@ AWS Elastic Beanstalk is an easy to use service for deploying and scaling web ap
 You can simply upload your code and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing and auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time. 
 ![](images/ElasticBeanstalk.png)
 
+### * [AWS Fargate]()
+AWS Fargate is a compute engine for Amazon ECS that allows you to run containers without having to manage servers or clusters. With AWS Fargate, you no longer have to provision, configure, and scale clusters of virtual machines to run containers.
+
+AWS Fargate removes the need for you to interact with or think about servers or clusters. Fargate lets you focus on designing and building your applications instead of managing the infrastructure that runs them.
+
+### * [AWS Lambda]()
+AWS Lambda lets your run code without provisioning or managing servers. You pay for the compute time you consume- there is no charge when your code is not running. With Lambda, you can run code for virtually and type of application or backend service- all with zero administration. You can set up your code to automatically trigger from other AWS services or you can call it directly from any web or mobile app.
+![](images/Lambda.png)
+
 ## Contact Center
 ## Containers
 ## Database
