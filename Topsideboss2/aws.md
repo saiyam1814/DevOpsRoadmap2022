@@ -120,7 +120,13 @@ Amazon Kinesis currently offers four services:
 
 * [Amazon Redshift]()
 Amazon Redshift is the most widely used cloud data warehouse. It makes it fast, simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence tools. 
+![](./images/RedShift.png)
+
 ## Application Integration
+**Topics**
+* [Amazon Simple Notification Service]()
+Amazon Simple Notification Service(Amazon SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distibuted systems, and serverless applications. Using Amazon SNS topics, your publisher system can fan out messages to a large number of subscriber endpoints for parallel processing, including Amazon SQS queues, AWS Lambda functions and HTTP/S webhooks. Additionally SNS can be use to fan out notifications to end users using mobile push, sms and email.
+
 ## Cloud Financial Management
 
 ## Compute Services
