@@ -1,0 +1,35 @@
+--------------------------------------day5-----------------------------------------------
+
+
+In the Devops roadmap on the day5 i have started learning about Go language 
+
+
+I have choosen the video from tech with nana and W3 tutorials for reference 
+
+
+I have learnt why go was introduced and what it can solve and how to learn it 
+
+
+Go was developed by google in order to solve the issues in the part of infrastructure as a code 
+and also wants to solve the issue of multi threading and to implement multi thread in a easy way 
+
+
+It also has the speed compared to C++ and also the low code like the python
+
+It has also has similar changed like using fmt into it and no use of : or;needed at the end of the line 
+
+It has also made the compiler to assume many more important things which is not specified 
+ such as  not telloing the type of var standard use of "var" word 
+
+__________________________..__________________________
+                          || 
+
+the above is also a way of assigining things inside the function :=
+
+learnt about arrays and slices in deeper
+
+In day 6 want to continue and move on to docker kube etc 
+ 
+As of now Im enjoying the learning process 
+
+-----------------------------------------------------------------------------------------------
