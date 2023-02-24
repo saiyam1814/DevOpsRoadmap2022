@@ -126,9 +126,21 @@ Amazon Redshift is the most widely used cloud data warehouse. It makes it fast, 
 **Topics**
 * [Amazon Simple Notification Service]()
 Amazon Simple Notification Service(Amazon SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distibuted systems, and serverless applications. Using Amazon SNS topics, your publisher system can fan out messages to a large number of subscriber endpoints for parallel processing, including Amazon SQS queues, AWS Lambda functions and HTTP/S webhooks. Additionally SNS can be use to fan out notifications to end users using mobile push, sms and email.
+![](images/SNS.png)
+
+* [Amazon Simple Queue Service]()
+Amazon Simple Queue Service (SQS) is a fully managed message queueing service that enables you to decouple and scale microservices, distributed systems and serverless applications. Using SQS, you can send, store and receive messages between software components at any volume without losing messages or requiring other services to be available. 
+
+SQS offers two types of messages queues. 
+1. Standard Queues
+2. FIFO Queues
+
 
 ## Cloud Financial Management
-
+**Topics**
+* [AWS Cost Explorer]()
+AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand and manage your AWS costs and usage over time. 
+* 
 ## Compute Services
 ## Contact Center
 ## Containers
