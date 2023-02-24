@@ -1,0 +1,24 @@
+-------------------------------------day6--------------------------------------
+Today i have started with the continuation of the goland course by tech with nana
+
+yesterday i have finished with arrays and slices
+
+after that the topics i have covered were
+
+  -for loops
+
+  -if loops 
+
+  -switch cases
+
+  -functions 
+
+  -structs 
+
+  -Maps 
+
+It was good in understanding and I'm not so good programmer and i can able to do some 
+of the prograams in my own in w3schools .It will take some time and i have decided to 
+workout manhy programs in future
+
+---------------------------------------------------------------------------------------
