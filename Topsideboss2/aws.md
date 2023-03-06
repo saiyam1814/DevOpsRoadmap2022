@@ -136,12 +136,15 @@ Amazon Redshift is the most widely used cloud data warehouse. It makes it fast, 
 
 ## Application Integration
 **Topics**
-### * [Amazon Simple Notification Service](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-simple-notification-service)
+ * [Amazon Simple Notification Service](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-simple-notification-service)
+ * [Amazon Simple Queue Service](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-simple-queue-service)
+
+### Amazon Simple Notification Service
 Amazon Simple Notification Service(Amazon SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distibuted systems, and serverless applications. Using Amazon SNS topics, your publisher system can fan out messages to a large number of subscriber endpoints for parallel processing, including Amazon SQS queues, AWS Lambda functions and HTTP/S webhooks. Additionally SNS can be use to fan out notifications to end users using mobile push, sms and email.
 
 ![](images/SNS.png)
 
-### * [Amazon Simple Queue Service](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-simple-queue-service)
+### Amazon Simple Queue Service 
 Amazon Simple Queue Service (SQS) is a fully managed message queueing service that enables you to decouple and scale microservices, distributed systems and serverless applications. Using SQS, you can send, store and receive messages between software components at any volume without losing messages or requiring other services to be available. 
 
 SQS offers two types of messages queues: 
@@ -152,17 +155,26 @@ SQS offers two types of messages queues:
 
 ## Cloud Financial Management
 **Topics**
-### * [AWS Cost Explorer](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-cost-explorer)
+ * [AWS Cost Explorer](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-cost-explorer)
+ * [AWS Budgets](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-budgets)
+
+### AWS Cost Explorer
 AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand and manage your AWS costs and usage over time.
 
-### * [AWS Budgets](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-budgets)
+### AWS Budgets
 AWS Budgets gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. Budgets can be tracked at the monthly, quarterly or yearly level. One can also customize the start and end dates. You can further refine your budgets to track costs associated with multiple dimensions such as AWS service, linked account, tag, and others. Budget alerts can be sent via email and/or Amazon SNS topic.
 
 ![](images/Budgets.png)
 
 ## Compute Services
 **Topics**
-### * [Amazon EC2](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-ec2)
+ * [Amazon EC2](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-ec2)
+ * [Amazon App Runner](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-app-runner)
+ * [AWS Elastic Beanstalk](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-elastic-beanstalk)
+ * [AWS Fargate](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-fargate)
+ * [AWS Lambda](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-lambda)
+
+### Amazon EC2 
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers.
 Instance Types:
 1. On-Demand Instances
@@ -183,40 +195,57 @@ Amazon EC2 Auto Scaling helps you maintain application availability and allows y
 
 ![](images/EC2-AutoScaling.png)
 
-### * [Amazon App Runner](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-app-runner)
+### Amazon App Runner
 Amazon App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required. With App Runner, rather than thinking about servers or scaling, you have more time to focus on your applications.
 
 ![](images/AppRunner.png)
 
-### * [AWS Elastic Beanstalk](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-elastic-beanstalk)
+### AWS Elastic Beanstalk
 AWS Elastic Beanstalk is an easy to use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger and Internet Information Services(IIS). 
 
 You can simply upload your code and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing and auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time. 
 
 ![](images/ElasticBeanstalk.png)
 
-### * [AWS Fargate](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-fargate)
+### AWS Fargate
 AWS Fargate is a compute engine for Amazon ECS that allows you to run containers without having to manage servers or clusters. With AWS Fargate, you no longer have to provision, configure, and scale clusters of virtual machines to run containers.
 
 AWS Fargate removes the need for you to interact with or think about servers or clusters. Fargate lets you focus on designing and building your applications instead of managing the infrastructure that runs them.
 
-### * [AWS Lambda](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-aws-lambda)
+### AWS Lambda
 AWS Lambda lets your run code without provisioning or managing servers. You pay for the compute time you consume- there is no charge when your code is not running. With Lambda, you can run code for virtually and type of application or backend service- all with zero administration. You can set up your code to automatically trigger from other AWS services or you can call it directly from any web or mobile app.
 
 ![](images/Lambda.png)
 
 ## Contact Center
 **Topics**
-### * [Amazon Connect](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-connect)
+ * [Amazon Connect](https://github.com/Topsideboss2/DevOpsRoadmap2022/blob/main/Topsideboss2/aws.md#-amazon-connect)
+
+### Amazon Connect 
 Amazon Connect is a self-service, omnichannel cloud contact center service that makes it easy for any business to deliver better customer service at lower cost.
 
 ![](images/Connect.png)
 
 ## Containers
+**Topics**
+
 ## Database
+**Topics**
+
 ## Developer Tools
+**Topics**
+
 ## Management and Governance
+**Topics**
+
 ## Migration and Transfer
+**Topics**
+
 ## Networking and Content Delivery
+**Topics**
+
 ## Security, Identity and Compliance
+**Topics**
+
 ## Storage
+**Topics**
